@@ -1,0 +1,2026 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>閩南語美語拼音教學手冊 ── 閩南語直覺音標</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;900&family=Noto+Sans+TC:wght@400;500;700&family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#101C2B;--bone:#F4EDDE;--cinnabar:#C43A26;--gold:#C9972B;--moss:#2E6E4E;
+--line:#D8CCB4;--mono:"Roboto Mono","Consolas",monospace}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bone);color:var(--ink);font:17px/1.85 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+h1,h2,h3{font-family:"Noto Serif TC",serif}
+code{font-family:var(--mono);font-weight:700;background:#EEDCBE;color:#7A2A1B;padding:2px 6px;border-radius:4px;white-space:nowrap}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.hero{background:var(--ink);color:var(--bone);padding:3rem 1.2rem 3.2rem;position:relative;overflow:hidden;text-align:center}
+.hero::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(1100px 480px at 82% -12%,rgba(201,151,43,.15),transparent 62%)}
+.hero-in{max-width:960px;margin:0 auto;position:relative}
+.booktitle{color:#DCE6F0;font-size:1rem;letter-spacing:.08em;margin:0}
+.booktitle span{color:#8FA5BD;font-size:.85rem;margin-left:.5em}
+.hero h1{font-size:clamp(2.4rem,7vw,4.2rem);font-weight:900;line-height:1.25;margin:.6rem 0;letter-spacing:.05em}
+.hero .red{color:#F0654E}
+.sub2{color:#C9D6E4;font-size:1.08rem;margin:.2rem auto .9rem;max-width:36em}
+.def{font-family:"Noto Serif TC",serif;font-weight:900;font-size:clamp(1.35rem,3.4vw,1.9rem);margin:.4rem 0 1.2rem}
+.pill{display:inline-block;border:1px solid rgba(244,237,222,.45);border-radius:30px;padding:.35rem 1.3rem;font-size:.95rem;color:#DCE6F0}
+.byline{color:#8FA5BD;font-size:.86rem;margin:1.4rem 0 0;letter-spacing:.1em}
+.intro{color:#B9C8D8;font-size:.95rem;max-width:42em;margin:1.6rem auto 0;line-height:1.9}
+.strip{max-width:960px;margin:-1.6rem auto 0;position:relative;padding:0 1.2rem}
+.strip>div{background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 26px rgba(16,28,43,.12);
+  padding:.85rem 1.3rem;text-align:center;font-size:1.02rem}
+.no{color:var(--cinnabar);font-weight:700}.use{color:var(--moss);font-weight:700}
+main{max-width:920px;margin:0 auto;padding:2.4rem 1.2rem 3.6rem}
+.eyebrow{font-family:var(--mono);font-weight:700;color:var(--cinnabar);letter-spacing:.28em;font-size:.8rem}
+h2.sec{font-size:clamp(1.5rem,3.2vw,1.95rem);font-weight:900;margin:.2rem 0 1rem}
+h2.sec span{border-bottom:6px solid var(--gold);padding-bottom:.1rem}
+.toc{font-size:1.05rem;line-height:2.2;padding-left:1.4rem}
+.toc a{color:var(--ink);text-decoration:none;border-bottom:2px solid var(--gold)}
+.toc a:hover{color:var(--cinnabar)}
+.doc h1{font-size:clamp(1.7rem,4vw,2.3rem);font-weight:900;margin:3.4rem 0 .6rem;color:var(--ink);
+  border-left:10px solid var(--cinnabar);padding-left:.7rem;line-height:1.4}
+.doc h2{font-size:1.35rem;font-weight:900;margin:2.2rem 0 .6rem}
+.doc h3{font-size:1.12rem;font-weight:900;margin:1.6rem 0 .4rem;color:#7A2A1B}
+sub{font-size:.62em}
+.doc table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:10px;
+  overflow:hidden;font-size:.95rem;margin:1rem 0;display:block;overflow-x:auto}
+.doc th{background:var(--ink);color:var(--bone);font-weight:700;padding:.5rem .8rem;text-align:left;white-space:nowrap}
+.doc td{padding:.6rem .8rem;border-top:1px solid var(--line);word-break:break-word}
+.doc blockquote{border-left:6px solid var(--gold);background:#fff;margin:1.1rem 0;padding:.7rem 1.1rem;
+  border-radius:0 8px 8px 0;color:#3d3426}
+.doc hr{border:0;border-top:2px solid var(--line);margin:2.2rem auto;width:80px}
+.doc li{margin:.3rem 0}
+.idx{background:#fff;border:1px solid var(--line);border-radius:12px;padding:.4rem 1.3rem 1rem;margin-top:1.4rem}
+.idx h2{font-size:1.15rem;margin:1rem 0 .4rem}
+.idx a{color:var(--ink);text-decoration:none;border-bottom:2px solid var(--gold);white-space:nowrap}
+.idx a:hover{color:var(--cinnabar)}
+.backtoc{position:fixed;right:18px;bottom:18px;z-index:50;background:var(--ink);color:var(--bone);
+  border:2px solid var(--gold);border-radius:30px;padding:.5rem 1.1rem;font-size:.95rem;font-weight:700;
+  text-decoration:none;box-shadow:0 6px 18px rgba(16,28,43,.3)}
+.backtoc:hover{background:var(--cinnabar);border-color:var(--cinnabar)}
+footer{max-width:920px;margin:0 auto;padding:1.3rem 1.2rem 3rem;color:#7d7461;font-size:.84rem;border-top:1px solid var(--line)}
+</style></head><body>
+
+<header class="hero"><div class="hero-in">
+  <p class="booktitle">《閩南語美語拼音教學手冊》 <span>135 拼音法國際美系版 · Hokkien Phonics</span></p>
+  <h1>閩南語<span class="red">直覺</span>音標</h1>
+  <p class="sub2">史上第一套順著「英語耳朵」設計的台語拼音。</p>
+  <p class="def">看到什麼，就唸對什麼。</p>
+  <div class="pill">不用學新符號 · 不用背摩斯密碼般的聲調數字</div>
+  <p class="byline">甲骨先生 × BryenHsu</p>
+  <p class="intro">本手冊源自 135 拼音法，為英語母語者設計——順著英語自然發音（Phonics）直覺，看字就唸；聲調交給你天生的音樂耳朵（Do-Mi-Sol）。不必先學一套新符號，用「英數鍵盤」就能輸入所有的閩南語字拼音。寫給每一個想把台語唸給美語耳朵聽懂的台灣人。</p>
+</div></header>
+
+<div class="strip"><div><span class="no">舊系統學台語＝地獄級</span> → <span class="use">美系版學台語＝天堂級</span>：會哼 do-mi-sol 就會聲調，看字母就唸對。</div></div>
+
+<main>
+<section id="toc"><p class="eyebrow">CONTENTS</p><h2 class="sec"><span>目錄</span></h2>
+<ol class="toc"><li><a href="#ch1">序章</a></li><li><a href="#ch2">初識：聲調符號</a></li><li><a href="#ch3">聲母篇（Consonants）</a></li><li><a href="#ch4">韻母篇（Rimes & Vowels · The Phonics Track）</a></li><li><a href="#ch5">聲調篇（完整版）</a></li><li><a href="#ch6">拼音練習</a></li><li><a href="#ch7">結語</a></li></ol></section>
+<section class="doc idx"><h2>音位速查（點注音，直達說明）</h2>
+<p><strong>聲母</strong>　<a href="#p-zhuo">ㄅ<sub>ㄏ</sub> <code>b</code></a> · <a href="#p-suo">ㄅ <code>pp</code></a> · <a href="#p-song">ㄆ <code>p</code></a> · <a href="#p-suo">ㄉ <code>tt</code></a> · <a href="#p-song">ㄊ <code>t</code></a> · <a href="#p-zhuo">ㄍ<sub>ㄏ</sub> <code>g</code></a> · <a href="#p-suo">ㄍ <code>kk</code></a> · <a href="#p-song">ㄎ <code>k</code></a> ｜ <a href="#p-ts">ㄗ/ㄐ <code>ts</code></a> · <a href="#p-ts">ㄘ <code>ch</code></a> · <a href="#p-ts">ㄑ <code>ch</code></a> · <a href="#p-ts">ㄙ/ㄒ <code>s</code></a> · <a href="#p-ts">ㄖ <code>z</code></a> ｜ <a href="#p-mnl">ㄏ <code>h</code></a></p>
+<p><strong>鼻音家族</strong>　<a href="#p-mnl">ㄇ <code>m</code></a> · <a href="#p-mnl">ㄋ <code>n</code></a> · <a href="#p-ng1">ㄥ字首 <code>ng</code></a> · <a href="#p-ng2">鼻化聲母 <code>聲母+ng</code></a> · <a href="#r-ng">ㄥ韻尾/自成音節 <code>ng</code></a> · <a href="#r-ng">成音節 <code>m</code></a></p>
+<p><strong>韻母</strong>　<a href="#r-dan">ㄚ <code>ah</code></a> · <a href="#r-eh">ㄜ <code>uh</code></a> · <a href="#r-eh">ㄝ <code>eh</code></a> · <a href="#r-dan">ㄧ <code>ee</code></a> · <a href="#r-dan">ㄨ <code>u</code></a> · <a href="#r-aw">ㄛ <code>aw</code></a> ｜ <a href="#r-i2">ㄧㄚ <code>ia</code></a> · <a href="#r-i2">ㄧㄨ <code>iu</code></a> · <a href="#r-i2">ㄧㄠ <code>iao</code></a> · <a href="#r-i">ㄧㄜ <code>yuh</code></a> ｜ <a href="#r-fu">ㄞ <code>ai</code></a> · <a href="#r-fu">ㄠ <code>ao</code></a> · <a href="#r-fu">ㄨㄚ <code>ua</code></a> · <a href="#r-fu">ㄨㄝ <code>ueh</code></a> · <a href="#r-fu">ㄨㄧ <code>ui</code></a> · <a href="#r-fu">ㄨㄞ <code>uai</code></a> ｜ <a href="#r-an">ㄢ <code>ahn</code></a> · <a href="#r-2way">ㄧㄣ <code>in</code></a> · <a href="#r-2way">ㄨㄣ <code>oon</code></a> · <a href="#r-yen">ㄧㄝㄣ <code>yen</code></a> ｜ <a href="#r-more">ㄤ <code>ahng</code></a> · <a href="#r-more">ㄛㄥ <code>ong</code></a> · <a href="#r-more">ㄧㄥ <code>ing</code></a> · <a href="#r-more">ㄧㄤ <code>iang</code></a> · <a href="#r-more">ㄧㄛㄥ <code>iong</code></a> · <a href="#r-more">ㄨㄢ <code>uan</code></a> · <a href="#r-more">ㄨㄤ <code>uang</code></a> · <a href="#r-more">ㄛㄇ <code>awm</code></a> · <a href="#r-more">ㄧㄚㄇ <code>iam</code></a></p>
+<p><strong>入聲韻母</strong>　<a href="#r-rip">-p <code>ahp</code></a> · <a href="#r-rip">-t <code>aht</code></a> · <a href="#r-rip">-k <code>ahk</code></a> · <a href="#r-rip">-m <code>ahm</code></a> · <a href="#r-aw">ㄛㄎ <code>awk</code></a> · <a href="#r-more">ㄚㄊ <code>aht</code></a> · <a href="#r-more">ㄧㄆ <code>ip</code></a> · <a href="#r-more">ㄧㄊ <code>it</code></a> · <a href="#r-more">ㄧㄎ <code>ik</code></a> · <a href="#r-more">ㄧㄛㄎ <code>iok</code></a></p></section>
+<div class="doc">
+<h1><a id="ch1"></a>序章</h1>
+<hr />
+<h2>一、目前的「臺灣台語」，是怎麼教發音的？</h2>
+<p>先聽聽一位家長怎麼說——這不是我們編的，是真實發生的抱怨：</p>
+<p>二〇二六年六月，中時新聞網一則報導裡，一位家長的原話：「<strong>根本看不懂那個音標跟那個奇怪的字。</strong>」</p>
+<p>先說清楚背景：台語（連同其他本土語言）自111學年度起已是中小學必修課——國小、國中一二年級每週一節，高中加開兩學分，教育部官方教材與認證，採用的正是臺羅拼音。這句話裡藏著<strong style="color:#C43A26">台語教學</strong>的兩個病灶。「<strong>那個奇怪的字</strong>」——用字對不對，是教育部推薦用字的問題，另有專書處理，這裡先不展開。</p>
+<p><strong>「那個音標」，到底是什麼？</strong></p>
+<p>家長覺得怪，是因為他們學過英文、沒學過語言學——看到羅馬字母，直覺反射的是英文讀法。小朋友，可能更慘。</p>
+<p>在臺灣，台語的鄉土課程 th 教你讀ㄊ、p 讀ㄅ。之後上英文課了——「This is a pen.」這位認真的乖學生就讀「ㄊis is a ㄅen.」。真的是很可怕的代價。</p>
+<p>pen 只是頭一個。所謂的「羅馬拼音」，同一招還規定了一整排——我們來看看：</p>
+<table>
+<thead>
+<tr>
+<th>台羅</th>
+<th>英語直覺讀成</th>
+<th>其實要唸</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sun</td>
+<td>[sʌn] ㄙㄚㄥ</td>
+<td>孫 ㄙㄨㄣ</td>
+</tr>
+<tr>
+<td>thè</td>
+<td>[ðə] ㄉㄜ</td>
+<td>替 ㄊㄝ_</td>
+</tr>
+<tr>
+<td>gô</td>
+<td>[goʊ] ㄍㄡ</td>
+<td>鵝 ㄍㄏㄜˇ</td>
+</tr>
+<tr>
+<td>thîng</td>
+<td>[θɪŋ] ㄙㄧㄥ</td>
+<td>停 ㄊㄧㄥˇ</td>
+</tr>
+<tr>
+<td>i ám</td>
+<td>[aɪ æm] ㄞ ㄝㄇ</td>
+<td>伊饘 ㄧ+ ㄚㄇˋ</td>
+</tr>
+<tr>
+<td>pi</td>
+<td>[paɪ] ㄆㄞ</td>
+<td>埤 ㄅㄧ</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>sun</strong>——大家熟悉的「太陽」讀音 [sʌn]，但台語老師規定要讀「孫」ㄙㄨㄣ。</li>
+<li><strong>thè</strong>——大家熟悉的定冠詞讀音 [ðə]，但台語老師規定要讀「替」ㄊㄝ_。</li>
+<li><strong>gô</strong>——大家熟悉的「去」讀音 [goʊ]，但台語老師規定要讀「鵝」ㄍㄏㄜˇ。</li>
+<li><strong>thîng</strong>——大家熟悉的「東西」讀音 [θɪŋ]，但台語老師規定要讀「停」ㄊㄧㄥˇ。</li>
+<li><strong>i ám</strong>——大家熟悉的「我是」讀音 [aɪ æm]，但台語老師規定要讀「伊饘」ㄧ+ㄚㄇˋ。</li>
+<li><strong>pi</strong>——大家熟悉的「π」讀音 [paɪ]，但台語老師規定要讀「埤」ㄅㄧ——跟前面「ㄊis is a ㄅen」的 pen，正好是同一個陷阱。</li>
+</ul>
+<p>還有更多，族繁不及備載——像下面這幾個，你也可以試試看：</p>
+<table>
+<thead>
+<tr>
+<th>台羅</th>
+<th>英語直覺讀成</th>
+<th>其實要唸</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bé</td>
+<td>[bi] ㄅㄧ</td>
+<td>買 ㄅㄏㄝˋ</td>
+</tr>
+<tr>
+<td>phóng</td>
+<td>[fɔŋ] ㄈㄛㄥ</td>
+<td>捧 ㄆㄛㄥˋ</td>
+</tr>
+<tr>
+<td>thóo</td>
+<td>[tu] ㄊㄨ</td>
+<td>土 ㄊㄛˋ</td>
+</tr>
+<tr>
+<td>kòo</td>
+<td>[kuː] ㄍㄨ</td>
+<td>顧 ㄍㄛ_</td>
+</tr>
+<tr>
+<td>ko</td>
+<td>[koʊ] ㄎㄡ</td>
+<td>哥 ㄍㄜ</td>
+</tr>
+<tr>
+<td>to</td>
+<td>[tu] ㄊㄨ</td>
+<td>刀 ㄉㄜ</td>
+</tr>
+<tr>
+<td>tôo</td>
+<td>[tu] ㄊㄨ</td>
+<td>途 ㄉㄛˇ</td>
+</tr>
+<tr>
+<td>phō</td>
+<td>[foʊ] ㄈㄡ</td>
+<td>抱 ㄆㄜ+</td>
+</tr>
+<tr>
+<td>thîn</td>
+<td>[θɪn] ㄙㄧㄣ</td>
+<td>斟 ㄊㄧㄣˇ</td>
+</tr>
+<tr>
+<td>tâm</td>
+<td>[tæm] ㄉㄝㄇ</td>
+<td>濕 ㄉㄚㄇˇ</td>
+</tr>
+</tbody>
+</table>
+<p>這麼多台語日常字，你的英語直覺被這套字母<strong>訓練</strong>成一串跟美語完全不搭調的錯誤發音——不是你笨，是這套系統從一開始就沒把英文字母原本的讀法算進去。</p>
+<p>為什麼沒算進去？因為它出生得比你的英文課本還早，根本不是為了跟英文對齊而設計的。這套系統，兩百年前由傳教士設計出白話字（POJ），後來語言學家接手，標準化成今天的臺羅（Tâi-lô）——服務的對象從來就不是一般人，是受過專業訓練的語言學家。今天的台灣囡仔學起來會撞成這樣，一點都不意外——這套系統從頭到尾，就沒把「一般人的直覺」算進設計裡。</p>
+<p>兩百年前的舊資料，拿來當今天的教材，害小朋友學到了「ㄊis is a ㄅen」，真的適合嗎？可不可以設計一套更符合美語發音習慣的閩南語標音法？</p>
+<p>——先別急著回答。拼字只是頭一關，真正磨人的在後面。</p>
+<hr />
+<h2>二、臺語聲調怎麼教？</h2>
+<p>臺語的聲調有七聲八調，怎麼記？這麼記：</p>
+<p><strong>獅1・虎2・豹3・鱉4・猴5・狗6・象7・鹿8</strong></p>
+<p>判定一個字第幾調，先默唸八隻動物逐字比對，並且要記住調號的標示：</p>
+<p>獅（sai）・虎（hóo）・豹（pà）・鱉（pih）・猴（kâu）・狗（káu）・象（tshiūnn）・鹿（lo̍k）。</p>
+<p>或者換另一組「東黨棟督同黨洞毒」：</p>
+<table>
+<thead>
+<tr>
+<th>第一調</th>
+<th>第二調</th>
+<th>第三調</th>
+<th>第四調</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>東（tang）</td>
+<td>黨（tóng）</td>
+<td>棟（tòng）</td>
+<td>督（tok）</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>第五調</th>
+<th>第六調</th>
+<th>第七調</th>
+<th>第八調</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>同（tông）</td>
+<td>黨（tóng）</td>
+<td>洞（tōng）</td>
+<td>毒（to̍k）</td>
+</tr>
+</tbody>
+</table>
+<p>第一調到第八調，就這麼記、這麼標示，會了嗎？</p>
+<p>如果還學不會，政府還資助了一首歌〈八音之歌〉，這麼教：</p>
+<blockquote>
+<p>君（kun）滾（kún）棍（kùn）骨（kut）　群（kûn）滾（kún）郡（kūn）滑（ku̍t）<br />
+七聲八調，愛唱予伊標準<br />
+孫（sun）筍（sún）舜（sùn）捽（sut）　純（sûn）損（sún）順（sūn）術（su̍t）<br />
+古早古早　就流傳到這陣</p>
+</blockquote>
+<p>這樣，總該學會了吧？——真的學會了，還要裝好一套專門的輸入法，才打得出這八個聲調符號；標得出來了，還得配一副夠力的老花眼鏡，才看得清楚那到底是第幾調。如果還是學不會、學不熟，真的不是你的問題——</p>
+<p>問題出在這套教法本身：它把聽得見的音高，翻譯成看不見的編號——<strong>第幾調是個代號，代號不會唱歌。</strong> 學生把 1 到 8 背下來，腦子裡卻沒留下任何聲音；教了一輩子的老師，每次判調還是得把那八隻動物默唸一遍——因為編號從頭到尾，沒在耳朵裡留下痕跡。</p>
+<p><strong>有沒有一套方法，能準確記錄台語的讀音，而且好學？</strong></p>
+<p><strong>有。135拼音法做的，就是把代號翻譯回音高，用直覺拼音法寫出來：高 Sol、中 Mi、低 Do——聽到就唱，聲調就是樂譜。</strong> 聲母怎麼發、韻母怎麼收，也是同一個原則：借你腦子裡本來就有的直覺，不必另外硬背。</p>
+<p>接下來三篇——聲母、韻母、聲調——就是這套記法的全部。</p>
+<hr />
+<h2>三、直覺，是設計出來的</h2>
+<p>美語使用者要開口說台語，最需要的是信心——而「直覺」不是天賦異稟，是<strong>借力</strong>：把拼音蓋在他們腦裡本來就有的東西上面。美拼借了三股力：</p>
+<p><strong>第一股力：聲調，借音樂的耳朵。</strong>
+台語的聲調說穿了就是唱歌的音階。西方人從小受樂理與旋律薰陶，對高低升降的音高秒聽秒懂；台灣人會哼歌的也一樣。135＝Do(低)·Mi(中)·Sol(高)——將反人類的聲調數字直接變成看譜唱歌；連讀變調一句口訣收服：「低調個性，一個重點」。</p>
+<p><strong>第二股力：字母，借英語的 Phonics 反射。</strong>
+每個字母都有一張「用／不用」拆彈筆記——用 ah 鎖住ㄚ、用 eh 鎖住ㄝ、用 aw 鎖住ㄛ——先擋掉美語大腦的慣性誤讀。</p>
+<p>有些台語音，美國人天生就發得比華語母語者準。濁音就是最好的例子：「肉 <code>bah.</code>」的 ㄅㄏ、「我 <code>gua\</code>」的 ㄍㄏ，聲帶一開口就要振動——華語裡沒有這個元素——中文母語者如果沒被提醒「這裡要濁音」，很容易照著中文的清音習慣唸過去——反而唸得沒有美語使用者標準。</p>
+<p>我們要做的，不用學新東西，只是別讓已經會的東西弄丟。</p>
+<p><strong>第三股力：輸入，借現成的鍵盤。</strong>
+零上標、零特殊字元，不必裝字型、不必切輸入法。七個聲調七個現成記號（<code>_</code> <code>+</code> 不標 <code>/</code> <code>~</code> <code>\</code> <code>.</code>），直接打、直接查；字尾那個 <code>.</code> 就像音樂的跳音（Staccato）急停點，一看就懂「這個音短促、隨發隨收」。</p>
+<p>我們要做的，是幫字母穿上一看就反射出正確讀音的外衣，把聲調的靈魂原封不動交還給他們的音樂直覺。這三股力，就是這台引擎的動力。</p>
+<hr />
+<h2>四、這本書是寫給誰的</h2>
+<p>三股力借完了。收成一句話——<strong>這是一套不需有前提的方法。</strong> 舊的教法，處處是前提：要先背下八隻動物，才判得出一個字是第幾調；要先裝好一套專門的輸入法，才打得出那八個聲調符號。每一道前提，都在門口攔下一個人。</p>
+<p>135拼音法不設前提，因為它從你已經會的東西開始：你的耳朵，本來就聽得出高低；你認得的字母，就是拼音——會英文的用美拼，不會英文的用注音，骨頭是同一副，換的只是外衣，不是台語；你手上那副鍵盤，就夠了，零上標、零特殊字元，不必裝字型、不必切輸入法，用一般的鍵盤就能把發音精確地寫下來。三樣，你都已經有了。我們不用學新東西——只要別把已經會的弄丟。</p>
+<p><strong>這本手冊，是引擎，不是教材。</strong> 你已經會台語了，你缺的不是台語，是一套能把台語交到美語耳朵裡的機制。</p>
+<p>我們不講語言學術語，從「初識聲調 ➔ 聲母 ➔ 韻母 ➔ 聲調 ➔ 拼音練習」一步步推進，發音細節拆成小步。你不需要讓美語使用者知道其他系統錯在哪——那不是他們的包袱；你只要拿著這台引擎，順著他們的英語直覺，用身體的動作與耳朵的旋律，帶他們開口。</p>
+<p>（註：若你剛好也懂台羅、或好奇我們為什麼這樣設計，手冊另附有一篇獨立的〈臺羅之謬〉單獨談，但那不是學會美拼的必要條件。）</p>
+<p>讓我們從最簡單的「聲調」開始。</p>
+<hr />
+<p><em>序章 · 完。下一篇：初識聲調符號。</em></p>
+<hr />
+<h1><a id="ch2"></a>初識：聲調符號</h1>
+<h3>（放在正文最前面。這篇很短，只是讓你看得懂後面例字旁邊那些小符號。完整的聲調怎麼唱、怎麼變，留到後面的〈聲調篇〉。）</h3>
+<hr />
+<h2>為什麼先講這個</h2>
+<p>翻到聲母篇、韻母篇，你會看到例字旁邊帶著小符號，像 <code>tsai_</code>、<code>chin_</code>、<code>ttawk+</code>、<code>hai\</code>。那些符號就是<strong>聲調</strong>——台語一個音，用不同的音高唱出來，就是不同的字、不同的意思。</p>
+<p>好消息是：<strong>台語的聲調，本質上就是唱歌的音高。</strong> 你不必把它想成什麼玄的東西，想成 Do、Mi、Sol 就對了。這一頁先讓你認得符號，會唱歌你就會標調。</p>
+<hr />
+<h2>三個基準音：Do、Mi、Sol</h2>
+<p>先抓三個高度，其他都是從這三個變出來的：</p>
+<ul>
+<li><strong>Do（低）</strong> = 壓到很低、沉在喉嚨底的高度</li>
+<li><strong>Mi（中）</strong> = 平平的中間高度——<strong>台語講話的習慣音階</strong>，一句話沒事就待在這裡（也剛好接近你講英語的中性音高）</li>
+<li><strong>Sol（高）</strong> = 比 Mi 高一階、吊上去平平停住——別用講的找它，用唱的：哼一聲 do-mi-sol，最後那個音就是</li>
+</ul>
+<p>會這三個，就可以開始認符號了。</p>
+<hr />
+<h2>符號對照表（先看得懂就好）</h2>
+<p>美系版的聲調，有三種寫法可以互換——你先認第一種（符號），另外兩種知道有就好：</p>
+<table>
+<thead>
+<tr>
+<th>這個調</th>
+<th>符號寫法</th>
+<th>打字數字</th>
+<th>大概怎麼唱</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>低聲</td>
+<td><code>_</code></td>
+<td>9</td>
+<td>壓到最低、沉在喉底的 Do</td>
+</tr>
+<tr>
+<td>中聲</td>
+<td><code>+</code></td>
+<td>0</td>
+<td>平平的中音 Mi——台語講話的習慣高度</td>
+</tr>
+<tr>
+<td>一聲</td>
+<td>（不加符號）</td>
+<td>1</td>
+<td>停在高音 Sol，用唱的找它</td>
+</tr>
+<tr>
+<td>二聲</td>
+<td><code>/</code></td>
+<td>2</td>
+<td>由中往上揚</td>
+</tr>
+<tr>
+<td>三聲</td>
+<td><code>~</code></td>
+<td>3</td>
+<td>先沉下去再往上勾，像 "Uh-huh?"</td>
+</tr>
+<tr>
+<td>四聲</td>
+<td><code>\</code></td>
+<td>4</td>
+<td>音高從高處滑落（5→3），像回答 "No." 的語調下滑</td>
+</tr>
+<tr>
+<td>輕聲</td>
+<td><code>.</code></td>
+<td>5</td>
+<td>半拍就收，像跳音（Staccato）——砍的是長度，不是音量</td>
+</tr>
+</tbody>
+</table>
+<p><strong>幾個馬上能用的重點：</strong>
+- <strong>一聲不加符號，是隨中文的老習慣</strong>——注音符號的一聲，本來就不標調號，美系版照舊。美國朋友不必管這段淵源，記結果就好：看到光禿禿沒有符號的，就吊上 Sol、平平停住。
+- 那幾個符號的形狀會幫你：<code>/</code> 往上（揚）、<code>\</code> 往下（墜）、<code>~</code> 先下後上（勾）。看形狀就猜得到音高怎麼走。
+- <code>_</code>（低）、<code>+</code>（中）、<code>.</code>（輕）這三個，記一下就好，後面例字一直會用到。</p>
+<hr />
+<h2>為什麼有「打字數字」那一欄？</h2>
+<p>因為那些符號（<code>/ ~ \</code> 等）雖然都在你鍵盤上，但有時打起來麻煩。所以每個調也給了一個數字（9、0、1～5），你要用打的，直接敲數字也行：<code>ttai3</code> 就等於 <code>ttai~</code>、<code>ke4</code> 就等於 <code>ke\</code>。兩種都認得，看哪個順手用哪個。</p>
+<hr />
+<blockquote>
+<p>這一頁到這裡就夠了——你現在看得懂例字旁邊的符號，可以放心往下讀聲母篇、韻母篇了。至於這七個聲調怎麼唱得準、字和字連起來時聲調怎麼變（變調），那是後面〈聲調篇〉的事，到時候我們用唱的、用身體的動作，一步步帶你抓準。</p>
+</blockquote>
+<hr />
+<p><em>閱讀須知 · 完。下一篇：聲母篇。</em></p>
+<hr />
+<h1><a id="ch3"></a>聲母篇（Consonants）</h1>
+<h3>分段交付 · 第一篇</h3>
+<blockquote>
+<p>教學原則：<strong>有效性 &gt; 學術精確性</strong>。能讓美語使用者立刻開口、讀對的說法，勝過精確但讓人卻步的真相。每個音位都講清楚「用什麼／不用什麼／為什麼」。</p>
+</blockquote>
+<hr />
+<h2>〇、總綱</h2>
+<p>學閩南語聲母，整套只需控制兩個物理開關：<strong>送不送氣</strong>、<strong>喉嚨振不振動（清濁）</strong>。我們不用語言學那套符號（ph、th、kh），改用美語使用者天天在說的「S-組合密碼」（spit、star、skate）與雙子音來設計字面——看著字母，英語直覺就會自動把音反射出來。</p>
+<p>ng 依位置有四種角色：本篇講它在<strong>聲母位置</strong>的兩種（獨立鼻音聲母、鼻化聲母）；當韻母的兩種在韻母篇；四角色全貌見韻母篇的〈ng 總整理〉。</p>
+<hr />
+<p><a id="p-bao"></a></p>
+<h2>一、清・送・濁：黃金對稱矩陣</h2>
+<p>台語塞音分三路：<strong>濁音＝單寫字母／清不送氣＝雙寫／送氣＝單寫</strong>。</p>
+<table>
+<thead>
+<tr>
+<th>注音</th>
+<th>代碼</th>
+<th>性質</th>
+<th>🟢【用】錨點</th>
+<th>🛑【不用】踩雷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ㄅ<sub>ㄏ</sub></td>
+<td><code>b</code></td>
+<td>濁</td>
+<td>boy / book</td>
+<td>不用 bh（無錨點）</td>
+</tr>
+<tr>
+<td>ㄅ</td>
+<td><code>pp</code></td>
+<td>清不送氣</td>
+<td>s<strong>p</strong>it / s<strong>p</strong>eed 去 s</td>
+<td>不用單寫 b（→ 濁音 ㄅ<sub>ㄏ</sub>）</td>
+</tr>
+<tr>
+<td>ㄆ</td>
+<td><code>p</code></td>
+<td>清送氣</td>
+<td><strong>p</strong>ahn / <strong>p</strong>it</td>
+<td>不用 ph（→ /f/ photo）</td>
+</tr>
+<tr>
+<td>ㄍ<sub>ㄏ</sub></td>
+<td><code>g</code></td>
+<td>濁</td>
+<td>go / game</td>
+<td>不用 g<strong>h</strong>（→ 不發音 li<strong>gh</strong>t／發 f lau<strong>gh</strong>）</td>
+</tr>
+<tr>
+<td>ㄍ</td>
+<td><code>kk</code></td>
+<td>清不送氣</td>
+<td>s<strong>k</strong>ate / sky 去 s</td>
+<td>不用單寫 g（→ 濁音 ㄍ<sub>ㄏ</sub>）</td>
+</tr>
+<tr>
+<td>ㄎ</td>
+<td><code>k</code></td>
+<td>清送氣</td>
+<td><strong>k</strong>ite / kiss</td>
+<td>不用 kh（非英語拼字）</td>
+</tr>
+<tr>
+<td>ㄉ</td>
+<td><code>tt</code></td>
+<td>清不送氣</td>
+<td>s<strong>t</strong>ar / s<strong>t</strong>op 去 s</td>
+<td>不用單寫 d（→ 濁音）</td>
+</tr>
+<tr>
+<td>ㄊ</td>
+<td><code>t</code></td>
+<td>清送氣</td>
+<td><strong>t</strong>op / tea</td>
+<td>不用 th（→ think / the）</td>
+</tr>
+</tbody>
+</table>
+<p>先別被這張表嚇到。表裡的每一個音，你其實天天都在說——只是從來沒有人指給你看過。我們一家一家把它們挖出來。</p>
+<p><a id="p-zhuo"></a></p>
+<h3>1.1 濁音：你天生就會，別人苦練不來</h3>
+<p>從最戲劇性的講起。有些人學台語一直搞不清楚濁音——因為華語的母語習慣裡沒有這一元素，他們得對著鏡子、掐著喉嚨，苦練那個「聲帶要先抖起來」的感覺，練半天還常常漏掉。</p>
+<p>但對你來說，boy 的 b、go 的 g，就是完美的台語濁音。你講這兩個字的時候，聲帶從一開口就在振動，這正是台語「ㄅ<sub>ㄏ</sub>」（肉 bah.）和「ㄍ<sub>ㄏ</sub>」（我 gua\）的靈魂。所以我們直接借過來：ㄅ<sub>ㄏ</sub> 寫成 <code>b</code>、ㄍ<sub>ㄏ</sub> 寫成 <code>g</code>，你看到就唸，不用學。</p>
+<p>不信的話，找一個台灣朋友，兩個人同時跟著唸台語的「我」——<code>gua\</code>。有趣的事會發生：你多半唸對了，你的台灣朋友反而可能把它唸成乾巴巴、沒有喉音的「ㄨㄚ」。因為他的華語腦袋沒有那個濁音開關，而你的英語腦袋天生開著。</p>
+<blockquote>
+<p>這也是為什麼「手貼喉嚨」的自我檢測法，是給華語使用者用的、你用不著：先發「我 <code>gua\</code>」，喉嚨像手機來電一樣強烈震動（濁）；再發「咬 <code>kkah+</code>」，發音前喉嚨是靜止的（清）。華語使用者要補的，正是把那個振動加回去；你要做的，只是別把它弄丟。</p>
+</blockquote>
+<p>（<code>b</code> 不寫成 bh、<code>g</code> 不寫成 gh——因為 gh 在英文裡不是不發音就是發成 f，light、laugh，一寫就毀了。）</p>
+<p><a id="p-song"></a></p>
+<h3>1.2 送氣清音：pie、top、kite ── 一口氣噴出來</h3>
+<p>第二家是送氣音 ㄆ、ㄊ、ㄎ，也不難，因為它就是你唸 <strong>p</strong>ie、<strong>t</strong>op、<strong>k</strong>ite 時，字首噴出來的那一大口氣。把手掌放在嘴前唸 "pie"，你會感覺到氣打在手上——那就是送氣。</p>
+<p>所以這一家維持單一個字母：<code>p</code>、<code>t</code>、<code>k</code>，看到就用力吹氣。至於為什麼不照台羅那套寫成 ph、th、kh——留到你唸唸看就知道：ph 你會唸成 photo 的 /f/、th 會讓你咬舌頭（think），那就不是台語了。</p>
+<p><a id="p-suo"></a></p>
+<h3>1.3 不送氣清音：藏得最深的那一個</h3>
+<p>最後這一家藏得最深——深到連你自己都不知道你會。</p>
+<p>台語的「ㄅ」是個卡在中間的音：不是 boy 那個振動的濁 b，也不是 pie 那個噴氣的 p，而是氣被鎖住、聲帶又不振動的一個音。形容不出來？沒關係，你天天在唸它——它就在 <strong>apple</strong> 裡。</p>
+<p>唸 "apple"，中間那個 pp，嘴唇緊緊一閉一開，完全沒有吐氣（把手放嘴前唸唸看，剛才 pie 的那股氣，這次不見了）。這個被鎖住、不吐氣、又不振動的音，就是道地的台語「ㄅ」。所以我們把它<strong>雙寫</strong>成 <code>pp</code>——你的眼睛看到 pp，大腦自動切到「apple 模式」，氣就鎖住了。同一個道理，ㄍ 藏在 s<strong>k</strong>ate 裡（寫 <code>kk</code>）、ㄉ 藏在 s<strong>t</strong>ar 裡（寫 <code>tt</code>）。其實 spy、star、skate 這三個 s 開頭的字，根本就是台語 ㄅㄉㄍ 的祕密教科書。</p>
+<p>這裡有件連大部分台灣人都不知道的事：台灣的英文教育把規則簡化成「P 唸ㄆ、B 唸ㄅ」，於是整個台灣把 apple 唸成送氣的「a-ㄆ-l」。但你去聽任何一個美國人講話，apple、happy、spy 裡那個 p 全是不吐氣的「ㄅ」。這個字我們照樣留著當教材——它一邊教美語使用者鎖氣、一邊讓台灣人發現自己一直唸錯、順帶也戳破了「這個 p 該送氣」的迷思。（乾淨的定錨另外用 simple、spit，不會有人唸錯。）</p>
+<blockquote>
+<p>岔一句設計上的來路：這個鎖氣音，一度想借 s 來教（把「肉」寫成 sba，靠 spy 的 s 鎖氣）。但美語使用者會老實把 s 唸出來，前面多一聲「斯～」，讀成 S-bah。這條路走不通，才改用雙寫——你會發現整套系統很多地方都是這樣試出來的，後面還會再看到。</p>
+</blockquote>
+<h3>1.4 字詞對照</h3>
+<ul>
+<li><strong>雙唇（ㄅ／ㄆ／ㄅ<sub>ㄏ</sub>）</strong>：八 <code>ppeh.</code>（simple 的鎖氣 pp）｜打 <code>pah.</code>（pie 的送氣爆破）｜肉 <code>bah.</code>（boy，喉嚨一開口就震動）</li>
+<li><strong>舌根（ㄍ／ㄎ／ㄍ<sub>ㄏ</sub>）</strong>：咬 <code>kkah+</code>（skate 鎖氣 k）｜可 <code>kuh\</code>（kite 大口吐氣）｜我 <code>gua\</code>（go，聲帶強烈振動）</li>
+<li><strong>齒齦（ㄉ／ㄊ）</strong>：大 <code>ttua+</code>（star 鎖氣 t）｜踏 <code>ttah+</code>｜拖 <code>tua</code>、殺 <code>tai~</code>（top 送氣 t）｜淡 <code>ttahm+</code>（-m 閉口；美語使用者反而讀得比華語母語者好——華語母語者容易漏掉字尾 ㄇ，美語使用者看到 -m 會老實閉嘴收音）</li>
+</ul>
+<h3>1.5 清濁九宮格</h3>
+<p>一般台灣人看聲母，是 ㄅㄆㄇㄈ、ㄉㄊㄋㄌ 一條隊伍唸下去——隊伍裡沒有「濁音」的座位。換成九宮格，一眼看清：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>不送氣清（s 後的鎖氣）</th>
+<th>送氣</th>
+<th>濁（聲帶先振）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>雙唇</td>
+<td><code>pp</code></td>
+<td><code>p</code></td>
+<td><code>b</code></td>
+</tr>
+<tr>
+<td>齒齦</td>
+<td><code>tt</code></td>
+<td><code>t</code></td>
+<td>（空）</td>
+</tr>
+<tr>
+<td>舌根</td>
+<td><code>kk</code></td>
+<td><code>k</code></td>
+<td><code>g</code></td>
+</tr>
+</tbody>
+</table>
+<p><code>b</code>、<code>g</code> 有主，<code>d</code> 這一格空著——為什麼空、空到哪裡去了，是一段藏進聲調裡的歷史，留給專篇〈清濁九宮格與空著的 d〉。這裡只帶走一件事：<strong>單字母 b、d、g 留給濁音，所以 pp、tt、kk 才要雙寫。</strong></p>
+<hr />
+<p><a id="p-ts"></a></p>
+<h2>二、齒齦與顎音七軌：ㄗ ㄘ ㄙ ㄐ ㄑ ㄒ ㄖ</h2>
+<p>華語使用者學到這裡通常會頭痛，因為華語為了分捲舌的 zh/ch/sh 和不捲舌的 z/c/s、j/q/x，硬是動用了一大堆彆扭的字母。但你有個他們沒有的大利多：<strong>台語完全沒有捲舌音。</strong> 少了捲舌這條分岔，這一整區瞬間清爽下來——七個音，其實只靠三個字母打底（ts、s、z），剩下的交給後面的母音自動分。</p>
+<p>先看全貌，等一下再一個一個拆：</p>
+<p>定案分流邏輯：<strong>同符號靠後接母音自動顎化分流。</strong> 不送氣陣營（ㄗ／ㄐ）共用 <code>ts</code>、噴氣陣營（ㄘ／ㄑ）共用 <code>ch</code>；擦音 ㄙ／ㄒ 共用 <code>s</code>；ㄖ 獨佔 <code>z</code>——三兄弟一條規則管到底。</p>
+<p><strong>ㄗ／ㄐ＝ts，怎麼發？</strong> ts＝<strong>pizza 中段那個音</strong>（pit-tsa）——舌尖抵住、輕輕彈開就走，<strong>不噴氣</strong>，乾淨利落。美語人天天吃 pizza，這個音天天在嘴裡，只是從沒放過字首；搬到字首，就是 ㄗ。配 i 自動顎化成 ㄐ。（別拿 cats 練：字尾的 ts 忽鬆忽緊，常被帶出一口氣——錨要下在 pizza。也別想 dz：d 是濁音的制服，清音 ㄗ 不能穿。）</p>
+<p><a id="p-ts21"></a></p>
+<h3>2.1 核心：記三個字母，母音會自動幫你分</h3>
+<p>這一區聽起來有七個音，但你真正要記的字母只有三個底：<strong>ts、s、z</strong>。剩下的，交給後面的母音自動處理——你不必去背「哪個音配哪個字母」，嘴巴會自己分。</p>
+<p>怎麼個自動法？看 <code>ts</code> 這個字母，配上三個不同的母音，跟著唸一遍就懂了：</p>
+<table>
+<thead>
+<tr>
+<th>你看到</th>
+<th>例字</th>
+<th>唸出來是</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>tsai_</code></td>
+<td>再</td>
+<td>ㄗㄞ（ㄗ）</td>
+</tr>
+<tr>
+<td><code>tseh+</code></td>
+<td>多</td>
+<td>ㄗㄝ（ㄗ）</td>
+</tr>
+<tr>
+<td><code>tsin</code></td>
+<td>真</td>
+<td>ㄐㄧㄣ（ㄐ！）</td>
+</tr>
+</tbody>
+</table>
+<p>看到了嗎？同樣是 <code>ts</code>，配 -ai、-eh 的時候是「ㄗ」，可是一配上 -in（前高母音 i），你的舌面會被那個 i 擠著自動往上抬，<code>ts</code> 就自己變成了「ㄐ」——你根本不用下命令，嘴巴自動幫你顎化。</p>
+<p>這帶出一個對你最省力的真相：<strong>ㄗㄧ 和 ㄐㄧ 根本是同一個聲母。</strong> 「ㄐ」在台語不是一個需要另外記的新音，它只是 <code>ts</code> 撞上前高母音時的自然結果。所以你只要記 <code>ts</code>，接什麼母音就唸什麼——ㄐ 會自己冒出來，你不必意識到它的存在。（<code>s</code> 也一模一樣：配後低母音是「ㄙ」（song、sun），配前高母音 i 就自動抬成「ㄒ」（see、sit）——一個 <code>s</code> 走天下，不必動用 x。）</p>
+<p>同一組再換上噴氣的、和濁的，把七個音一次配齊：</p>
+<table>
+<thead>
+<tr>
+<th>聲母</th>
+<th>-ai（後低）</th>
+<th>-eh（中）</th>
+<th>-in（前高）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>不送氣 <code>ts</code></td>
+<td>再 <code>tsai_</code>（ㄗ）</td>
+<td>多 <code>tseh+</code>（ㄗ）</td>
+<td>真 <code>tsin</code>（ㄐ）</td>
+</tr>
+<tr>
+<td>噴氣</td>
+<td>菜 <code>chai_</code>（ㄘ）</td>
+<td>吹 <code>cheh\</code>（ㄘ）</td>
+<td>秤 <code>chin_</code>（ㄑ）</td>
+</tr>
+<tr>
+<td>擦音 <code>s</code></td>
+<td>獅 <code>sai</code>（ㄙ）</td>
+<td>洗 <code>seh\</code>（ㄙ）</td>
+<td>新 <code>sin</code>（ㄒ）</td>
+</tr>
+<tr>
+<td>濁擦 <code>z</code></td>
+<td>—</td>
+<td>—</td>
+<td>人 <code>zin~</code>（ㄖ）</td>
+</tr>
+</tbody>
+</table>
+<p>橫著唸任一列，你會發現「同一個字母，母音帶你到對的音」；豎著唸任一行（像 tsin / chin_ / sin / zin~），四個聲母排在同一個 -in 韻上，差別清清楚楚。這就是為什麼我們敢只用三個底——母音會接手剩下的工作。</p>
+<h3>2.2 幾個「為什麼不用別的字母」</h3>
+<p>順著上面的邏輯，幾個常見的疑問也就有答案了：</p>
+<ul>
+<li><strong>ㄐ 為什麼不乾脆用英文的 <code>j</code>？</strong> 因為 j 在英文是帶喉音振動的濁音（jet、jam），你會照 jet 去唸，把本來清清的「ㄐ」唸成濁的，就錯了。而 ㄑ 用 <code>ch</code> 沒這問題——cheese 的 ch 本來就是送氣清音，方向一致。</li>
+<li><strong>ㄘ 為什麼不用 <code>c</code>？</strong> c 這字母最不老實，一下讀 ㄎ（cat）、一下讀 ㄙ（cent），你永遠猜不準它。所以 ㄘ 與 ㄑ 共用 <code>ch</code>——環境自動分流：配 i 是 ㄑ、配其他母音是 ㄘ。</li>
+<li><strong>ㄒ 為什麼不用 <code>sh</code>？</strong> shoe 的 sh 是圓唇的 /ʃ/，會毀掉台語 ㄒ 那個扁平、舌面貼上顎的感覺。用 <code>s</code> 就好，母音會幫你抬上去。</li>
+<li><strong>ㄖ 為什麼是 <code>z</code> 不是 <code>r</code> 或 <code>j</code>？</strong> z（zero、zone）的純摩擦最接近 ㄖ；用 r 你會捲舌（rain），用 j 你會爆破成濁音，都不對。</li>
+<li><strong>ㄧㄜ 為什麼不用 <code>ie</code>？</strong> ie 在美語是張百變臉：f<strong>ie</strong>ld 讀 ee、p<strong>ie</strong> 讀 ai、fr<strong>ie</strong>nd 讀 eh——你永遠猜不準這次輪到誰。<code>yuh</code>（g 後寫 iuh）把音鎖死，一次教會。</li>
+<li><strong>ㄨ 為什麼不用 <code>oo</code>？</strong> oo 也有三張臉：m<strong>oo</strong>n（ㄨ）、b<strong>oo</strong>k（短促的ㄨ半開）、bl<strong>oo</strong>d（居然是ㄚ系）——錨不穩。<code>u</code> 靠 tof<strong>u</strong>、fl<strong>u</strong> 字尾那個乾淨的 ㄨ，一步到位。</li>
+<li><strong>為什麼整套系統裡沒有 <code>f</code>？</strong> 因為台語根本沒有 f 這個音。你聽到像 f 的地方，其實是 ㄏ＋ㄨ 的組合——花是 <code>hua</code>，不是 fa：上唇下齒別碰，用喉底的 h 送氣帶出 u，就對了。</li>
+</ul>
+<p>（更完整的「不用」清單見文末總表；完稿時會再看哪些需要精簡。）</p>
+<h3>2.3 「字、子」二字辨</h3>
+<ul>
+<li><strong>子 = <code>tsee\</code></strong>（ts，清音）</li>
+<li><strong>字 = <code>gee+</code></strong>（g，濁音）
+兩個不同字、不同聲母，剛好把清（ts）和濁（g）放在同一個 ee 韻上對照，一比就聽出清濁差別。</li>
+</ul>
+<h3>2.4 為什麼不是別的寫法？——兩個關鍵的取捨</h3>
+<p>這套字母不是隨手配的，是撞過牆、退回來重排的。兩個最關鍵的取捨，值得說給你聽——因為它們正好幫你記住「哪個字母配哪個音」。</p>
+<p><strong>第一個：z 只給 ㄖ，不給 ㄗ。</strong>
+一開始很自然會想，ㄗ（pizza 中段那個音）不是有點像 z 嗎？就用 z 吧。但麻煩來了：ㄖ 也想用 z（zero、zone）。兩個音搶同一個字母，一定出事——把「走」寫成 zau，美語使用者會照 zero 的 z 去唸，唸成「ㄖㄠ」，走就變成別的字了。所以我們讓 <strong>z 專屬給 ㄖ</strong>（它跟 zero 最像），而 ㄗ 改用 ts（pizza 裡的 tts 音）。一個字母只扛一個音，不搶。</p>
+<p><strong>第二個：ㄘ 和 ㄑ 共用 <code>ch</code>，不碰 c。</strong>
+c 這個字母對美語使用者最不老實——它一下讀 ㄎ（cat、cot、cut），一下讀 ㄙ（cent、city），你永遠不知道它這次要當誰。所以噴氣的這兩個音乾脆都不碰 c，共用老實的 <strong>ch</strong>：配 i 讀 ㄑ（<strong>ch</strong>eese），配其他母音讀 ㄘ（<strong>ch</strong>ai 茶那一口氣）——跟 ts（ㄗ／ㄐ）、s（ㄙ／ㄒ）一模一樣的環境分流。</p>
+<p>（你會發現整套系統一直在做同一件事：<strong>一個字母只對一個音，一個音只認一個字母，絕不讓兩個音搶同一個字母、也不用那種「看心情變臉」的字母</strong>。往下每一條都是這個原則的延伸。）</p>
+<hr />
+<p><a id="p-mnl"></a></p>
+<h2>三、鼻音、邊音、喉音</h2>
+<table>
+<thead>
+<tr>
+<th>注音</th>
+<th>代碼</th>
+<th>🟢【用】</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ㄇ</td>
+<td><code>m</code></td>
+<td>mahn / mother</td>
+</tr>
+<tr>
+<td>ㄋ</td>
+<td><code>n</code></td>
+<td>noon / net</td>
+</tr>
+<tr>
+<td>ㄌ</td>
+<td><code>l</code></td>
+<td>look / let</td>
+</tr>
+<tr>
+<td>ㄏ</td>
+<td><code>h</code></td>
+<td>how / hot（好 <code>huh\</code>、雨 <code>haw+</code>）</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="p-ng"></a></p>
+<h2>四、ng：一個你以為不會、其實一學就會的音</h2>
+<p>台語有個音，英語剛好放在「你熟悉的地方的另一端」——英語的 ng 永遠在字尾（sing、song、long），從不放在開頭；而台語偏偏喜歡把它擺到字首。聽起來好像很陌生，但別擔心，給你一個小動作，你馬上就發得出來。</p>
+<p>（先說個原則，免得你被帶偏：這個 ng 的錨，一律想著 <strong>song、long</strong> 的後腔鼻音，<strong>別想 sing、king、ring</strong>——後面這幾個字的尾音在現在的美式英語裡已經往前跑、變得比較像「ㄣ」，會把台語那個渾厚的後腔鼻音帶歪。）</p>
+<p>ng 在字首，會用到兩種身分。</p>
+<p><a id="p-ng1"></a></p>
+<h3>角色一：ng 直接當開頭（碗、迎、影）</h3>
+<p>這是最單純的：ng 就杵在字的最前面，例字像碗 <code>ngua\</code>、餡 <code>ngah+</code>、迎 <code>ngia~</code>、影 <code>ngia\</code>。</p>
+<p>怎麼發？跟我做一次就會——先正常唸英文的 <strong>"song-ah"</strong>，唸順了，再把開頭那個 s 咬掉，只留 <strong>"ng-ah"</strong>。就這樣，你剛剛還在字尾的那個 song 鼻音，被你搬到字首了。</p>
+<p>（為什麼要帶那個 <strong>ah</strong>？因為單獨一個「ng」是個悶在喉嚨的收尾音，接不出下一個音；而台語的字首 ng 後面一定要接母音滑出去。那個 ah 就是「接應母音」——它逼你把鼻音往前送、接到母音上，而不是悶著。ah 開口最大、最好感覺，所以拿它當入門；你之後把 ah 換成別的母音，就能唸出 ngua（碗）、ngia（迎）了。）</p>
+<p>多做幾次，配著音檔跟唸，它就長在你嘴上了。</p>
+<p><a id="p-ng2"></a></p>
+<h3>角色二：ng 夾在聲母後面（聲、聽、雅）</h3>
+<p>還有一種，是聲母先出來、緊接著 ng、再滑進母音，例如聲 <code>sngia</code>、聽 <code>tngia</code>、雅 <code>gngah\</code>。判斷很簡單：<strong>只要 ng 後面還有母音要滑進去</strong>（sngia 的 -ia），它就是這種「鼻化聲母」。</p>
+<p>發這種音有個很好用的心法：當你看到 <code>sng-</code>、<code>tng-</code> 這樣的開頭，就想像在音節一啟動的瞬間，先把一股氣「轟」進鼻腔，再讓聲母和母音接著出來。（嚴格講這不完全是語音學的精確描述，但它管用——照這個感覺做，你一開口就對，比糾結「這音到底怎麼發」強得多。）</p>
+<p>背後的設計只有一句話：<strong>所見即所發。</strong> 主聲母（g、s、t…）和鼻音（ng），我們全部寫出來，不省任何一個——你看到 <code>gng</code>，就是「濁音 g＋鼻音」都在那裡等你發；照著字面，把聲母發出來、同時讓氣走鼻腔，就對了。</p>
+<blockquote>
+<p>小提醒（往後韻母篇還會遇到）：卵 <code>nng+</code>、光 <code>kkng</code>、酸 <code>sng</code> 這種「聲母＋ng、而 ng 後面沒有母音」的，那個 ng 是當<strong>韻母</strong>用的（它自己就是整個韻），不算這裡的鼻化聲母。分辨法就一句：ng 後面有母音要滑，是聲母（這裡）；ng 後面沒東西、自己收尾，是韻母（韻母篇再談）。</p>
+</blockquote>
+<hr />
+<h2>五、聲母篇 ─ 完整定錨總表</h2>
+<p>依注音習慣順序排列，方便查找。（「不用」欄先求完整，完稿時再視情況精簡。）</p>
+<table>
+<thead>
+<tr>
+<th>注音</th>
+<th>美拼</th>
+<th>性質</th>
+<th>英語定錨</th>
+<th>不用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ㄅ</td>
+<td><code>pp</code></td>
+<td>不送氣清音</td>
+<td>si<strong>mp</strong>le · s<strong>p</strong>it</td>
+<td>不用單 b（→濁音）</td>
+</tr>
+<tr>
+<td>ㄅ<sub>ㄏ</sub></td>
+<td><code>b</code></td>
+<td>濁音</td>
+<td><strong>b</strong>oy · <strong>b</strong>ook</td>
+<td>不用 bh</td>
+</tr>
+<tr>
+<td>ㄆ</td>
+<td><code>p</code></td>
+<td>送氣清音</td>
+<td><strong>p</strong>ie · <strong>p</strong>ahn</td>
+<td>不用 ph（→/f/）</td>
+</tr>
+<tr>
+<td>ㄇ</td>
+<td><code>m</code></td>
+<td>雙唇鼻音</td>
+<td><strong>m</strong>ahn</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄉ</td>
+<td><code>tt</code></td>
+<td>不送氣清音</td>
+<td>s<strong>t</strong>ar · s<strong>t</strong>op</td>
+<td>不用單 d（→濁音）</td>
+</tr>
+<tr>
+<td>ㄊ</td>
+<td><code>t</code></td>
+<td>送氣清音</td>
+<td><strong>t</strong>op · <strong>t</strong>ea</td>
+<td>不用 th（→咬舌）</td>
+</tr>
+<tr>
+<td>ㄋ</td>
+<td><code>n</code></td>
+<td>舌尖鼻音</td>
+<td><strong>n</strong>oon</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄌ</td>
+<td><code>l</code></td>
+<td>邊音</td>
+<td><strong>l</strong>ook</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄍ</td>
+<td><code>kk</code></td>
+<td>不送氣清音</td>
+<td>s<strong>k</strong>ate · s<strong>k</strong>y</td>
+<td>不用單 g（→濁音）</td>
+</tr>
+<tr>
+<td>ㄎ</td>
+<td><code>k</code></td>
+<td>送氣清音</td>
+<td><strong>k</strong>ite · <strong>k</strong>iss</td>
+<td>不用 kh</td>
+</tr>
+<tr>
+<td>ㄍ<sub>ㄏ</sub></td>
+<td><code>g</code></td>
+<td>濁音</td>
+<td><strong>g</strong>o · <strong>g</strong>ame</td>
+<td>不用 gh（→不發音/f）</td>
+</tr>
+<tr>
+<td>ㄏ</td>
+<td><code>h</code></td>
+<td>清喉音</td>
+<td><strong>h</strong>ow · <strong>h</strong>ot</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄐ</td>
+<td><code>ts</code></td>
+<td>不送氣（前高母音顎化）</td>
+<td>ts＋前高母音</td>
+<td>不用 j（→濁爆破）</td>
+</tr>
+<tr>
+<td>ㄑ</td>
+<td><code>ch</code></td>
+<td>噴氣（前高母音）</td>
+<td><strong>ch</strong>eese</td>
+<td>不用 q（綁 u）</td>
+</tr>
+<tr>
+<td>ㄒ</td>
+<td><code>s</code></td>
+<td>前顎擦音</td>
+<td><strong>s</strong>ee · <strong>s</strong>it</td>
+<td>不用 sh／x／hs</td>
+</tr>
+<tr>
+<td>ㄗ</td>
+<td><code>ts</code></td>
+<td>不送氣（後低母音）</td>
+<td>pi<strong>zz</strong>a</td>
+<td>不用 z／cats／c</td>
+</tr>
+<tr>
+<td>ㄘ</td>
+<td><code>ch</code></td>
+<td>噴氣（後低母音）</td>
+<td><strong>ch</strong>ai 那口氣</td>
+<td>不用 c／tsh</td>
+</tr>
+<tr>
+<td>ㄙ</td>
+<td><code>s</code></td>
+<td>後腔擦音</td>
+<td><strong>s</strong>ong · <strong>s</strong>un</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄖ</td>
+<td><code>z</code></td>
+<td>純有聲摩擦</td>
+<td><strong>z</strong>ero · <strong>z</strong>one</td>
+<td>不用 j／r／zh</td>
+</tr>
+<tr>
+<td>ㄥ（字首鼻音聲母／鼻化元音）</td>
+<td><code>ng</code></td>
+<td>角色一</td>
+<td>碗 ngua\、迎/影 ngia</td>
+<td>不用 sing 導讀</td>
+</tr>
+<tr>
+<td>ㄥ（鼻化聲母家族）</td>
+<td><code>子音+ng+韻</code></td>
+<td>角色二</td>
+<td>聲 sngia、聽 tngia、雅 gngah\</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>輸入容錯：<code>bb</code> = <code>pp</code>（手滑容錯，bb 無指派音位）。</p>
+</blockquote>
+<hr />
+<p><em>聲母篇完。ng 的角色三、四（字尾韻尾、成音節）與四角色全貌，見韻母篇。</em></p>
+<hr />
+<h1><a id="ch4"></a>韻母篇（Rimes &amp; Vowels · The Phonics Track）</h1>
+<h3>分段交付 · 第二篇</h3>
+<blockquote>
+<p>本篇精神同聲母篇：每個音位「<strong>用什麼／不用什麼／曾經想用、踩到雷才改掉</strong>」。
+韻母篇的核心原則只有一句：<strong>依「開音節／閉音節」與後接環境因地制宜，死死鎖住美語大腦的盲讀路徑，寧可讓同一個音在不同環境換外衣，也絕不讓美國人開口發錯。</strong></p>
+<p>「不用」素材的取捨：那個反例字<strong>如果美國人熟悉</strong>（apple、day、sun、moon…），就保留——因為它能精準示範美國人會怎麼盲讀踩雷。只有連美國人都陌生、舉了沒共鳴的，才省略。</p>
+</blockquote>
+<hr />
+<h2>〇、聲調符號，先提醒一句</h2>
+<p>例字旁的聲調符號（<code>/ ~ \ . _ +</code>），你在〈初識〉已經認過了，本篇例字一律用這套美系符號。只補兩件事：一是這套符號另有<strong>注音版</strong>（ˊ ˇ ˋ ˙，給台灣讀者對照注音教學用）與<strong>數字版</strong>（<code>9</code>、<code>0</code>、<code>1</code>～<code>5</code>，純鍵盤輸入最快）兩軌並行，三者可互換；二是——</p>
+<blockquote>
+<p>數字 <code>5</code> 是輕聲的輸入代號（像 <code>9</code>=低聲、<code>0</code>=中聲），<strong>與臺羅「第五調」毫無關係</strong>。臺羅講「調」，我們講「聲」。</p>
+</blockquote>
+<hr />
+<p><a id="r-dan"></a></p>
+<h2>一、單母音 ─「保險絲」原則</h2>
+<p>美系版的單母音設計，核心是給每個母音穿一件「防盲讀外衣」。最常用的手法是字尾掛一個不發音的 <code>h</code> 當<strong>保險絲</strong>，防止美國人對開音節啟動盲讀慣性、把母音唸變質。</p>
+<p>先看這個 <code>h</code> 到底在擋什麼。假設我們把台語的「肉」老實寫成 <code>ba</code>——問題來了：英文裡，一個字如果以單一母音收尾（開音節），美國人的大腦會自動把它唸成長母音。ba 於是被讀成 "Bay"（就像 baby、bacon 的頭一個音節）。台語那個肚子大大的「ㄚ」，當場滑成了「ㄟ」。</p>
+<p>補救的辦法，英文自己早就準備好了：在後面加一個不發音的 <code>h</code>。美國人看到 <code>bah</code>，大腦會瞬間連到羊叫聲 "Bah!" 或巴哈馬 Bahamas——那個飽滿的短「ㄚ」立刻被鎖死，再也滑不到 "Bay" 去。</p>
+<p>這裡藏著一個很重要、常被誤會的分工。這個 <code>h</code>，<strong>和台羅那個 -h 完全是兩回事</strong>：台羅的 -h 是入聲標記，而美系版的 <code>h</code> 是專門給美國人內建的「母音保險絲」——它一點都不管聲調、也不管音長，它唯一的任務，就是把母音的<strong>品質</strong>鎖在「ㄚ」，不讓它跑掉。</p>
+<p>而這就帶出整套系統的一條地基原則：<strong>字母定音，符號定長短。</strong></p>
+<ul>
+<li><strong>字母</strong>（ah、eh、ee…）負責<strong>母音的品質</strong>——把你的嘴型固定在對的位置（是「ㄚ」不是「ㄟ」）。</li>
+<li><strong>符號</strong>（<code>_ + / ~ \ .</code>）負責<strong>長短與音階</strong>——也就是聲調。</li>
+</ul>
+<p>兩者各司其職，互不干涉。看「肉」這個字，從裸母音到定案，剛好走三層，一層一層把這個分工演給你看：</p>
+<table>
+<thead>
+<tr>
+<th>寫法</th>
+<th>美國人會怎麼唸</th>
+<th>問題／結果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ba</code></td>
+<td>"Bay"</td>
+<td>❌ 開音節，母音滑成 ㄟ</td>
+</tr>
+<tr>
+<td><code>bah</code></td>
+<td>"Bah"（飽滿的 ㄚ，完整一拍）</td>
+<td>✅ 加了母音保險絲，品質鎖住</td>
+</tr>
+<tr>
+<td><code>bah.</code></td>
+<td>"Bah!"（同樣的 ㄚ，但半拍急收）</td>
+<td>🔥 再加句點，音長砍半＝輕聲</td>
+</tr>
+</tbody>
+</table>
+<p>關鍵看第二層到第三層：從 <code>bah</code> 到 <code>bah.</code>，<strong>母音一個字都沒變</strong>（還是那個 ah），變的只是尾巴多了個句點——<strong>母音品質沒動，動的是音長</strong>。這正是「字母管品質、符號管長短」最乾淨的示範：<code>h</code> 一路守著「ㄚ」不放，句點負責把一拍砍成半拍。你會發現，只要把這兩件事分開想，整個系統就通了。</p>
+<p>（所以請記得：<code>ah</code> 的 <code>h</code> 是為了「短母音<strong>品質</strong>」，不是為了「短促<strong>音長</strong>」——品質和音長是兩個維度，一個交給字母、一個交給符號。往下每一個韻母，都是這條原則的延伸。）</p>
+<table>
+<thead>
+<tr>
+<th>注音</th>
+<th>美拼</th>
+<th>🟢 英語定錨</th>
+<th>🛑 不用（會踩什麼雷）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ㄚ</td>
+<td><code>ah</code></td>
+<td>B<strong>ah</strong>amas · Om<strong>ah</strong>a</td>
+<td>不用單寫 <code>a</code>：會被讀成 ㄟ（date、cake）</td>
+</tr>
+<tr>
+<td>ㄛ（開音節）</td>
+<td><code>aw</code></td>
+<td>l<strong>aw</strong> · s<strong>aw</strong> · d<strong>aw</strong>n</td>
+<td>不用 <code>o</code>：開音節滑成 ㄡ（go、no）；入聲更慘（見三）</td>
+</tr>
+<tr>
+<td>ㄜ</td>
+<td><code>uh</code></td>
+<td>"H<strong>uh</strong>?" · "D<strong>uh</strong>!"</td>
+<td>不用 <code>er</code>/<code>ur</code>：引發美式捲舌（her、fur）</td>
+</tr>
+<tr>
+<td>ㄝ</td>
+<td><code>eh</code></td>
+<td>b<strong>e</strong>d · <strong>e</strong>gg · w<strong>e</strong>dge</td>
+<td>不用單寫 <code>e</code>：字尾單一個 e 會被讀成長音 ㄧ（he、me、she）</td>
+</tr>
+<tr>
+<td>ㄧ（主母音）</td>
+<td><code>ee</code></td>
+<td>s<strong>ee</strong> · b<strong>ee</strong></td>
+<td>不用單寫 <code>i</code>：被讀成 "I"（ㄞ）</td>
+</tr>
+<tr>
+<td>ㄨ</td>
+<td><code>u</code></td>
+<td>tof<strong>u</strong> · gur<strong>u</strong></td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p><a id="r-eh"></a></p>
+<h3>1.1 ㄝ ➔ <code>eh</code>、ㄜ ➔ <code>uh</code>：各自一件合身的外衣</h3>
+<p>ㄝ 和 ㄜ 是兩個完全不同的音。美系版給它們各穿一件保險絲外衣，一人一件、互不相干：</p>
+<ul>
+<li><strong>ㄝ ➔ <code>eh</code></strong>：想著 bed、egg、wedge 裡那個短短的 e。例字：茶 <code>tteh~</code>（三聲；順帶一提，華語讀二聲的字，到台語大多讀三聲）、八 <code>ppeh.</code>。</li>
+<li><strong>ㄜ ➔ <code>uh</code></strong>：想著你恍然大悟時說的 "Huh?"、不耐煩時說的 "Duh!" 那個含糊的中央母音。例字：課 <code>kuh_</code>、可 <code>kuh\</code>。</li>
+</ul>
+<p>你可能會問：ㄜ 為什麼不乾脆用一個單獨的 <code>e</code> 就好？因為在你的英語直覺裡，字尾單獨一個 e（he、me、she）永遠讀成長長的「ㄧ」，絕不會是「ㄜ」。硬用 e，你只會把它唸成 ㄧ。所以 ㄜ 交給 <code>uh</code>（huh 的 uh）、ㄝ 交給 <code>eh</code>（bed 的 eh），兩個各走各的路，怎麼唸都不會撞。</p>
+<h3>1.2 歷史見證：tea 為什麼是台語的「ㄉㄝ」</h3>
+<p>「茶」最能說明「順應當代大腦直覺」有多重要。17 世紀英國商人從廈門／閩南海路引進茶，耳朵聽到的台語本音是 <code>tteh</code>（ㄉㄝ）。當時他們寫下 tea——因為在 17 世紀近代英語裡，<code>ea</code> 的盲讀音不是現代的「ㄧ」，而是「ㄟ」（sea 唸 "say"、meat 唸 "mayt"）。所以當時看到 tea 盲讀出來就是道地的 "Tay"（ㄉㄝ）。</p>
+<p>18 世紀英語母音大推移（Great Vowel Shift）尾聲，ea 多半從「ㄟ」滑向「ㄧ」，tea 才退化成今天的 "Tee"。英文裡至今殘留 great（grayt）、steak（stayk）這些「沒突變成功的活化石」。</p>
+<blockquote>
+<p>啟示：<strong>文字字形是死的，人類大腦的 Phonics 直覺是活的。</strong> 當年精準的 tea，兩百年後就成了視覺謊言。所以我們現在替美國人把「茶」重構成 <code>tteh</code>——只有現在的 <code>eh</code>，才鎖得住現代美國人腦裡的「ㄝ」。</p>
+</blockquote>
+<hr />
+<p><a id="r-i"></a></p>
+<h2>二、ㄧ 開頭的韻：多數用 i，只有一個韻要特別用 y</h2>
+<p>ㄧ 開頭的韻（像 ㄧㄚ、ㄧㄨ、ㄧㄠ）大多很好處理，直接用 <code>i</code> 就行——待會看。但其中有一個韻特別容易出錯，值得先單獨拉出來講：<strong>ㄧㄜ</strong>。</p>
+<p><a id="r-yuh"></a></p>
+<h3>2.1 ㄧㄜ ➔ <code>yuh</code>：這個韻要用 y，不用 i</h3>
+<p>ㄧㄜ 是「介音 ㄧ ＋ 主母音 ㄜ」。照理說介音 ㄧ 用 i、ㄜ 用 uh，合起來就是 <code>iuh</code>——但這裡有個陷阱。你把「惜」寫成 <code>siuh</code>，美語使用者看到中間的 <code>iu</code>，會直接想到 "Sue"，把那個 u 當成主母音唸成「ㄨ」，ㄜ 就跑掉了。i 和 u 兩個母音擠在一起，u 太容易搶走主角。</p>
+<p>解法是把介音的 i 換成 <strong><code>y</code></strong>。y 是個滑音（像 yes 開頭那個音），它不是母音、不會搶主角，只是輕輕帶你滑進後面的 uh。這樣 u 就乖乖待在 ㄜ 的位置，不會變成 ㄨ。所以這個韻，我們一律寫成 <code>yuh</code>：</p>
+<table>
+<thead>
+<tr>
+<th>字</th>
+<th>注音</th>
+<th>美拼</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>育</td>
+<td>ㄧㄜ</td>
+<td><code>yuh</code>（零聲母，y 直接開頭）</td>
+</tr>
+<tr>
+<td>惜</td>
+<td>ㄒㄧㄜ˙</td>
+<td><code>syuh.</code></td>
+</tr>
+<tr>
+<td>笑</td>
+<td>ㄑㄧㄜ_</td>
+<td><code>chyuh_</code></td>
+</tr>
+<tr>
+<td>釣</td>
+<td>ㄉㄧㄜ_</td>
+<td><code>ttyuh_</code></td>
+</tr>
+<tr>
+<td>茄</td>
+<td>ㄍㄧㄜˇ</td>
+<td><code>kkyuh~</code></td>
+</tr>
+</tbody>
+</table>
+<p>你可能盯著 <code>ttyuh</code>、<code>kkyuh</code> 覺得眼生——tty、kky 這種開頭英文裡確實沒有。但別緊張：tt、kk 你在聲母篇已經學過了（star、skate 那個鎖氣音），這裡只是在你已經會的 tt、kk 後面，加一個輕輕的滑音 y 而已，不是全新的東西。口腔的動作可以這樣想：發 tt、kk 鎖氣音的同時，舌面已經先擺好 yes 開頭那個 y 的姿勢——氣一放，音自己滑出去。而且正因為英文沒有這個組合，你反而不會拿某個英文字去亂套、唸錯——跟著音檔做一兩次，鎖氣＋滑音，就順了。</p>
+<blockquote>
+<p>這裡要幫你破除一個常見的誤會：<strong>台語沒有「ㄧㄛ」這個韻。</strong> 腰、茄這些字，聽起來好像是 ㄧㄛ，其實都是 ㄧㄜ。</p>
+<p>所以這個音<strong>不用 <code>io</code></strong>：io 會讓你照 stud<strong>io</strong>、rad<strong>io</strong> 去唸成「ㄧㄛ」，但台語根本不是 ㄧㄛ，是 ㄧㄜ——唸成 io 就錯了。（有些拼法把腰、招寫成 io，正是沒分清 ㄧㄜ 和 ㄧㄛ 才犯的錯。）台語這個位置就是 ㄧㄜ，一律用 <code>yuh</code>。</p>
+</blockquote>
+<p><a id="r-i2"></a></p>
+<h3>2.2 其餘 ㄧ 開頭的韻：維持 i</h3>
+<p>除了上面那個特別的 ㄧㄜ，其他 ㄧ 開頭的韻都乖乖用 <code>i</code>，不必動用 y：</p>
+<ul>
+<li><strong>ㄧㄚ ➔ <code>ia</code></strong>：借 p<strong>ia</strong>no、med<strong>ia</strong> 那個絲滑的滑音，看到就會唸，零負擔。（這個韻不加 h——前面有 i 帶著，a 不會跑成 ㄟ。）</li>
+<li><strong>ㄧㄨ ➔ <code>iu</code></strong>：借 v<strong>iew</strong>、calc<strong>iu</strong>m 的字尾，一口氣滑出 ㄧㄨ，尾巴收緊。（不用 <code>ew</code>，免得跟英文一些字打架。）</li>
+<li><strong>ㄧㄠ ➔ <code>iao</code></strong>：借國際上常見的 C<strong>iao</strong>、X<strong>iao</strong>，鎖住 ㄧㄠ。（不用 <code>iau</code>——英文的 au 會唸成 ㄛ，autumn，整個歪掉。）</li>
+<li><strong>ㄧㄣ ➔ <code>in</code></strong>、<strong>ㄧㄝㄣ ➔ <code>yen</code></strong>：這兩個牽涉鼻音，留到第四章一起講。</li>
+</ul>
+<hr />
+<p><a id="r-aw"></a></p>
+<h2>三、ㄛ 系：一個字母 o 帶來的大麻煩，和它的解法</h2>
+<p>台語的「ㄛ」，是最容易讓美語使用者摔跤的母音之一——問題出在，如果照直覺用字母 <code>o</code> 去寫，會踩到兩個雷。</p>
+<p>先看 o 在你腦裡的兩種讀法：</p>
+<p><strong>開音節時</strong>（o 在字尾，像 bo、ho），你會發成 go、no、so 那個帶點 ㄨ 尾的音——「ㄛ」滑向了「ㄡ」。</p>
+<p>這裡先把一個很多人搞不清楚的事說破：<strong>ㄡ 不是單母音，它是 ㄛ 滑向 ㄨ 的雙母音（ㄛㄨ）——而台語沒有這個音。</strong> 英語 go、no 的尾巴正是 ㄡ，所以字母 o 一寫出來，美語大腦自動長出那條 ㄨ 尾巴，唸出一個台語根本沒有的音；很多人分不清 ㄛ 跟 ㄡ，病根就在這。</p>
+<p><strong>接子音時</strong>（像 tok、pok），問題更大。美式英語有個很強的習慣（語言學叫 Father-Bother Merger）：短短的 o 一接子音，你會自動把它唸成「ㄚ」——hot 唸成「哈特」、top 唸成「踏普」、rock 唸成「拉克」。所以要是把「毒」（ㄉㄛㄎ）寫成 <code>ttok</code>，你會立刻對接 rock、lock，唸成「ㄉㄚㄎ」——ㄛ 整個變成了 ㄚ。</p>
+<p><a id="r-aw3"></a></p>
+<h3>3.1 不用 <code>ok</code>、不用 <code>ook</code>；用 <code>aw</code></h3>
+<ul>
+<li><strong>不用 <code>ok</code></strong>（把毒寫成 ttok）：o 一接子音，你會照 rock、lock 唸成「ㄚ」——毒變成「ㄉㄚㄎ」，ㄛ 跑掉了。</li>
+<li><strong>不用 <code>ook</code></strong>（把毒寫成 ttook）：<code>ook</code> 在你腦裡牢牢對應的是 book、look 那個圓唇的「ㄨ」（/ʊ/），不是 ㄛ。寫 ttook，你會唸成「ㄉㄨㄎ」——躲過了 ㄚ，卻掉進 ㄨ，而且跟 ㄨ 系的字撞車。</li>
+<li>
+<p><strong>不用 <code>ou</code></strong>（把毒寫成 ttouk）：ou 在英文太善變（soul ㄡ、soup ㄨ、tough ㄚ、thought ㄛ），你猜不準，多半唸成「ㄉㄠㄎ」。</p>
+</li>
+<li>
+<p><strong>用 <code>aw</code></strong>：想著 l<strong>aw</strong>、s<strong>aw</strong>、h<strong>aw</strong>k。aw 在你腦裡穩穩發「ㄛ」（/ɔ/），而且<strong>不管後面接不接子音都一樣</strong>——那個「o 接子音變 ㄚ」的毛病只作用在字母 o，碰不到 aw。所以 hawk 永遠是「ㄏㄛㄎ」，不會變「ㄏㄚㄎ」。</p>
+</li>
+</ul>
+<h3>3.2 定案</h3>
+<ul>
+<li><strong>ㄛ 開音節 ➔ <code>aw</code></strong>：law、saw。</li>
+<li><strong>ㄛ 入聲 ➔ <code>awk</code>／<code>awp</code>／<code>awt</code></strong>：hawk。</li>
+</ul>
+<p>開音節、入聲共用同一個 aw，一個母音一件外衣，乾淨。</p>
+<table>
+<thead>
+<tr>
+<th>字</th>
+<th>注音</th>
+<th>美拼</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>毒</td>
+<td>ㄉㄛㄎ+</td>
+<td><code>ttawk+</code>（中聲）</td>
+</tr>
+<tr>
+<td>搏</td>
+<td>ㄅ<sub>ㄏ</sub>ㄛㄎ˙</td>
+<td><code>bawk.</code>（濁音 b ＋ 入聲 ＋ 輕聲）</td>
+</tr>
+</tbody>
+</table>
+<p>順帶看一眼「搏」<code>bawk.</code>——它一個字裡同時有三件事：濁音的聲母（b）、入聲的收尾（-k）、還有輕聲（那個句點）。這三件事各管各的、互不打架，證明<strong>清濁、入聲、聲調是三個獨立的維度</strong>，可以自由組合。特別是它讓你看到：<strong>輕聲一樣可以是濁音</strong>——這也再一次說明，入聲只是韻母的收尾，不是一種聲調。</p>
+<hr />
+<p><a id="r-n"></a></p>
+<h2>四、鼻韻：ㄢ，還有一個藏著兩條路的「ㄣ」</h2>
+<p><a id="r-an"></a></p>
+<h3>4.1 ㄢ ➔ <code>ahn</code></h3>
+<p>這個借 sw<strong>an</strong>（天鵝）最準——swan 的 ahn 是飽滿、靠後的「ㄚ」加上 n，正好就是台語的「ㄢ」。（小心別用 mahn、pahn 當範本：那些字的 a 是比較扁、偏前的 /æ/，會讓你的「ㄚ」不夠飽滿；swan、Mil<strong>an</strong>、Sud<strong>an</strong> 這種才對。）字尾 ahn 一出來，嘴巴微張，就是道地的「ㄢ」。</p>
+<table>
+<thead>
+<tr>
+<th>字</th>
+<th>注音</th>
+<th>美拼</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>班</td>
+<td>ㄅㄢ</td>
+<td><code>ppahn</code>（一聲，不加符號）</td>
+</tr>
+<tr>
+<td>寒</td>
+<td>ㄏㄢˇ</td>
+<td><code>hahn~</code></td>
+</tr>
+<tr>
+<td>萬</td>
+<td>ㄅ<sub>ㄏ</sub>ㄢ+</td>
+<td><code>bahn+</code>（濁音 ＋ 中聲）</td>
+</tr>
+</tbody>
+</table>
+<p><a id="r-2way"></a></p>
+<h3>4.2 「ㄣ」其實不是一個音，是兩條路</h3>
+<p>這裡有個連很多台灣人都沒意識到的事：<strong>台語其實沒有華語那種單獨的、含含糊糊的「ㄣ」</strong>（像華語「根、森」那個）。你以為的台語「ㄣ」，拆開來其實是兩條各走各的路——<strong>ㄧㄣ</strong> 和 <strong>ㄨㄣ</strong>——得分開處理。</p>
+<p><strong>第一條路：ㄧㄣ（民、因、印）➔ <code>in</code></strong>
+這條簡單，借 p<strong>in</strong>、b<strong>in</strong>、t<strong>in</strong>，直接就是「ㄧㄣ」。例字：民 <code>bin~</code>（濁音 ＋ 三聲）。</p>
+<p><strong>第二條路：ㄨㄣ（滾、問、溫）➔ <code>oon</code></strong>
+這條是重點，因為它藏了一個大坑：<strong>千萬別用 <code>un</code></strong>。你把「滾」寫成 kkun，會立刻套上 sun、fun、run，唸成「ㄍㄢ」——ㄨ 被吃成了 ㄚ，字就毀了。</p>
+<p>正解是雙寫的 <strong><code>oon</code></strong>：借 m<strong>oon</strong>、sp<strong>oon</strong>、n<strong>oon</strong>，看到 oon，嘴巴自然縮小擠出「ㄨ」，配上字尾 n，剛剛好是「ㄨㄣ」。例字：滾 <code>kkoon\</code>、問 <code>boon+</code>。</p>
+<p><a id="r-yen"></a></p>
+<h3>4.3 「煙」和「熏」：是兩個不同的字，不是一個字的兩種唸法</h3>
+<p>先破除一個常見的誤解：口語的「熏（ㄏㄨㄣ）」和書面的「煙」，<strong>是兩個不同的字</strong>，不是同一個字的文白兩讀。台灣人日常講抽菸那個動作、那個東西，用的字是「熏」；「煙」（煙火、煙草）是另一個字。它們各有各的音、各有各的拼法：</p>
+<p><strong>熏 ➔ <code>hoon</code></strong>
+別寫成 <code>hun</code>——你會照 hunt、honey 唸成「ㄏㄢ」。用 <code>hoon</code>（借 moon、noon），直接就是「ㄏㄨㄣ」。</p>
+<p><strong>煙 ➔ <code>yen</code></strong>
+這個字聽起來像「ㄧㄢ」，其實是「ㄧㄝㄣ」。別寫成 <code>ian</code>——你看到 ian 會想到人名 Ian，唸成「Ee-un」兩個音節，台語那種一口氣的緊湊就散了。正解是借日圓的 <code>yen</code>：在你腦裡是個結結實實的單音節「ㄧㄝㄣ」，一唸就對。例字：煙火 <code>yen hue\</code>。</p>
+<blockquote>
+<p>為什麼特別點出這兩個字不同？因為很多台灣人被華語帶著，把「煙」唸成鬆散的「ㄧ－ㄢ」兩截，又跟口語的「熏」混在一起。分清楚：熏是熏（hoon）、煙是煙（yen），各是各的。</p>
+</blockquote>
+<h3>4.4 順帶一提：有些字，台語一個字有文、白兩種唸法</h3>
+<p>上面熏、煙是「兩個字」；但台語裡確實也有「同一個字、文讀白讀兩種音」的情況，而且白讀常保留了古音。兩個好例子：</p>
+<ul>
+<li><strong>分</strong>：文讀 <code>hoon</code>、白讀 <code>ppoon</code>（ㄅㄨㄣ）。白讀那個 ppoon 保留了「古無輕唇音」的老讀法——是 ㄅ，不是後起的 ㄈ。</li>
+<li><strong>芳</strong>：文讀 <code>hong</code>、白讀 <code>pahng</code>。</li>
+</ul>
+<p>同一個字、兩種讀法，看場合用。這不是我們發明的，是台語本來就有的文白層次；我們只是照實把兩種音都記下來，不讓華語的習慣把它抹成一種。</p>
+<hr />
+<p><a id="r-fu"></a></p>
+<h2>五、複母音：ㄞ、ㄠ 與 ㄨ 開頭的一家</h2>
+<p>這一組是「兩、三個母音滑在一起」的音，多半可以借英文現成的音，很好上手。</p>
+<p>先看兩個最基本的：</p>
+<ul>
+<li><strong>ㄞ ➔ <code>ai</code></strong>：借你早就會的國際地名——<strong>Tai</strong>wan、<strong>Tai</strong>pei、<strong>Thai</strong>、Ban<strong>zai</strong>，字尾 ai 一看就唸成標準的「ㄞ」。（<strong>別用 <code>ay</code></strong>：day、say、play 的 ay 你會唸成「ㄟ」——把「海」寫成 hay 就唸成「黑」了。）例字：台 <code>ttai~</code>、海 <code>hai\</code>。</li>
+<li><strong>ㄠ ➔ <code>ao</code></strong>：借 C<strong>iao</strong>、Macao 那個往「ㄛ」收的尾音，就是「ㄠ」。（<strong>別用 <code>au</code></strong>：英文 au 會唸成 ㄛ，autumn。）例字：狗 <code>kkao\</code>、餚 <code>hao_</code>。</li>
+</ul>
+<p>再來是 ㄨ 開頭這一家：</p>
+<ul>
+<li><strong>ㄨㄚ ➔ <code>ua</code></strong>：想著 g<strong>ua</strong>va（芭樂）、q<strong>ua</strong>ck 中段那個滑順的音。例字：花 <code>hua</code>、瓜 <code>kkua</code>。（字中別寫成 <code>wa</code>——像 hwa 會讓你太用力去咬那個 W 的嘴型，不如 hua 順；不過字首的「蛙」單獨用 wa 沒問題。）</li>
+<li><strong>ㄨㄝ ➔ <code>ueh</code></strong>（接字變調時寫 <code>ue</code>）：既然 ㄝ 是 eh，那 ㄨ＋ㄝ 就用 <code>ueh</code>，借 "w<strong>edge</strong>" 那個短母音，穩穩鎖住「ㄨㄝ」，不會滑到「ㄨㄧ」去。例字：火 <code>hueh\</code>、話 <code>ueh+</code>。（別用 <code>oi</code>——早期有拼法寫 oi，但你會照 boy 唸成「ㄛㄧ」。）</li>
+<li><strong>ㄨㄧ ➔ <code>ui</code></strong>：借 s<strong>ui</strong>cide、fl<strong>ui</strong>d 中段，嘴唇先縮後開，正好是「ㄨㄧ」。例字：水 <code>tsui\</code>、鬼 <code>kkui\</code>。</li>
+<li><strong>ㄨㄞ ➔ <code>uai</code></strong>：其實就是 ua ＋ ai 接起來，借科威特 K<strong>uwai</strong>t 的感覺，一路滑到底。例字：歪 <code>uai</code>、乖 <code>kkuai</code>。</li>
+</ul>
+<blockquote>
+<p>這些複母音也都能鼻化——別忘了那條通則「所有聲母都可以鼻化」，連 ㄨㄞ 這種複韻母也不例外。例如檨（芒果）<code>snguai+</code>、牛擔的「牛」（套在牛頸上的彎木）<code>nguai\</code>，都是在 uai 前面加上鼻化開關，一開口就讓氣走鼻腔。</p>
+</blockquote>
+<hr />
+<p><a id="r-rip"></a></p>
+<h2>六、入聲韻尾：-p、-t、-k、-m ── 收尾音韻母</h2>
+<p>台語有一類音，收尾的方式很特別——像英文的 cat、cap、back，你唸到最後那個子音時，其實沒有把它「爆」出來，而是舌頭或嘴唇往那個位置一頂、氣就鎖住。台語把這種收尾叫<strong>入聲</strong>。先把一個常見的誤會拆掉：<strong>入聲說的是「怎麼收尾」，不是「唸多快多短」</strong>——毒 <code>ttawk+</code> 平平的中聲照樣拉得穩穩的。長短歸聲調管、收尾歸韻母管，兩件事各管各的。入聲的尾巴有四種：</p>
+<ul>
+<li><strong>-p</strong>（雙唇一閉）：像美式 t<strong>o</strong>p 收在閉嘴。壓 <code>ahp.</code>、答 <code>ttahp.</code></li>
+<li><strong>-t</strong>（舌尖抵齒）：像 ca<strong>t</strong> 收在舌尖。揮 <code>eht+</code>、一 <code>it.</code></li>
+<li><strong>-k</strong>（舌根縮喉）：像美式 ro<strong>ck</strong> 收在喉頭。毒 <code>ttawk+</code>、沃 <code>ahk.</code></li>
+<li><strong>-m</strong>（雙唇閉攏、氣走鼻腔）：像 ha<strong>m</strong>、hu<strong>m</strong> 收在閉唇的鼻音。啉 <code>lim</code>、淡 <code>ttahm+</code>。它跟前三種有一點不同：氣沒有被鎖死，改從鼻子續流——這個差別，聲調篇會派上用場。</li>
+</ul>
+<p>拼法很單純：韻母後面直接加上 p／t／k。h、aw、ong——各管各的母音，鎖法各不相同：ㄚ系鎖 h（<code>ahp</code>、<code>ahk</code>、<code>aht</code>），ㄛ系鎖 aw（<code>awp</code>、<code>awk</code>、<code>awt</code>），ong 是例外，讀音已經穩，直接用（不用鎖）。入聲（收尾音的）就照樣寫——看到就唸，尾巴一頂（或一閉）就收。</p>
+<p><strong>入聲字配聲調，入門先認四個基本款</strong>——兩個字、四個詞就到手：</p>
+<ul>
+<li>排骨 <code>kkut.</code>（<strong>輕聲</strong>：正中半拍，點一下就收）</li>
+<li>骨頭 <code>kkut\</code>（<strong>四聲</strong>：Sol→Mi，從高處滑落）</li>
+<li>法律 <code>lut+</code>（<strong>中聲</strong>：一拍 Mi，平平拉穩）</li>
+<li>律師 <code>lut_</code>（<strong>低聲</strong>：低平 Do，沉著走）</li>
+</ul>
+<p>同一個「骨」、同一個「律」，換一個詞就換一個聲調——收尾照舊鎖住，高度各走各的。這裡你只要記住一件事：<strong>入聲是韻母收尾的方式，不是一種聲調</strong>；那個句點是輕聲（管音長），跟入聲的 p／t／k（管收尾）兩回事，各管各的。而且這四個高度的來去，<strong>全照一般的變調規則走</strong>（聲調篇那張表）——入聲字不另立任何變調規則、沒有特別條款要背。（入聲字能唱的高度還不只這四個——完整的六調，聲調篇見。）</p>
+<hr />
+<p><a id="r-ng"></a></p>
+<h2>七、ng 當韻母：一個字裡沒有母音，鼻音自己撐起整個音節</h2>
+<p>在聲母篇，我們看過 ng 站在字首當聲母。這裡它換了個位置——<strong>當韻母</strong>，而且是很特別的一種：整個音節裡沒有一般的母音，就靠 ng 這個鼻音自己撐著。</p>
+<ul>
+<li><strong>聲母＋ng（ng 收在後面）</strong>：酸 <code>sng</code>、光 <code>kkng</code>。前面是聲母，後面直接接 ng，中間沒有母音——聲母發完，鼻音就收尾。</li>
+<li><strong>ng 自己就是一個字</strong>（前面連聲母都沒有）：黃 <code>ng~</code>（三聲）、央 <code>ng</code>（一聲）。</li>
+</ul>
+<p>聽起來很玄「沒有母音怎麼發音」，但其實你並不陌生——<strong>華語裡也有這種音</strong>，比如「僧」（ㄙㄥ），那個 ㄥ 就是靠鼻音撐著、沒有另外的母音。差別只在：華語使用者天天在用卻沒意識到，而對只講英語的人，這確實是個新的動作，得靠音檔多聽幾次抓感覺。</p>
+<p>發這種音有個好用的小訣竅——<strong>哼歌法</strong>：閉著嘴哼一段旋律（那個「嗯～」就是純鼻音），哼順了，把嘴微微張開、牙齒放鬆，讓聲音從鼻腔透出來，就是台語這個 ng 韻的感覺了。</p>
+<blockquote>
+<p>一個補充，也是台語很自然的一件事：<strong>所有的聲母，其實都可以鼻化。</strong> 你不必去背哪些字鼻化、哪些不鼻化——需要鼻化時，就用聲母篇教過的「前置開關」（把鼻音擺在最前面，一開口就讓氣走鼻腔），套上去就對了。鼻化不是一長串要背的例外，是一個可以隨時打開的開關。</p>
+</blockquote>
+<p>順帶補一個同族的音：<strong>m 也能自成音節</strong>——就是你閉著嘴應人的那聲「嗯（Mm-hm）」。例：毋 <code>m+</code>（不）。它和 ng 一樣不需要母音，鼻音自己撐起整個字。</p>
+<hr />
+<h2>八、ng 總整理：同一個 ng，四種站位</h2>
+<p>總判準一句：<strong>ng 後面還有沒有母音要滑進去？</strong> 有→它在當聲母；沒有→它在當韻母。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>角色</th>
+<th>位置</th>
+<th>例字</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>一</td>
+<td>字首鼻音聲母</td>
+<td>ng 起頭、後接母音</td>
+<td>碗 <code>ngua\</code>、迎 <code>ngia~</code>、影 <code>ngia\</code></td>
+</tr>
+<tr>
+<td>二</td>
+<td>鼻化聲母</td>
+<td>聲母＋ng＋母音</td>
+<td>聲 <code>sngia</code>、聽 <code>tngia</code>、雅 <code>gngah\</code></td>
+</tr>
+<tr>
+<td>三</td>
+<td>字尾鼻韻尾</td>
+<td>收在字尾</td>
+<td>通 <code>tong</code>、酸 <code>sng</code>、光 <code>kkng</code></td>
+</tr>
+<tr>
+<td>四</td>
+<td>自成音節</td>
+<td>ng 就是整個字</td>
+<td>黃 <code>ng~</code>、央 <code>ng</code></td>
+</tr>
+</tbody>
+</table>
+<p>發音抓手：字首用 <strong>song-ah 訣竅</strong>（唸順 "song-ah"、咬掉 s）；自成音節用<strong>哼歌法</strong>（閉嘴哼「嗯～」再微微張嘴透出來）。定錨一律想 song、long，別想 sing、king。</p>
+<hr />
+<h2>九、韻母篇 ─ 定案總表</h2>
+<table>
+<thead>
+<tr>
+<th>注音</th>
+<th>美拼</th>
+<th>🟢 定錨</th>
+<th>🛑 不用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ㄚ</td>
+<td><code>ah</code></td>
+<td>Bahamas</td>
+<td>a（→ㄟ）</td>
+</tr>
+<tr>
+<td>ㄛ開</td>
+<td><code>aw</code></td>
+<td>law · saw</td>
+<td>o（→ㄡ）</td>
+</tr>
+<tr>
+<td>ㄛㄎ入</td>
+<td><code>awk</code></td>
+<td>hawk</td>
+<td>ok（→ㄚ）、ook（→ㄨ）</td>
+</tr>
+<tr>
+<td>入聲 -p/-t/-k</td>
+<td>ㄚ系 <code>ahp</code>·<code>aht</code>·<code>ahk</code>；其餘裸寫（<code>ip</code>·<code>it</code>·<code>ik</code>…）</td>
+<td>美式 t<strong>o</strong>p·p<strong>o</strong>p ／ h<strong>o</strong>t·p<strong>o</strong>t ／ r<strong>o</strong>ck·l<strong>o</strong>ck 收尾（美式 o＝ㄚ）</td>
+<td>別照 cap／cat／back 唸（æ 不是ㄚ）</td>
+</tr>
+<tr>
+<td>ㄜ</td>
+<td><code>uh</code></td>
+<td>huh · duh</td>
+<td>er/ur（捲舌）</td>
+</tr>
+<tr>
+<td>ㄝ</td>
+<td><code>eh</code></td>
+<td>bed · egg</td>
+<td>e（→ㄧ）</td>
+</tr>
+<tr>
+<td>ㄧ主</td>
+<td><code>ee</code></td>
+<td>see · bee</td>
+<td>i（→ㄞ）</td>
+</tr>
+<tr>
+<td>ㄨ</td>
+<td><code>u</code></td>
+<td>tofu</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄧㄜ</td>
+<td><code>yuh</code></td>
+<td>（y 滑音＋uh）</td>
+<td>iuh（u→ㄨ）</td>
+</tr>
+<tr>
+<td>ㄧㄚ</td>
+<td><code>ia</code></td>
+<td>piano</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄧㄨ</td>
+<td><code>iu</code></td>
+<td>view</td>
+<td>ew</td>
+</tr>
+<tr>
+<td>ㄧㄠ</td>
+<td><code>iao</code></td>
+<td>Ciao</td>
+<td>iau（→ㄧㄛ）</td>
+</tr>
+<tr>
+<td>ㄞ</td>
+<td><code>ai</code></td>
+<td>Taiwan</td>
+<td>ay（→ㄟ）</td>
+</tr>
+<tr>
+<td>ㄢ</td>
+<td><code>ahn</code></td>
+<td>swan · Milan</td>
+<td>mahn/pahn（→扁 /æ/）</td>
+</tr>
+<tr>
+<td>ㄧㄣ</td>
+<td><code>in</code></td>
+<td>pin · bin</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄨㄣ</td>
+<td><code>oon</code></td>
+<td>moon · spoon</td>
+<td>un（→ㄢ）</td>
+</tr>
+<tr>
+<td>ㄧㄝㄣ</td>
+<td><code>yen</code></td>
+<td>（日圓）yen</td>
+<td>ian（拆成Ee-un）</td>
+</tr>
+<tr>
+<td>ㄨㄚ</td>
+<td><code>ua</code></td>
+<td>guava</td>
+<td>wa（字中）</td>
+</tr>
+<tr>
+<td>ㄨㄝ</td>
+<td><code>ueh</code>/<code>ue</code></td>
+<td>wedge</td>
+<td>oi（→boy）</td>
+</tr>
+<tr>
+<td>ㄨㄧ</td>
+<td><code>ui</code></td>
+<td>suicide · fluid</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄨㄞ</td>
+<td><code>uai</code></td>
+<td>Kuwait</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄥ韻母</td>
+<td><code>ng</code></td>
+<td>song（後腔鼻音）</td>
+<td>sing（尾音前移成ㄣ）</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>台語沒有 ㄧㄛ、沒有純 ㄣ、沒有 ㄟ、也沒有 ㄡ（ㄡ＝ㄛㄨ，雙母音）</strong>——這些都是被華語視覺綁架後的偽音。美系版的任務，就是剝掉漢字的視覺欺騙，用肌肉記憶還原真正的台語母音。</p>
+</blockquote>
+<hr />
+<p><a id="r-more"></a></p>
+<h2>十、其餘韻母定案總表</h2>
+<p>前面各節教的是最常用、也最容易踩雷的韻。其餘韻母的定案一次列齊——規則全是你已經會的積木，一條通則先記住：<strong>零聲母時，ㄧ介音寫 y</strong>（ia→ya、iao→yao、iam→yahm、iang→yahng、iong→yong、iok→yok、iu→yu）；但 in、ing 的 i 是韻腹，不改 y。</p>
+<p>唯一例外：<strong>g 後的介音 y 改寫 i</strong>——gy 在美語幾乎必讀 dʒ（gym、gyro），gi 有 give、gift 撐住硬 g。尿 <code>giuh+</code>（ㄍㄏㄧㄜ+），不寫 gyuh+。</p>
+<table>
+<thead>
+<tr>
+<th>注音</th>
+<th>美拼</th>
+<th>🟢【用】錨點</th>
+<th>🛑【不用】踩雷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ㄤ</td>
+<td><code>ahng</code></td>
+<td>美式 K<strong>o</strong>ng·g<strong>o</strong>ng 收尾（o＝ㄚ）</td>
+<td>別照 bang／hang 唸（æ 不是ㄚ）</td>
+</tr>
+<tr>
+<td>ㄛㄥ</td>
+<td><code>ong</code></td>
+<td>s<strong>ong</strong>／l<strong>ong</strong> 的後腔（通 <code>tong</code>）</td>
+<td>不用 ung、eng</td>
+</tr>
+<tr>
+<td>ㄧㄥ</td>
+<td><code>ing</code></td>
+<td>i＋ng（ng＝ㄥ，song 後腔）</td>
+<td>韻腹 i 不改 y；見「ng 視為ㄥ」鐵則</td>
+</tr>
+<tr>
+<td>ㄧㄤ</td>
+<td><code>iang</code></td>
+<td>零聲母寫 yahng</td>
+<td>撞英語 yang，加 h 斷開</td>
+</tr>
+<tr>
+<td>ㄧㄛㄥ</td>
+<td><code>iong</code></td>
+<td>long 效應：忠 <code>ttiong</code>；零聲母寫 yong（be<strong>yond</strong>，勇 <code>yong</code>）</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄨㄢ</td>
+<td><code>uan</code></td>
+<td><strong>Quan</strong>tum</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄨㄤ</td>
+<td><code>uang</code></td>
+<td>沿用</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄛㄇ</td>
+<td><code>awm</code></td>
+<td>aw（law 的ㄛ）＋閉唇 m</td>
+<td>不用 om（→ㄚㄇ Mom、bomb）；不用 oom（→ㄨㄇ room、zoom）</td>
+</tr>
+<tr>
+<td>ㄧㄚㄇ</td>
+<td><code>iam</code></td>
+<td>i＋am；零聲母寫 yahm（醃 <code>yahm</code>）</td>
+<td>撞英語 yam（æ），故零聲母加 h</td>
+</tr>
+<tr>
+<td>ㄚㄊ</td>
+<td><code>aht</code></td>
+<td>美式 h<strong>o</strong>t、p<strong>o</strong>t 收尾</td>
+<td>ㄚ全時寫 ah；別照 cat 唸（æ 不是ㄚ）</td>
+</tr>
+<tr>
+<td>ㄧㄆ</td>
+<td><code>ip</code></td>
+<td>字尾 p 直接閉唇</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄧㄊ</td>
+<td><code>it</code></td>
+<td>s<strong>it</strong> 的短 i＋t 截斷</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄧㄎ</td>
+<td><code>ik</code></td>
+<td>s<strong>ick</strong> 的 [ɪk]——短 i 剛好貼近台語入聲</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ㄧㄛㄎ</td>
+<td><code>iok</code></td>
+<td>陸 <code>liok+</code>；零聲母寫 yok（約 <code>yok</code>）</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p><strong>aht＝美式 hot、pot 收尾那一口</strong>——美式的 o 在這裡正是開口的ㄚ。h 是ㄚ的保險絲，<strong>全時上工</strong>：ㄚ＝<code>ah</code>，一條到底——開尾寫 ah，收 t／p／k 照樣寫 ah，看到 ah 就是ㄚ，永不變質。別照英語 at 的直覺唸（cat 那個 a 是扁嘴的 æ，不是ㄚ）。例：擷 <code>aht.</code>（韻母本尊自成一字）、八 <code>ppaht.</code>（清入落輕）、乏 <code>haht+</code>（濁入落中——唸法照 hot，拼式自己就是它的耳朵轉寫）。</p>
+<p>同一條定律管到整排入聲：<strong>美式的 o 在 p／t／k 前都是開口的ㄚ</strong>——top＝ㄊㄚㄆ（<code>ahp</code>）、hot＝ㄏㄚㄊ（<code>aht</code>）、rock＝ㄖㄚㄎ（<code>ahk</code>）。也正因如此，ㄛ的入聲<strong>絕不能寫 ok</strong>：美式嘴會把它唸成ㄚㄎ——所以ㄛ入聲寫 <code>awk</code>，錨在 h<strong>aw</strong>k（見 3.1）。</p>
+<p><strong>ng 視為ㄥ——系統鐵則。</strong> 美拼的雙字母積木讀什麼，由系統說了算，不由英語詞說了算：tt＝ㄉ、aw＝ㄛ、ee＝ㄧ，同理 <strong>ng＝ㄥ（song 的後腔）</strong>，寫在哪裡都是它。所以 sing 不是英語那個 sing——它是 s＋i＋ng 三塊積木：ㄒ＋ㄧ＋ㄥ＝ㄒㄧㄥ。酸 <code>sng</code> 的 ng 是它、升 <code>sing</code> 的 ng 也是它，不因前面多了個 i 就變質。</p>
+<p><strong>聽辨對立組：新 <code>sin</code> ／ 升 <code>sing</code></strong>——兩個字只差收尾位置：sin 收在舌尖（n）、sing 收在 song 的後腔（ng）。唸 sing 時別讓英語 -ing 的老習慣把尾音拉到牙齦前面來；讓 ng 留在喉後，新、升就永遠分得開。</p>
+<p>（我們的韻母到此收齊。教育部把 -h 尾也列成韻尾的那批，不在此列——美拼沒有 -h 韻尾，那些字是開音節，前面說過了。）</p>
+<hr />
+<p><em>韻母篇完。（入聲不另立一篇——入聲的韻尾拼法就在本篇各處，而「入聲六調、輕聲必標」屬聲調的事，歸聲調篇；用這樣的編排本身說明：入聲是韻母，不是一種聲調。）下一篇：聲調篇。</em></p>
+<hr />
+<h1><a id="ch5"></a>聲調篇（完整版）</h1>
+<h3>你最擅長的一篇</h3>
+<blockquote>
+<p>前面〈初識〉只讓你認得符號；這一篇要真正帶你把七個聲調唱準、把字連起來時的變調也搞定。而這，正是你這個「從小泡在旋律裡的耳朵」最佔便宜的地方。</p>
+</blockquote>
+<hr />
+<h2>一、聲調就是音高，而音高你天生就會</h2>
+<p>很多人一聽「聲調」就怕，覺得那是外語裡最玄的東西。但對你來說，它一點都不玄——<strong>台語的聲調，本質上就是唱歌的音高高低。</strong> 你會哼旋律、分得出一個音比另一個高還是低，你就已經有了學台語聲調的全部本錢。</p>
+<p>華語使用者學聲調，得去背「第幾聲、調值多少」；你不必。你只要把它當成三個音階上的遊戲：<strong>Do（低）、Mi（中）、Sol（高）</strong>。七個聲調，全是在這三個高度之間移動或停留而已。</p>
+<hr />
+<h3>開口前，先看調號——一個省掉一半錯誤的小動作</h3>
+<p>像 <code>see+</code>（是）這種拼式，字母的部分你太熟了——英語的 see 有它自己的習慣音高：句尾會下沉、強調會上揚。直接開口，英語的舊習慣就會挾持這個字的高度。</p>
+<p>所以順序要反過來：<strong>眼睛先落在調號上</strong>。看到 <code>+</code>，先把音高架在正中的 Mi，然後才讓 see 的聲音從那個高度出來——<code>see+</code>，一拍平平的中聲。</p>
+<p>字母管「發什麼音」，符號管「在哪個高度發」。先定高度、再放聲音，英語的直覺就只借它該借的那一半。</p>
+<h2>二、七個聲調，一個一個唱給你聽</h2>
+<p>我們用 Do-Mi-Sol 當座標，配上你熟悉的英文語氣，把七個聲調逐一抓準。抓法不談語言學，談<strong>身體</strong>——三個平調各有一個身體開關，開對了，音高自己會到位。</p>
+<p><strong>低聲｜沉到底的 Do｜<code>_</code></strong>
+身體開關：<strong>胸腔共鳴（Chest voice）</strong>。把聲音放低、從胸口出來，像你輕輕清喉嚨的那個低平音；想像整個人往下坐進一張很矮的椅子，眼神跟著往下沉 👇。</p>
+<p><strong>中聲｜平平的中音 Mi｜<code>+</code></strong>
+身體開關：<strong>Robot voice</strong>。眼睛看正前方 👁️，不高不低、面無表情，勇敢地把聲音平平往前推。<strong>這就是台語講話的習慣音階</strong>——一句話裡沒事就待在這裡，而且它剛好接近你講英語的中性音高——你開口之前，聲音本來就停在這附近。</p>
+<p><strong>一聲｜停在高音 Sol｜不加符號</strong>
+身體開關：<strong>頭腔共鳴（Head voice）</strong>。想像聲音從頭頂發出來，眼睛往上看 👆——比中聲高一階，平平地吊在那裡。注意：它<strong>不是</strong>你平常講話的高度——比那高一階，而英語口語裡幾乎沒有「吊高又拉平」的音，所以用唱的去找它，別用講的去找。它不加符號，是隨中文的老習慣——注音的一聲本來就不標調號，這裡照舊。看到光禿禿沒符號的，就是它。特別提醒美國朋友：這是一個要刻意建立的新習慣——英文裡「沒有記號」等於照平常講，這裡「沒有記號」等於吊上 Sol。看到空空的，不是放鬆，是升 Key。</p>
+<p><strong>二聲｜由中往上揚｜<code>/</code></strong>
+從中音往上升——就是你沒聽清楚時反問的 "Huh?"：起點中音、尾巴挑上去，這個輪廓天生就是二聲。它其實在台語裡很少當本調用，多半出現在你「加強語氣」的時候（後面講變調會再遇到它）。符號 <code>/</code> 就是往上的方向。</p>
+<p><strong>三聲｜先沉下去、再往上勾｜<code>~</code></strong>
+這個最有味道：先沉到低點，再從低點往上勾起來。像你聽別人講八卦、饒富興味地回一聲 "Uh-huh?"（尾巴往上挑）。符號 <code>~</code> 的波浪，就是它先下後上的樣子。</p>
+<p><strong>四聲｜音高從高滑落（5→3）｜<code>\</code></strong>
+音高從 5 滑落到 3。錨在你天生就會的一句話——斬釘截鐵拒絕人的 <strong>"No."</strong>：起得高、落得快、不回頭；"Stop." 同一個走向。借它的音高輪廓，<strong>別借它的嘴型</strong>——no 的母音是ㄡ系滑音，韻母照各字自己的走。滑的是音高，不是力氣，也不必短。符號 <code>\</code> 的形狀就是它下滑的軌跡。</p>
+<p><strong>輕聲｜半拍就收（音長砍半）｜<code>.</code></strong>
+不強調、快速帶過的音，像鋼琴的跳音（staccato），點一下就放掉。符號就是一個小點。</p>
+<p><strong>七聲調譜調圖</strong>——七個聲調住在哪個高度、往哪裡走，一張圖看完：</p>
+<div style="max-width:960px;margin:0.5rem auto 1.5rem">
+<svg viewBox="0 0 885 470" xmlns="http://www.w3.org/2000/svg" font-family="Noto Serif TC, serif"><rect width="885" height="470" fill="#F4EDDE"/>
+ <defs>
+  <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+   <path d="M0,0 L10,5 L0,10 z" fill="#C43A26"/>
+  </marker>
+ </defs>
+ <!-- 五度線 -->
+ <g stroke="#D8CCB4" stroke-width="2" stroke-dasharray="7 6">
+  <line x1="70" y1="90"  x2="820" y2="90"/>
+  <line x1="70" y1="160" x2="820" y2="160"/>
+  <line x1="70" y1="230" x2="820" y2="230"/>
+  <line x1="70" y1="300" x2="820" y2="300"/>
+  <line x1="70" y1="370" x2="820" y2="370"/>
+ </g>
+ <g font-size="32" font-weight="900">
+  <text x="36" y="101"  fill="#C43A26">5</text>
+  <text x="38" y="171"  fill="#B9AE9A">4</text>
+  <text x="36" y="241"  fill="#C43A26">3</text>
+  <text x="38" y="311"  fill="#B9AE9A">2</text>
+  <text x="36" y="381"  fill="#C43A26">1</text>
+ </g>
+ <!-- 停調 -->
+ <g stroke="#C43A26" stroke-width="4.5" marker-end="url(#ar)">
+  <line x1="88"  y1="370" x2="192" y2="370"/>
+  <line x1="230" y1="230" x2="334" y2="230"/>
+  <line x1="372" y1="90"  x2="476" y2="90"/>
+ </g>
+ <g font-size="27" font-weight="900" fill="#101C2B">
+  <text x="88"  y="349">低聲 ㄚ_ <tspan fill="#C43A26">ah_</tspan></text>
+  <text x="230" y="209">中聲 ㄚ+ <tspan fill="#C43A26">ah+</tspan></text>
+  <text x="372" y="69">一聲 ㄚ <tspan fill="#C43A26">ah</tspan></text>
+ </g>
+ <!-- 滑調 -->
+ <g stroke="#C43A26" stroke-width="4.5" marker-end="url(#ar)">
+  <line x1="500" y1="230" x2="580" y2="94"/>
+  <line x1="600" y1="370" x2="680" y2="234"/>
+  <line x1="700" y1="90"  x2="780" y2="226"/>
+ </g>
+ <g font-size="27" font-weight="900" fill="#101C2B">
+  <text x="478" y="262">二聲 ㄚˊ <tspan fill="#C43A26">ah/</tspan></text>
+  <text x="588" y="402">三聲 ㄚˇ <tspan fill="#C43A26">ah~</tspan></text>
+  <text x="700" y="66">四聲 ㄚˋ <tspan fill="#C43A26">ah\</tspan></text>
+ </g>
+ <line x1="790" y1="230" x2="820" y2="230" stroke="#C43A26" stroke-width="4.5" marker-end="url(#ar)"/>
+ <text x="742" y="282" font-size="27" font-weight="900" fill="#101C2B">輕聲 ㄚ˙ <tspan fill="#C43A26">ah.</tspan></text>
+ <!-- 譜調軸 -->
+ <g font-size="26" fill="#101C2B">
+  <text x="34"  y="440" fill="#2E6E4E" font-weight="900">譜調</text>
+  <text x="118" y="440">do 1</text>
+  <text x="258" y="440">mi 3</text>
+  <text x="398" y="440">sol 5</text>
+  <text x="496" y="440"><tspan text-decoration="underline">35</tspan> 中升</text>
+  <text x="596" y="440"><tspan text-decoration="underline">13</tspan> 低升</text>
+  <text x="696" y="440"><tspan text-decoration="underline">53</tspan> 高降</text>
+  <text x="790" y="440"><tspan text-decoration="underline">3</tspan> 短</text>
+ </g>
+ </svg>
+</div>
+
+<blockquote>
+<p>小訣竅：先把 <strong>Do（低聲 <code>_</code>）、Mi（中聲 <code>+</code>）、Sol（一聲，無符號）</strong> 這三個「停著不動」的音唱穩，再練那三個「會滑動」的——二聲往上 <code>/</code>、四聲往下 <code>\</code>、三聲先下後上 <code>~</code>。停的先穩，動的就好抓了。</p>
+</blockquote>
+<p>然後，練法就一招——<strong>台語的練聲音階</strong>。用同一個 <code>ah</code>，照固定順序把七個調唱一輪：</p>
+<p><strong><code>ah_ ah+ ah ah/ ah~ ah\ ah.</code></strong>（低、中、一、二、三、四、輕）</p>
+<p>像練音階一樣天天唱，唱到不用想；唱穩了，換成帶聲母的再練一輪（<code>kkah_ kkah+ kkah kkah/ kkah~ kkah\ kkah.</code>）。這一串唱熟了，你耳朵裡就有了<strong>七個刻度</strong>——往後聽到台語人說「紅紅紅」（紅得不得了）<strong><code>ahng/ ahng+ ahng~</code></strong>，你會分辨得出三個一樣的字唱在三個不同的高度：第一個紅，正是那個平常不當本調、只在加強語氣時現身的二聲 <code>/</code>；中間的紅在中聲；最後一個紅，守著它先沉後揚的三聲本調。聽得出這三格的那一刻，聲調就真正是你的了。</p>
+<hr />
+<h2>三、一個很關鍵的釐清：三聲不是華語的第二聲</h2>
+<p>這是華語使用者最容易帶錯、也最值得你一開始就聽清楚的一點。</p>
+<p>華語的第二聲（像「來 lái」），是<strong>從中間往上揚</strong>——起點在中音。台語的三聲不一樣：它<strong>從最低點起步，先沉再揚</strong>，起點壓在 Do 那麼低。兩者聽起來差很多。</p>
+<p>用個你抓得到的感覺：華語二聲像單純地把手往上舉；台語三聲像先蹲下去、再跳起來。台語很多字的本調都是這個「先沉後揚」的三聲——例如紅、寒、茶。（其實你可以先記一個粗略但好用的方向：<strong>華語裡讀第二聲的字，到台語大多變成這個三聲。</strong> 這不是百分之百，但當個起點很夠用。）</p>
+<p>至於那個「由中往上」的二聲（華語二聲的走法），在台語裡反而少見，主要出現在你<strong>加強語氣、特別強調</strong>的時候。所以如果你發現自己把台語每個字都唱成華語二聲那種上揚，多半是走錯了——大多數時候，你要的是先沉後揚的三聲。</p>
+<hr />
+<p><em>聲調篇（上）· 完。下一段：變調——字和字連起來時，聲調會變，但只要記一句口訣就夠（不必像別的系統背一長串數字）；以及入聲字的聲調、輕聲為什麼一定要標出來。</em></p>
+<hr />
+<h2>四、變調：字連起來時聲調會變，但你只要記一句話</h2>
+<p>台語有個現象你得先有心理準備：<strong>一個字單獨唸是一個調，但把它擺進一串字裡（不是最後一個字），它的聲調會變。</strong> 這叫變調。</p>
+<p>聽起來很麻煩？別的拼音系統確實把它搞得很麻煩——要你背一長串數字順序。但在這裡，你只要記一句話：<strong>「低調個性，一個重點。」</strong> 這句話背後是很順的物理直覺，記住感覺就不用死背。</p>
+<p><strong>低調個性 ── 能量一路往下沉</strong></p>
+<p>想像聲音的能量會自然往下掉：高的往中掉、中的往低掉。</p>
+<ul>
+<li>一聲（高）→ 變中聲</li>
+<li>中聲 → 變低聲</li>
+<li>低聲（已經到底了）→ 沉無可沉，物極必反，彈起來變成從高滑落的四聲</li>
+<li>輕聲 → 也是彈成四聲</li>
+</ul>
+<p>一句話：本來高高的，變調時就往下沉一階；沉到底了，就反彈成四聲。這就是「低調個性」——個性低調、能量往下走。</p>
+<p><strong>一個重點 ── 兩個重點的滑動調，省音成一個重點的平調</strong></p>
+<p>四聲和三聲是「會滑動」的調。一個滑動調身上有<strong>兩個音高重點</strong>——起點和終點（用音高刻度記：5 最高、1 最低）：四聲的譜是 <strong>53</strong>（從 5 滑落到 3，兩個重點）；三聲的譜是 <strong>113</strong>（先沉在 1、再揚到 3，兩個重點）。變調時發生的事叫<strong>省音</strong>：把兩個重點，省成<strong>一個</strong>——</p>
+<ul>
+<li>四聲（53，兩個重點）→ 省音只留一個重點、取 <strong>5</strong> → 平平停在高音的一聲</li>
+<li>三聲（113，兩個重點）→ 省音只留一個重點、取 <strong>3</strong> → 平平停在中音 Mi 的中聲</li>
+</ul>
+<p>注意：省音省的是<strong>重點的數量</strong>，不是力氣——滑動調收攏成平調，音沒有偷懶，只是安分停在一個高度上。這就是「一個重點」——變調之後，一個字只剩一個音高重點。</p>
+<p><strong>二聲呢？</strong> 二聲不在這套裡。它不是正常變調變出來的——它只在你「特別強調、加重語氣」時才冒出來（例如疊字強調的第一個字、對親密的人撒嬌）。平常正常講話的變調，不會產生二聲。所以你練變調時，先不用管它。</p>
+<blockquote>
+<p>這一句「低調個性，一個重點」就搞定了台語的變調。（如果你哪天聽說別的系統要人背一串像「5→7→3→2→1」的密碼——那是另一套的作法，你不需要。你有一句順口溜就夠了。）</p>
+</blockquote>
+<hr />
+<h2>五、輕聲，一定要標出來</h2>
+<p>有一件事，別的系統常常做不到、我們特別在意：<strong>輕聲一定要清清楚楚標出來（那個小點 <code>.</code>）。</strong></p>
+<p>為什麼這麼堅持？因為輕聲是台語真實存在的一個聲調——很多字就是輕聲（半拍 Mi——長度砍半、高度落在中音）。如果不標，你根本不知道它是輕聲，就會把它唸成別的調，意思跟著跑掉。母語者靠直覺知道哪些字要唸輕，但你是學習者，你需要它明明白白寫在那裡。所以在這套系統裡，看到 <code>.</code>，就把音長砍半、點一下就收——收的是拍子，不是音量。</p>
+<p>補一句給聽慣舊講法的人：傳統教學常說「這裡唸<strong>輕</strong>一點、那裡唸<strong>重</strong>一點」——其實聲調從頭到尾只有兩個維度：<strong>音高、音長</strong>。輕聲的「輕」，是長度砍半；四聲的「重」，是音高下滑。力氣，從來不是聲調的維度。</p>
+<hr />
+<h2>六、入聲字有幾個調？——六個（教育部只標得出兩個）</h2>
+<p>前面韻母篇說過：入聲是「-p／-t／-k 收尾、氣被鎖住」的<strong>收尾方式</strong>——它不是聲調，也不一定短促；「<strong>收尾音韻母</strong>」才是正確的觀念。</p>
+<p>先劃清一條界線：<strong>「入聲」這個詞，我們和教育部指的範圍不一樣。</strong> 教育部把台羅寫 -h 尾的字（像「食 tsia̍h」）也全算成入聲；我們不認——美拼<strong>沒有 -h 韻尾</strong>，h 只是母音保險絲，那些字是普通的開音節，七個聲調照樣能配。本節說的入聲，僅指 -p／-t／-k／-m 四種真正的收尾音。界線劃清、觀念修正了，才記錄得了接下來這個事實。</p>
+<p>同一個 ㄍㄨㄊ <code>kkut</code>，在台語的日常詞裡，唱得出<strong>六種聲調</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>詞</th>
+<th>這個字</th>
+<th>聲調</th>
+<th>美拼</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>排骨</td>
+<td>骨</td>
+<td>輕聲（半拍 Mi）</td>
+<td><code>kkut.</code></td>
+</tr>
+<tr>
+<td>骨架</td>
+<td>骨</td>
+<td>四聲（5→3 下墜）</td>
+<td><code>kkut\</code></td>
+</tr>
+<tr>
+<td>排骨酥</td>
+<td>骨</td>
+<td>一聲（高音 Sol）</td>
+<td><code>kkut</code></td>
+</tr>
+<tr>
+<td>真滑</td>
+<td>滑</td>
+<td>中聲（一拍 Mi）</td>
+<td><code>kkut+</code></td>
+</tr>
+<tr>
+<td>滑溜</td>
+<td>滑</td>
+<td>低聲（低音 Do）</td>
+<td><code>kkut_</code></td>
+</tr>
+<tr>
+<td>滑滑滑</td>
+<td>滑（第一字）</td>
+<td>二聲（3→5 上揚）</td>
+<td><code>kkut/</code></td>
+</tr>
+</tbody>
+</table>
+<p>教育部說入聲只有兩個調（kut 和 ku̍t）——三個「骨」在他們的辭典裡標得一模一樣，點開他們<strong>自己的小喇叭</strong>，卻讀出三種高度。不必相信我們，自己聽：到教育部台語辭典搜「<a href="https://sutian.moe.edu.tw/zh-hant/chiau/?lui=tai_su&amp;cha=排骨">排骨</a>」「<a href="https://sutian.moe.edu.tw/zh-hant/chiau/?lui=tai_su&amp;cha=骨架">骨架</a>」「<a href="https://sutian.moe.edu.tw/zh-hant/chiau/?lui=tai_su&amp;cha=滑">滑</a>」「<a href="https://sutian.moe.edu.tw/zh-hant/chiau/?lui=tai_su&amp;cha=滑溜">滑溜</a>」，逐一點喇叭。</p>
+<p>所以入聲的練聲音階是<strong>六階</strong>：</p>
+<p><strong><code>kkut_ kkut+ kkut kkut/ kkut\ kkut.</code></strong>（低、中、一、二、四、輕）</p>
+<p>七個聲調裡唯一缺席的是<strong>三聲</strong>——三聲要先沉再揚地「轉音」。這不是塞音尾鎖死氣、轉不出來的問題：-p／-t／-k 系統上一樣配得出這個轉音，規則沒禁止；只是實務上翻遍字例，就是找不到一個塞音尾配三聲的真實詞。六，就是這麼來的——不是規則不准，是台語自己沒把這格用滿。（<strong>-m 不一樣</strong>：不但配得出，字例也真的有——南 <code>lahm~</code>。塞音尾 -p／-t／-k 缺的，是字例，不是規則。）</p>
+<p>一個入聲字，尾巴照樣鎖住，高度卻有六格可唱——你照著標出來的符號唱就對了，不必背「入聲只能配某幾個調」那種規則，因為那不是真的。</p>
+<hr />
+<h2>七、最好的練習：用台語歌抓聲調</h2>
+<p>最後給你一個最自然的練法：<strong>聽台語歌、跟著唱。</strong></p>
+<p>聲調本來就是音高，而歌把音高唱得清清楚楚、還幫你拉長、讓你有時間感覺。當你跟著一首台語歌唱，你其實就在反覆練習那些聲調的高低走向——尤其是那個「先沉後揚」的三聲，在歌裡拉長來唱，你一下就抓到它從低點升起來的味道了。</p>
+<p>比起對著調值表死記，讓旋律帶著你的耳朵和喉嚨去記，輕鬆得多，也記得牢。這，又是你的主場。</p>
+<p>再送你一個彩蛋：把低聲拉長不放手——<code>see___</code>——你就唱出了「鐵獅玉玲瓏」的雜唸調。低聲 Do，是台灣人耳朵裡最熟的頻道之一。（拖長用符號重複表示，只用在轉寫表演；正書標調類，不標長短。）</p>
+<hr />
+<p><em>聲調篇 · 完。你已經走完美拼最核心的三塊：聲母、韻母、聲調。接下來的〈拼音練習〉帶你把整套拼起來、真的讀出句子。</em></p>
+<hr />
+<h1><a id="ch6"></a>拼音練習</h1>
+<h3>把聲母、韻母、聲調拼起來，讀出十四句台語</h3>
+<blockquote>
+<p>前面你已經認得聲母、韻母、聲調符號了。這一篇不教新東西——只帶你把它們拼起來，看著字母，讀出一句一句道地的台語。原則只有一個：<strong>看到什麼，就唸什麼。</strong></p>
+<p>只補一條「連接號」的讀法：<strong>一個字後面掛著 <code>-</code>，表示它在這句話裡「變了一次調」</strong>——照聲調篇那句「低調個性，一個重點」滑一階（高的沉一階、費力的省成輕鬆的）。沒掛連接號的字，就唸它標的本調。誰變調、斷在哪，我們都替你標好了，照著唸，節奏就是口語的節奏。</p>
+</blockquote>
+<hr />
+<h2>第一組：遇到人（見面與客氣） <code>ttu\-ttyuh+-lahng~</code>｜ㄉㄨˋ-ㄉㄧㄜ+-ㄌㄤˇ</h2>
+<p><strong>1. 你好（Hello） <code>lee\-huh\</code>｜ㄌㄧˋ-ㄏㄜˋ</strong></p>
+<ul>
+<li><strong>你 <code>lee\</code></strong> — <code>l</code>（look）＋ <code>ee</code>（see 的「ㄧ」）；掛著 <code>-</code>，四聲變成一聲，<strong>停在高音</strong></li>
+<li><strong>好 <code>huh\</code></strong> — <code>h</code>（how）＋ <code>uh</code>（huh 的「ㄜ」）＋ <code>\</code> 本調往下墜</li>
+</ul>
+<p>一平一墜：你平平掛在高處，好從高處滑落下來，就是「你好」。</p>
+<p><strong>2. 逐位好（大家好） <code>ttahk+-eh~-huh\</code>｜ㄉㄚㄎ+-ㄝˇ-ㄏㄜˋ</strong></p>
+<ul>
+<li><strong>逐 <code>ttahk+</code></strong> — 鎖氣 tt ＋ 入聲 -k；中聲變成低聲（平平的 Do）</li>
+<li><strong>位 <code>eh~</code></strong> — 零聲母、純純的 eh（bed 的「ㄝ」）；三聲變一次，停在中聲。（「逐位」＝每一位；教育部寫成「逐家」，字亂寫、連音也亂帶）</li>
+<li><strong>好 <code>huh\</code></strong> — 本調從高滑落收尾</li>
+</ul>
+<p><strong>3. 多謝（Thank you） <code>ttuh-sia+</code>｜ㄉㄜ-ㄒㄧㄚ+</strong></p>
+<ul>
+<li><strong>多 <code>ttuh</code></strong> — 鎖氣 tt ＋ uh；一聲變成中聲</li>
+<li><strong>謝 <code>sia+</code></strong> — s 撞上 ia 自動抬成「ㄒ」；本調中聲</li>
+</ul>
+<p>兩個字都落在平平的中音 Mi，客客氣氣地收。</p>
+<p><strong>4. 歹勢（不好意思） <code>pngai\-seh_</code>｜ㄆㄥㄞˋ-ㄙㄝ_</strong></p>
+<ul>
+<li><strong>歹 <code>pngai\</code></strong> — 鼻化聲母登場：p ＋ ng ＋ ai，一開口先把氣轟進鼻腔；四聲變成一聲</li>
+<li><strong>勢 <code>seh_</code></strong> — s ＋ eh；本調低聲，沉到喉嚨底</li>
+</ul>
+<p><strong>5. 請坐 <code>chngia\-tseh+</code>｜ㄑㄥㄧㄚˋ-ㄗㄝ+</strong></p>
+<ul>
+<li><strong>請 <code>chngia\</code></strong> — ch（cheese）＋ ng 鼻化 ＋ ia；四聲變成一聲</li>
+<li><strong>坐 <code>tseh+</code></strong> — ts ＋ eh；本調中聲</li>
+</ul>
+<p><strong>6. 再會（Goodbye） <code>tsai_-hueh+</code>｜ㄗㄞ_-ㄏㄨㄝ+</strong></p>
+<ul>
+<li><strong>再 <code>tsai_</code></strong> — 低聲變一次：沉到底、物極必反，彈成從高滑落的四聲</li>
+<li><strong>會 <code>hueh+</code></strong> — h ＋ ueh（wedge 的「ㄨㄝ」）；本調中聲</li>
+</ul>
+<hr />
+<h2>第二組：食與飲（吃與喝） <code>tsia+ kkah.-lim</code>｜ㄐㄧㄚ+ ㄍㄚ˙-ㄌㄧㄇ</h2>
+<p><strong>7. 食飽未？（Have you eaten?—台灣人最常見的問候） <code>tsia+-ppah\ bueh+-</code>｜ㄐㄧㄚ+-ㄅㄚˋ ㄅㄏㄨㄝ+</strong></p>
+<ul>
+<li><strong>食 <code>tsia+</code></strong> — ts 接 ia 自動滑成「ㄐ」；中聲變成低聲，讀就是平平的 Do</li>
+<li><strong>飽 <code>ppah\</code></strong> — 鎖氣 pp ＋ ah；<strong>不掛連接號、讀本調</strong>——「食飽」是一個意思單位，飽是這個單位的末字，這個四聲把音高從 5 滑落到 3——滑的是音高，不是重音（問的正是「飽了沒」這個狀態）</li>
+<li><strong>未 <code>bueh+-</code></strong> — 濁音 b ＋ ueh；句末變一次調，讀單純的低聲（平平的 Do）收尾</li>
+</ul>
+<p>一句話裡三種待遇：食變調、飽守本調、未變調收尾——這就是台語口語的呼吸。</p>
+<p><strong>8. 食飯 <code>tsia+-ppng+</code>｜ㄐㄧㄚ+-ㄅㄥ+</strong></p>
+<ul>
+<li><strong>食 <code>tsia+</code></strong> — 變成低聲</li>
+<li><strong>飯 <code>ppng+</code></strong> — 鎖氣 pp ＋ ng 自成韻（光 kkng、酸 sng 的同族）；本調中聲</li>
+</ul>
+<p><strong>9. 好食（好吃） <code>huh\-tsia+</code>｜ㄏㄜˋ-ㄐㄧㄚ+</strong></p>
+<ul>
+<li><strong>好 <code>huh\</code></strong> — 四聲變成一聲，吊在高音</li>
+<li><strong>食 <code>tsia+</code></strong> — 本調中聲</li>
+</ul>
+<p>跟第 7 句對照：同一個「食」，在句首變調、在句尾守本調——位置決定一切。</p>
+<p><strong>10. 飲茶（喝茶） <code>lim-tteh~</code>｜ㄌㄧㄇ-ㄉㄝˇ</strong></p>
+<ul>
+<li><strong>飲 <code>lim</code></strong> — l ＋ im（-m 老實閉嘴收音）；一聲變成中聲。（正字「飲」；教育部寫「啉」）</li>
+<li><strong>茶 <code>tteh~</code></strong> — 鎖氣 tt ＋ eh ＋ <code>~</code>：先沉到 Do、再往上勾——三聲最有味道的示範</li>
+</ul>
+<hr />
+<h2>第三組：生活四句</h2>
+<p><strong>11. 很美（真漂亮） <code>tsin-sui\</code>｜ㄐㄧㄣ-ㄙㄨㄧˋ</strong></p>
+<ul>
+<li><strong>很 <code>tsin</code></strong> — ts ＋ in（pin）；一聲變成中聲。（正字「很」；教育部寫「真」）</li>
+<li><strong>美 <code>sui\</code></strong> — s ＋ ui（fluid 中段）；本調四聲往下墜。（美，白讀 sui\、文讀 bee\——就是「愛美毋驚流鼻水」那個美）</li>
+</ul>
+<p><strong>12. 讀書 <code>tahk+-cheh.</code>｜ㄊㄚㄎ+-ㄘㄝ˙</strong></p>
+<ul>
+<li><strong>讀 <code>tahk+</code></strong> — 送氣 t ＋ 入聲 -k；中聲變成低聲（平平的 Do）</li>
+<li>
+<p><strong>書 <code>cheh.</code></strong> — ch ＋ eh（保險絲 h 鎖住「ㄝ」）＋ 輕聲點：半拍就收。（cheh. 是「書」的白音，文音 su ㄙㄨ；「冊」是另一個字，音 chik.——教育部把書的白音寫成「冊」）</p>
+</li>
+<li>
+<p>順帶一看：讀的 -k 是入聲收尾、書的 h 是母音保險絲、句點是輕聲——三件事各管各的，全在這兩個字裡。</p>
+</li>
+</ul>
+<p><strong>13. 我知影（我知道） <code>gua\-tsai-ngia\</code>｜ㄍㄏㄨㄚˋ-ㄗㄞ-ㄥㄧㄚˋ</strong></p>
+<ul>
+<li><strong>我 <code>gua\</code></strong> — 濁音 g（go），聲帶一開口就振動；四聲變成一聲</li>
+<li><strong>知 <code>tsai</code></strong> — ts ＋ ai（Taiwan）；一聲變成中聲</li>
+<li><strong>影 <code>ngia\</code></strong> — ng 站上字首當聲母（song-ah 訣竅）；本調四聲收尾</li>
+</ul>
+<p><strong>14. 我是台灣人 <code>gua\-see+-ttai~-uan-lahng~</code>｜ㄍㄏㄨㄚˋ-ㄒㄧ+-ㄉㄞˇ-ㄨㄢ-ㄌㄤˇ</strong></p>
+<ul>
+<li><strong>我 <code>gua\</code></strong> — 變成一聲</li>
+<li><strong>是 <code>see+</code></strong> — s 配 ee 自動抬成「ㄒ」；中聲變成低聲（平平的 Do）</li>
+<li><strong>台 <code>ttai~</code></strong> — 三聲變一次，省掉上揚、停在中聲</li>
+<li><strong>灣 <code>uan</code></strong> — 零聲母；一聲變成中聲</li>
+<li><strong>人 <code>lahng~</code></strong> — l ＋ ang；本調三聲，先沉後揚，穩穩收住全句</li>
+</ul>
+<hr />
+<h2>第四組：常用例字表</h2>
+<p>句子讀順了，再帶三十個天天用得到的字回家。標的都是本調——放進句子裡，照聲調篇那張變調表走就對了。</p>
+<table>
+<thead>
+<tr>
+<th>字</th>
+<th>美拼</th>
+<th>注音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>一</td>
+<td><code>tsit+</code>／<code>it.</code></td>
+<td>ㄐㄧㄊ+／ㄧㄊ˙</td>
+</tr>
+<tr>
+<td>二</td>
+<td><code>gee+</code></td>
+<td>ㄍ<sub>ㄏ</sub>ㄧ+</td>
+</tr>
+<tr>
+<td>三</td>
+<td><code>sngah</code></td>
+<td>ㄙㄥㄚ</td>
+</tr>
+<tr>
+<td>四</td>
+<td><code>see_</code></td>
+<td>ㄒㄧ_</td>
+</tr>
+<tr>
+<td>五</td>
+<td><code>gaw+</code></td>
+<td>ㄍ<sub>ㄏ</sub>ㄛ+</td>
+</tr>
+<tr>
+<td>六</td>
+<td><code>lahk+</code></td>
+<td>ㄌㄚㄎ+</td>
+</tr>
+<tr>
+<td>七</td>
+<td><code>chit.</code></td>
+<td>ㄑㄧㄊ˙</td>
+</tr>
+<tr>
+<td>八</td>
+<td><code>ppeh.</code></td>
+<td>ㄅㄝ˙</td>
+</tr>
+<tr>
+<td>九</td>
+<td><code>kkao\</code></td>
+<td>ㄍㄠˋ</td>
+</tr>
+<tr>
+<td>十</td>
+<td><code>tsahp+</code></td>
+<td>ㄗㄚㄆ+</td>
+</tr>
+<tr>
+<td>水</td>
+<td><code>tsui\</code></td>
+<td>ㄗㄨㄧˋ</td>
+</tr>
+<tr>
+<td>火</td>
+<td><code>hueh\</code></td>
+<td>ㄏㄨㄝˋ</td>
+</tr>
+<tr>
+<td>山</td>
+<td><code>sngua</code></td>
+<td>ㄙㄥㄨㄚ</td>
+</tr>
+<tr>
+<td>雨</td>
+<td><code>haw+</code></td>
+<td>ㄏㄛ+</td>
+</tr>
+<tr>
+<td>風</td>
+<td><code>hong</code></td>
+<td>ㄏㄛㄥ</td>
+</tr>
+<tr>
+<td>飯</td>
+<td><code>ppng+</code></td>
+<td>ㄅㄥ+</td>
+</tr>
+<tr>
+<td>麵</td>
+<td><code>mee+</code></td>
+<td>ㄇㄧ+</td>
+</tr>
+<tr>
+<td>肉</td>
+<td><code>bah.</code></td>
+<td>ㄅ<sub>ㄏ</sub>ㄚ˙</td>
+</tr>
+<tr>
+<td>菜</td>
+<td><code>chai_</code></td>
+<td>ㄘㄞ_</td>
+</tr>
+<tr>
+<td>米</td>
+<td><code>bee\</code></td>
+<td>ㄅ<sub>ㄏ</sub>ㄧˋ</td>
+</tr>
+<tr>
+<td>茶</td>
+<td><code>tteh~</code></td>
+<td>ㄉㄝˇ</td>
+</tr>
+<tr>
+<td>糖</td>
+<td><code>tng~</code></td>
+<td>ㄊㄥˇ</td>
+</tr>
+<tr>
+<td>鹽</td>
+<td><code>yahm~</code></td>
+<td>ㄧㄚㄇˇ</td>
+</tr>
+<tr>
+<td>油</td>
+<td><code>yu~</code></td>
+<td>ㄧㄨˇ</td>
+</tr>
+<tr>
+<td>手</td>
+<td><code>chiu\</code></td>
+<td>ㄑㄧㄨˋ</td>
+</tr>
+<tr>
+<td>頭</td>
+<td><code>tao~</code></td>
+<td>ㄊㄠˇ</td>
+</tr>
+<tr>
+<td>心</td>
+<td><code>sim</code></td>
+<td>ㄒㄧㄇ</td>
+</tr>
+<tr>
+<td>錢</td>
+<td><code>tsngee~</code></td>
+<td>ㄐㄥㄧˇ</td>
+</tr>
+<tr>
+<td>車</td>
+<td><code>chia</code></td>
+<td>ㄑㄧㄚ</td>
+</tr>
+<tr>
+<td>路</td>
+<td><code>law+</code></td>
+<td>ㄌㄛ+</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>你已經在讀台語了</h2>
+<p>看，你剛剛讀出了十四句道地的台語——沒有背任何新符號，全靠你原本的英語直覺，加上會唱歌的耳朵。這就是這套拼音想給你的：<strong>看著字面，開口就對。</strong></p>
+<p>往後遇到任何一句，做法都一樣：把每個字拆成聲母、韻母，看誰掛著連接號，跟著符號的高低唱出來，再連起來。字認得越多，你會發現自己讀得越順——台語，本來就在你伸手可及的地方。</p>
+<hr />
+<p><em>拼音練習 · 完。</em></p>
+<hr />
+<h1><a id="ch7"></a>結語</h1>
+<h3>這不只是一套拼音，是一台引擎</h3>
+<hr />
+<h2>一、你手上這套，其實是「為你量身訂做」的</h2>
+<p>走到這裡，你已經會用美拼讀台語了。但有件事想在最後告訴你：<strong>這套拼音，表面上是「美系版」，骨子裡是一台可以不斷換裝的引擎。</strong></p>
+<p>它的結構是這樣的：</p>
+<blockquote>
+<p><strong>台語的本音（固定）→ 135 這台聲調與拆解引擎（固定）→ 依你的母語直覺，換上對應的字母與踩雷提醒（可替換）</strong></p>
+</blockquote>
+<p>最裡面兩層——台語真正的發音、還有 Do-Mi-Sol 那套聲調與變調的引擎——是<strong>永遠不動</strong>的。會變的，只有最外面那件「外衣」：<strong>這套拼音是講給誰的耳朵聽的。</strong></p>
+<p>你拿到的這件外衣，是為「英語母語者的直覺」裁的。同一個台語音，美國人穿一件、法國人穿另一件——因為各自要閃的盲讀地雷、能借的母語本能，完全不一樣。</p>
+<hr />
+<h2>二、換一種母語，就換一件外衣</h2>
+<p>舉個例子。哪天有個<strong>法國人</strong>想學台語，我們不必重寫一套系統——同一台引擎、同一套台語本音，只要把最外層的「錨點與踩雷」整個重畫，因為法語的發音直覺和英語差很多：</p>
+<ul>
+<li><strong>送氣／不送氣，難易剛好對調</strong>：法語的 p、t、k 本來就偏不送氣，你（美語使用者）辛苦用 spy、star、skate 才學會的那組音，法國人天生就會；反而是「送氣」那組，要另外教他們。</li>
+<li><strong>h 失效</strong>：法語的 h 不發音（hôtel），所以美系版用 h（how）教的「ㄏ」，對法國人完全無效——ㄏ 反而變成他們的難題。</li>
+<li><strong>鼻化變主場</strong>：讓你有點頭痛的那些鼻化音，對滿口鼻化母音的法國人（bon、vin、blanc）可能親切得不得了——美系版裡「最硬的骨頭」，在法文版說不定是「最容易的一塊」。</li>
+</ul>
+<p>同一台引擎，法國人、日本人、西班牙人……各印出一件合自己身的皮：</p>
+<blockquote>
+<p><strong>台語本音（固定）　→　135 聲調引擎（固定）　→　各國母語的外衣（可插拔）</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>外衣</th>
+<th>他們的雷（照母語直覺會誤讀的）</th>
+<th>他們的天生借力點（母語裡現成的台語元素）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🇺🇸 美語版（本冊）</td>
+<td>ph 讀成 /f/、e 讀成「ㄧ」、o 讀成「ㄡ」</td>
+<td>濁音 b、g 開口就有；Phonics 反射；do-mi-sol 的音樂耳朵</td>
+</tr>
+<tr>
+<td>🇫🇷 法文版</td>
+<td>h 不發音（ㄏ要另闢蹊徑）；ch 讀 /ʃ/；u 讀成 ü</td>
+<td>鼻化母音是日常（bon、vin、blanc）——台語鼻化音是送分題；不送氣 p、t、k 天生就會</td>
+</tr>
+<tr>
+<td>🇪🇸 西班牙文版</td>
+<td>h 不發音；j 讀成喉音 /x/；z 讀成 /s/ 或 /θ/</td>
+<td>五個母音乾淨穩定；濁音 b、d、g 開口就有；雙母音 ai、au 現成</td>
+</tr>
+<tr>
+<td>🇩🇪 德文版</td>
+<td>w 讀 /v/；ei 讀成「ㄞ」；字尾濁音自動清化（Tag 唸成 tak）</td>
+<td>z 天生讀 /ts/（「ㄗ」免教）；ng（singen）現成；字尾 -p/-t/-k/-m 收尾是母語日常（Tag、Stopp、am）——入聲的收尾動作現成</td>
+</tr>
+<tr>
+<td>🇯🇵 日文版</td>
+<td>沒有「ㄢ／ㄤ」之分——蘭 ㄌㄢˇ（-ahn）會唸成 人 ㄌㄤˇ（-ahng），蘭變成人；看到羅馬字自動套五十音節拍；l／r 不分</td>
+<td>促音「っ」＝入聲收尾動作的現成直覺；清濁對立（か／が）天生會；拍節感幫忙抓音長</td>
+</tr>
+</tbody>
+</table>
+<p>每一件外衣，雷點與借力點都長得不一樣——所以外衣<strong>不能翻譯，只能重裁</strong>。框架是現成的，每個新版本只需要一件事：<strong>一位對那個語言有母語級直覺的人，把錨點和踩雷重填一遍。</strong>（你手上這件英語版，正是這樣做出來的——一位把關台語本音的人，加上對英語 Phonics 的了解，兩邊合作打磨而成。表為示意；各版的實際拼式，屆時依該母語的發音反射另行定案。）</p>
+<hr />
+<h2>三、四套拼音，四種讀者</h2>
+<p>也因為這個「看外衣是為誰裁」的角度，你可以一眼看懂台語現有的幾套拼音各自是為誰而生的——沒有誰對誰錯，只是各有各的對象：</p>
+<ul>
+<li><strong>白話字（POJ）</strong>：為十九世紀的傳教士而生。</li>
+<li><strong>臺羅（Tâi-lô）</strong>：為語言學家、為學術標準而生。</li>
+<li><strong>漢語拼音</strong>：為說華語、要給漢字注音的人而生。</li>
+<li><strong>美拼</strong>：為你——只憑英語直覺、想開口說台語的人——而生。</li>
+</ul>
+<p>前三套的服務對象，都不是「今天的你」。這不是它們的錯，是它們生在不同的需要裡。而你這一套，是專門為了讓你「看到就唸對、開口就有信心」而打造的。</p>
+<hr />
+<h2>四、最後一句話</h2>
+<p>這套系統，也許讓你覺得學台語意外地輕鬆——聲調像唱歌、字母順著直覺、難的地方都拆成了小步。</p>
+<p>但請記得：<strong>這份「輕鬆」的背後，是有人替你把難的都擋掉了。</strong> 台語的每一個音、每一條變調、每一個為什麼不用某個字母的取捨，都是長年的琢磨、一個字一個字校出來的。你能輕易上手，是因為那些不容易的功夫，已經先替你做完了。</p>
+<blockquote>
+<p>莫將容易得，便作等閒看。</p>
+</blockquote>
+<p>願你循著這套拼音，第一次、清清楚楚地，用自己的聲音，唸出台語。</p>
+<hr />
+<p><strong>怪的從來不是台語，是音標。</strong></p>
+<p>孩子看無、老師難教、美語使用者卻步——美拼要做的，只是把這層「怪」剝掉：還台灣人一套看得懂的音標。世界，順路就進來了。</p>
+</div>
+</main>
+
+<footer>閩南語美語拼音教學手冊 · 135 拼音法國際美系版 · Hokkien Phonics<br>甲骨先生 × BryenHsu。例字讀音以母檔為準。</footer>
+<a class="backtoc" href="#toc">☰ 回到目錄</a>
+</body></html>
