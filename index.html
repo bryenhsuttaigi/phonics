@@ -3,8 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>閩南語拼音法 · 目錄</title>
-<meta name="description" content="閩南語135拼音法：注音版、美拼版（完整・一般・精簡），另有專為英語使用者撰寫的 Hokkien Phonics 三種版本。">
+<title>一起學閩南語（臺語）漢字</title>
+<meta name="description" content="還台灣人一套看得懂的音標；把漢字寫回它原本的生活裡。怪的從來不是台語，是音標。">
+<link rel="canonical" href="https://bryenhsuttaigee.github.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2213%22%20fill%3D%22%23101C2B%22%2F%3E%3Cg%20stroke%3D%22%23C9972B%22%20stroke-width%3D%223.4%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M13%2020h38M13%2032h38M13%2044h38%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M19%2045L32%2032%2045%2019%22%20fill%3D%22none%22%20stroke%3D%22%23C43A26%22%20stroke-width%3D%227%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="一起學閩南語（臺語）漢字">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://bryenhsuttaigee.github.io/">
+<meta property="og:title" content="一起學閩南語（臺語）漢字">
+<meta property="og:description" content="還台灣人一套看得懂的音標；把漢字寫回它原本的生活裡。怪的從來不是台語，是音標。">
+<meta property="og:image" content="https://bryenhsuttaigee.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="七個聲調畫在五線譜上：低是 do、中是 mi、高是 so。">
+<meta name="twitter:card" content="summary_large_image">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;900&family=Noto+Sans+TC:wght@400;500;700&family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
 :root{--ink:#101C2B;--bone:#F4EDDE;--cinnabar:#C43A26;--gold:#C9972B;--moss:#2E6E4E;
@@ -14,13 +27,14 @@ body{margin:0;background:var(--bone);color:var(--ink);font:18px/1.7 "Noto Sans T
 h1,h2,h3{font-family:"Noto Serif TC",serif}
 :focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 
+/* 細窄頂欄 */
 .bar{background:var(--ink);color:var(--bone);padding:.95rem 1.2rem;position:relative;overflow:hidden}
 .bar::before{content:"";position:absolute;inset:0;pointer-events:none;
   background:radial-gradient(600px 200px at 88% -40%,rgba(201,151,43,.18),transparent 65%)}
 .bar-in{max-width:920px;margin:0 auto;position:relative;display:flex;align-items:baseline;
   justify-content:space-between;gap:1rem;flex-wrap:wrap}
-.back{display:inline-block;padding:.45rem .6rem;margin:-.45rem -.6rem;color:#C8D6E4;font-size:clamp(.88rem,3.5vw,1.05rem);font-family:"Noto Serif TC",serif;font-weight:600;letter-spacing:.05em;text-decoration:none;min-height:44px;line-height:2}
-.back:hover{color:var(--gold)}
+.site{font-family:"Noto Serif TC",serif;font-weight:900;font-size:clamp(1.1rem,4.1vw,1.45rem);letter-spacing:.08em;line-height:1.35}
+.site .alt{font-size:.72em;font-weight:600;color:#8FA5BD;letter-spacing:.02em;margin-left:.15em}
 .bar .motto{color:#9FB2C6;font-size:.82rem;letter-spacing:.05em}
 
 main{max-width:920px;margin:0 auto;padding:2rem 1.2rem 3.4rem}
@@ -29,29 +43,25 @@ main{max-width:920px;margin:0 auto;padding:2rem 1.2rem 3.4rem}
 h1.title{font-size:1.6rem;font-weight:900;margin:0;letter-spacing:.06em}
 h1.title span{border-bottom:6px solid var(--gold);padding-bottom:.08rem}
 .eyebrow{font-family:var(--mono);font-weight:700;color:var(--cinnabar);letter-spacing:.26em;font-size:.74rem;margin:0}
-.subline{color:#4a3f30;font-size:.95rem;margin:.7rem 0 1.7rem;line-height:1.8}
-.subline b{color:var(--moss);font-weight:700}
-
-section.group{margin-bottom:2.1rem}
-.grouphead{display:flex;align-items:baseline;gap:.7rem;flex-wrap:wrap;
-  border-bottom:2px solid var(--line);padding-bottom:.4rem;margin-bottom:.55rem}
-.gname{font-family:"Noto Serif TC",serif;font-size:1.14rem;font-weight:900;letter-spacing:.14em}
-.gnote{font-size:.8rem;color:#7d7461;letter-spacing:.03em}
-.glead{color:#4a3f30;font-size:.9rem;line-height:1.75;margin:0 0 .9rem}
+.subline{color:#4a3f30;font-size:.95rem;margin:.7rem 0 1.5rem;line-height:1.8}
+.subline b{color:var(--cinnabar);font-weight:700}
 
 .card{display:block;width:fit-content;max-width:100%;text-decoration:none;color:var(--ink);
   background:#fff;border:1px solid var(--line);border-radius:12px;
-  padding:.95rem 1.2rem;margin-bottom:.7rem;
+  padding:1.15rem 1.35rem;margin-bottom:.85rem;
   box-shadow:0 5px 14px rgba(16,28,43,.06);
   transition:box-shadow .2s,transform .2s,border-color .2s}
 a.card:hover{box-shadow:0 12px 28px rgba(16,28,43,.13);transform:translateY(-2px);border-color:var(--gold)}
-.card h3{font-size:1.06rem;font-weight:900;margin:0 0 .22rem;letter-spacing:.05em}
-a.card:hover h3{color:var(--cinnabar)}
-.card p{margin:.1rem 0;color:#4a3f30;font-size:.9rem;line-height:1.7}
-.card .tag{display:inline-block;font-family:var(--mono);font-size:.7rem;font-weight:700;
+.card h2{font-size:1.2rem;font-weight:900;margin:0 0 .3rem;letter-spacing:.05em}
+a.card:hover h2{color:var(--cinnabar)}
+.card p{margin:.15rem 0;color:#4a3f30;font-size:.94rem;line-height:1.75}
+.card .tag{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;
   letter-spacing:.12em;color:var(--moss);border:1px solid #cfd9cf;border-radius:20px;
-  padding:.1rem .7rem;margin-top:.6rem}
-.card.en h3{font-family:"Noto Sans TC",sans-serif;letter-spacing:.01em}
+  padding:.12rem .75rem;margin-top:.7rem}
+.card.soon{background:transparent;border-style:dashed;box-shadow:none;opacity:.95}
+.card p b{color:var(--moss);font-weight:700}
+.card .teaser{margin-top:.75rem;padding-left:.85rem;border-left:3px solid var(--gold);color:#6b6252;font-size:.9rem;line-height:1.75}
+.card.soon .tag{color:#8b8168;border-color:var(--line)}
 
 footer{max-width:920px;margin:0 auto;padding:1.1rem 1.2rem 2.6rem;color:#7d7461;font-size:.82rem;border-top:1px solid var(--line)}
 footer a{display:inline-block;padding:.5rem .2rem;color:#7d7461;border-bottom:1px solid var(--gold);text-decoration:none;min-height:44px;line-height:2.2}
@@ -62,101 +72,45 @@ footer a:hover{color:var(--cinnabar)}
   body{font-size:16px}
   main{padding:1.5rem .9rem 2.4rem}
   .bar .motto{display:none}
-  .card{padding:.9rem 1rem}
-  .card p{font-size:.95rem}
-  .glead,.subline{font-size:.94rem}
+  .card{padding:1rem 1.05rem}
+  .card p{font-size:.98rem}
+  .glead,.subline{font-size:.96rem}
 }
 </style>
 </head>
 <body>
 
 <div class="bar"><div class="bar-in">
-  <a class="back" href="/">← 一起學閩南語（臺語）漢字</a>
-  <span class="motto">怪的從來不是台語，是音標</span>
+  <span class="site">一起學閩南語<span class="alt">（臺語）</span>漢字</span>
+  <span class="motto">怪的從來不是台語</span>
 </div></div>
 
 <main>
   <div class="pagehead">
-    <h1 class="title"><span>閩南語拼音法</span></h1>
-    <p class="eyebrow">INDEX</p>
+    <h1 class="title"><span>總　目</span></h1>
+    <p class="eyebrow">CONTENTS</p>
   </div>
-  <p class="subline">不用學新符號、不用裝輸入法——<b>會哼 do-mi-so 就會聲調，看到什麼就唸對什麼。</b></p>
+  <p class="subline">兩條戰線：<b>音標</b>，<b>用字</b>。</p>
 
-  <!-- 注音版 -->
-  <section class="group">
-    <div class="grouphead">
-      <span class="gname">注音版</span>
-      <span class="gnote">ㄅㄆㄇ 直通台語</span>
-    </div>
-    <p class="glead">給會注音、不必會英文的人。你已經會 ㄅㄆㄇ 了，只差這幾個新朋友。</p>
+  <a class="card" href="/phonics/">
+    <h2>閩南語拼音法</h2>
+    <p>三組：<b>注音版</b>（會 ㄅㄆㄇ 就會）、<b>美拼版</b>（完整・一般・速查卡）、<b>English</b>——最後這組不是中文版的翻譯，是另外寫給英語的耳朵讀的。</p>
+    <p>不必先學一套新符號，一般英數鍵盤就打得出所有拼音；聲調交給音樂耳朵。</p>
+    <span class="tag">注音版・美拼版・English</span>
+  </a>
 
-    <a class="card" href="/phonics/zhuyin.html">
-      <h3>閩南語135拼音法 · 注音版</h3>
-      <p>台語，用注音就寫得出來。以注音符號為底的完整標音系統。</p>
-      <span class="tag">v1.2</span>
-    </a>
-  </section>
-
-  <!-- 美拼版 -->
-  <section class="group">
-    <div class="grouphead">
-      <span class="gname">美拼版</span>
-      <span class="gnote">寫給台灣學台語文的人</span>
-    </div>
-    <p class="glead">字母交給美語的 Phonics 直覺，聲調交給會唱歌的耳朵——Do、Mi、So。一般英數鍵盤就能拼出所有閩南語發音。三種篇幅，同一套系統。</p>
-
-    <a class="card" href="/phonics/complete.html">
-      <h3>完整版</h3>
-      <p>全書七篇。從聲調、聲母、韻母到練習，逐項推導、有問有答。</p>
-      <span class="tag">v6</span>
-    </a>
-
-    <a class="card" href="/phonics/standard.html">
-      <h3>一般版</h3>
-      <p>去掉推導過程，只留規則與例字。入門與教學現場適用。</p>
-      <span class="tag">v5</span>
-    </a>
-
-    <a class="card" href="/phonics/quick.html">
-      <h3>精簡版 · 速查卡</h3>
-      <p>先看符號、再出聲。查表用、速記用；教學說明見一般版／完整版。</p>
-      <span class="tag">v4.2</span>
-    </a>
-  </section>
-
-  <!-- English -->
-  <section class="group">
-    <div class="grouphead">
-      <span class="gname">English</span>
-      <span class="gnote">Hokkien Phonics · The 135 Tone System</span>
-    </div>
-    <p class="glead">不是中文版的翻譯，是另外寫給英語使用者本人讀的一份。<br>
-      The first spelling system for Hokkien ever designed around an English-speaking ear.</p>
-
-    <a class="card en" href="/phonics/en-complete.html">
-      <h3>Complete Edition</h3>
-      <p>Hokkien, spelled by instinct — tones, initials, rimes, practice, in full.</p>
-      <span class="tag">V6</span>
-    </a>
-
-    <a class="card en" href="/phonics/en-standard.html">
-      <h3>Standard Edition</h3>
-      <p>Say what you see. The rules and examples, without the derivations.</p>
-      <span class="tag">EN</span>
-    </a>
-
-    <a class="card en" href="/phonics/en-quick.html">
-      <h3>Quick Reference Card</h3>
-      <p>Check the tone mark first, then open your mouth. One card, look it up and go.</p>
-      <span class="tag">EN</span>
-    </a>
-  </section>
-
+  <div class="card soon">
+    <h2>甲骨釋文</h2>
+    <p>用字這一案。從一個人、一個場景說起，把字寫回它原本的生活裡。</p>
+    <p class="teaser">先看這個字原本畫的是什麼，再看是誰把它換掉了。<br>首篇預告：〈烏鳩〉。</p>
+    <span class="tag">籌備中</span>
+  </div>
 </main>
 
 <footer>
-  甲骨先生　×　BryenHsu　｜　<a href="/">回總目</a>
+  許文　×　甲骨先生　｜　<a href="https://www.youtube.com/@許文學臺語">YouTube・用臺語學漢字</a>
 </footer>
 
+<script src="/nav.js" defer></script>
 </body>
 </html>

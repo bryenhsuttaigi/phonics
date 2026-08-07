@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bryenhsuttaigee.github.io/sitemap.xml

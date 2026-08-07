@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://bryenhsuttaigee.github.io/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://bryenhsuttaigee.github.io/phonics/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://bryenhsuttaigee.github.io/phonics/zhuyin.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://bryenhsuttaigee.github.io/phonics/complete.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://bryenhsuttaigee.github.io/phonics/complete.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bryenhsuttaigee.github.io/phonics/en-complete.html"/>
+  </url>
+
+  <url>
+    <loc>https://bryenhsuttaigee.github.io/phonics/standard.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://bryenhsuttaigee.github.io/phonics/standard.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bryenhsuttaigee.github.io/phonics/en-standard.html"/>
+  </url>
+
+  <url>
+    <loc>https://bryenhsuttaigee.github.io/phonics/quick.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://bryenhsuttaigee.github.io/phonics/quick.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bryenhsuttaigee.github.io/phonics/en-quick.html"/>
+  </url>
+
+  <url>
+    <loc>https://bryenhsuttaigee.github.io/phonics/en-complete.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bryenhsuttaigee.github.io/phonics/en-complete.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://bryenhsuttaigee.github.io/phonics/complete.html"/>
+  </url>
+
+  <url>
+    <loc>https://bryenhsuttaigee.github.io/phonics/en-standard.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bryenhsuttaigee.github.io/phonics/en-standard.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://bryenhsuttaigee.github.io/phonics/standard.html"/>
+  </url>
+
+  <url>
+    <loc>https://bryenhsuttaigee.github.io/phonics/en-quick.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bryenhsuttaigee.github.io/phonics/en-quick.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://bryenhsuttaigee.github.io/phonics/quick.html"/>
+  </url>
+
+</urlset>

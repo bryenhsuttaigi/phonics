@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hokkien Phonics · The 135 Tone System — Standard Edition</title>
+<meta name="description" content="Say what you see. The rules and examples of the 135 Tone System for Hokkien, without the derivations.">
+<link rel="canonical" href="https://bryenhsuttaigee.github.io/phonics/en-standard.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://bryenhsuttaigee.github.io/phonics/standard.html">
+<link rel="alternate" hreflang="en" href="https://bryenhsuttaigee.github.io/phonics/en-standard.html">
+<link rel="alternate" hreflang="x-default" href="https://bryenhsuttaigee.github.io/phonics/standard.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2213%22%20fill%3D%22%23101C2B%22%2F%3E%3Cg%20stroke%3D%22%23C9972B%22%20stroke-width%3D%223.4%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M13%2020h38M13%2032h38M13%2044h38%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M19%2045L32%2032%2045%2019%22%20fill%3D%22none%22%20stroke%3D%22%23C43A26%22%20stroke-width%3D%227%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="一起學閩南語（臺語）漢字">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:url" content="https://bryenhsuttaigee.github.io/phonics/en-standard.html">
+<meta property="og:title" content="Hokkien Phonics · The 135 Tone System — Standard Edition">
+<meta property="og:description" content="Say what you see. The rules and examples of the 135 Tone System for Hokkien, without the derivations.">
+<meta property="og:image" content="https://bryenhsuttaigee.github.io/phonics/og/og-en-standard.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="七個聲調畫在五線譜上：低是 do、中是 mi、高是 so。">
+<meta name="twitter:card" content="summary_large_image">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;900&family=Noto+Sans+TC:wght@400;500;700&family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#101C2B;--bone:#F4EDDE;--cinnabar:#C43A26;--gold:#C9972B;--moss:#2E6E4E;
+--line:#D8CCB4;--mono:"Roboto Mono","Consolas",monospace}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bone);color:var(--ink);font:18px/1.7 "Noto Sans TC","PingFang TC","Segoe UI",sans-serif}
+h1,h2,h3{font-family:"Noto Serif TC",serif}
+code{font-family:var(--mono);font-weight:700;background:#EEDCBE;color:#7A2A1B;padding:2px 6px;border-radius:4px;white-space:pre-wrap;overflow-wrap:normal}
+sub{font-size:.62em}
+.ipa{font-family:"Charis SIL","Doulos SIL","Gentium","Times New Roman",serif;color:#3d3426}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.hero{background:#14382A;color:var(--bone);padding:2.4rem 1.2rem 2.6rem;position:relative;overflow:hidden;text-align:center}
+.hero::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(1100px 480px at 82% -12%,rgba(201,151,43,.22),transparent 62%)}
+.hero-in{max-width:960px;margin:0 auto;position:relative}
+.booktitle{color:#DCEEE2;font-size:1rem;letter-spacing:.08em;margin:0}
+.booktitle span{color:#8FBDA6;font-size:.85rem;margin-left:.5em}
+.hero h1{font-size:clamp(2rem,6vw,3.2rem);font-weight:900;line-height:1.25;margin:.6rem 0;letter-spacing:.03em}
+.hero .red{color:#F0654E}
+.sub2{color:#C9E4D5;font-size:1.05rem;margin:.2rem auto .9rem;max-width:40em}
+.pill{display:inline-block;border:1px solid rgba(244,237,222,.45);border-radius:30px;padding:.35rem 1.3rem;font-size:.95rem;color:#DCEEE2}
+.byline{color:#8FBDA6;font-size:.86rem;margin:1.2rem 0 0;letter-spacing:.1em}
+main{max-width:920px;margin:0 auto;padding:1rem 1.2rem 3.6rem}
+.eyebrow{font-family:var(--mono);font-weight:700;color:var(--cinnabar);letter-spacing:.28em;font-size:.8rem}
+.toc{font-size:1.05rem;line-height:1.9;padding-left:1.4rem}
+.toc a{color:var(--ink);text-decoration:none;border-bottom:2px solid var(--gold)}
+.toc a:hover{color:var(--cinnabar)}
+.doc h1{font-size:clamp(1.6rem,4vw,2.1rem);font-weight:900;margin:1.6rem 0 .4rem;color:var(--ink);
+  border-left:10px solid var(--cinnabar);padding-left:.7rem;line-height:1.4}
+.doc h2{font-size:1.3rem;font-weight:900;margin:.9rem 0 .4rem}
+.doc h3{font-size:1.1rem;font-weight:900;margin:.65rem 0 .3rem;color:#7A2A1B}
+.doc table{width:auto;display:inline-table;max-width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:10px;
+  overflow:hidden;font-size:.95rem;margin:1rem 0}
+.doc th{background:var(--ink);color:var(--bone);font-weight:700;padding:.5rem .8rem;text-align:left;white-space:nowrap}
+.doc td{padding:.55rem .8rem;border-top:1px solid var(--line);overflow-wrap:break-word;vertical-align:top}
+.doc blockquote{border-left:6px solid var(--gold);background:#fff;margin:1.1rem 0;padding:.7rem 1.1rem;width:fit-content;max-width:100%;
+  border-radius:0 8px 8px 0;color:#3d3426}
+.doc blockquote.key{border-left-color:var(--cinnabar);background:#FBF3E3;color:#3d2f22}
+.doc blockquote.key::before{content:"THE ONE THING TO REMEMBER";display:block;font-weight:900;color:var(--cinnabar);font-size:.82rem;letter-spacing:.06em;margin-bottom:.35rem}
+.doc li{margin:.3rem 0}
+.doc p{margin:.5rem 0}
+.no{color:var(--cinnabar);font-weight:700}.use{color:var(--moss);font-weight:700}
+.backtoc{position:fixed;right:18px;bottom:18px;z-index:50;background:var(--ink);color:var(--bone);
+  border:2px solid var(--gold);border-radius:30px;padding:.5rem 1.1rem;font-size:.95rem;font-weight:700;
+  text-decoration:none;box-shadow:0 6px 18px rgba(16,28,43,.3)}
+.backtoc:hover{background:var(--cinnabar);border-color:var(--cinnabar)}
+footer{max-width:920px;margin:0 auto;padding:1.3rem 1.2rem 3rem;color:#7d7461;font-size:.84rem;border-top:1px solid var(--line)}
+@media (max-width:600px){
+  body{font-size:16px}
+  main{padding:.8rem .9rem 2.6rem}
+  .hero{padding:2rem .9rem 2.2rem}
+  .doc table{font-size:.88rem}
+  .doc th,.doc td{padding:.45rem .6rem}
+  .backtoc{right:10px;bottom:10px;padding:.4rem .9rem;font-size:.85rem}
+}
+.tw{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem 0}
+.tw>table{margin:0}
+.figscroll{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+@media (max-width:700px){
+  .doc th{white-space:normal}
+  .figscroll>svg{min-width:600px}
+  .figscroll::before{content:"swipe \2192";display:block;font-size:.72rem;color:#8A7F68;text-align:right;padding:0 .2rem .1rem}
+  .tw{margin:.7rem 0}
+}
+@media (max-width:700px){
+  .tw.wide>table{min-width:560px}
+  .tw.wide::before{content:"swipe \2192";display:block;font-size:.72rem;color:#8A7F68;text-align:right;padding:0 .2rem .1rem}
+}
+.bpm{font-size:.78em;color:#8A7F68;font-weight:400;letter-spacing:.02em}
+</style></head>
+<body id="top">
+
+<header class="hero"><div class="hero-in">
+<p class="booktitle">HOKKIEN PHONICS · THE 135 TONE SYSTEM<span>Standard Edition</span></p>
+<h1>Hokkien, Spelled by <span class="red">Instinct</span></h1>
+<p class="sub2">Say what you see. The letters run on the phonics instinct you already have; the tones run on the ear you already sing with — do, mi, so. No new symbols to memorize, no special keyboard to install. Every sound in the language types on a plain English keyboard.</p>
+<span class="pill">Tones = a musical staff · Letters = instinct · Keyboard = the one you own</span>
+<p class="byline">BryenHsu (許文) × Mr. Oracle-Bone (甲骨先生)</p>
+</div></header>
+
+<main class="doc">
+
+<p class="eyebrow">CONTENTS</p>
+<h2>Contents</h2>
+<ul class="toc">
+<li><a href="#tone-intro">Step one: meet the seven tone marks</a></li>
+<li><a href="#consonants">Initials: borrowing mouth moves you already own</a></li>
+<li><a href="#rimes">Rimes: one silent h locks the vowel</a></li>
+<li><a href="#tones">Tones: singing them, shifting them, clipping them</a></li>
+<li><a href="#practice">Practice: reading Hokkien out loud</a></li>
+<li><a href="#words">Thirty everyday words</a></li>
+<li><a href="#exam">Final check: thirteen words</a></li>
+<li><a href="#coats">Closing: one engine, many coats</a></li>
+</ul>
+
+<h1 id="tone-intro">Step one: meet the seven tone marks</h1>
+
+<p>In Hokkien, one syllable sung at different pitches is a different word. The good news: <strong>a Hokkien tone is literally a musical pitch</strong> — if you can hum do-mi-so, you can already produce them.</p>
+
+<p>Start with three heights. <strong>Do (low)</strong> — sunk into your chest, below your normal speaking pitch. <strong>Mi (mid)</strong> — flat, mid-range, the default height of Hokkien speech. <strong>So (high)</strong> — one step above Mi, parked up top and held level. Hum do-mi-so; that last note is it. Those three heights are three marks: low <code>_</code>, mid <code>+</code>, high <code>¯</code>.</p>
+
+<p>Hokkien has seven tones and all of them live between those three lines. The chant is <strong>Low · Mid · High · Rise · Dip · Fall · Clip</strong> — drill it until it's reflex:</p>
+
+<div class="tw wide"><table>
+<tr><th>Tone</th><th>Mark</th><th>Digit</th><th>Traditional name</th><th>How to sing it</th></tr>
+<tr><td>Low</td><td><code>_</code></td><td>9</td><td>low tone</td><td>Do — press it to the floor and hold flat</td></tr>
+<tr><td>Mid</td><td><code>+</code></td><td>0</td><td>mid tone</td><td>Mi — dead level, mid range</td></tr>
+<tr><td>High</td><td><code>¯</code></td><td>1</td><td>Tone 1</td><td>So — up top, held flat, no sagging</td></tr>
+<tr><td>Rise</td><td><code>/</code></td><td>2</td><td>Tone 2</td><td>Mi→So, rising like a puzzled "Huh?"</td></tr>
+<tr><td>Dip</td><td><code>~</code></td><td>3</td><td>Tone 3</td><td>Sink to the floor, then hook up at the end — like "Uh-huh?"</td></tr>
+<tr><td>Fall</td><td><code>\</code></td><td>4</td><td>Tone 4</td><td>So→Mi, dropping like a final "No."</td></tr>
+<tr><td>Clip</td><td><code>.</code></td><td>5</td><td>light tone</td><td>Mi for half a beat — tap it and stop</td></tr>
+</table></div>
+
+<p>If you've studied Mandarin you get a free bridge: Tones 1, 2, 3 and 4 line up with the four Mandarin tones, and <strong>Low</strong> and <strong>Mid</strong> are the two extras Hokkien adds. The shape of each mark <em>is</em> its pitch: <code>_</code> sits on the floor, <code>¯</code> rides the ceiling, <code>+</code> holds the middle, <code>/</code> goes up, <code>\</code> goes down, <code>~</code> dips then hooks, <code>.</code> is a single tap.</p>
+
+<p>When typing, the High mark <code>¯</code> may be left off — an unmarked syllable is Tone 1. For plain-keyboard input you can also use the digits: <code>see¯</code> = <code>see1</code>, <code>ah_</code> = <code>ah9</code>, <code>kkut.</code> = <code>kkut5</code>.</p>
+
+<h1 id="consonants">Initials: borrowing mouth moves you already own</h1>
+
+<h2>1 · Plain, puffed, voiced — the three stop brothers</h2>
+
+<p>Every place of articulation in Hokkien has three stops: <strong>unaspirated voiceless, aspirated voiceless, and voiced</strong>. English gives you all three for free:</p>
+
+<ul>
+<li><strong>Unaspirated voiceless (pp / tt / kk)</strong> — hiding inside English s-clusters: <em>spy, star, skate</em>. English runs a rock-solid rule: after s, the p/t/k loses its puff. Hold your palm in front of your mouth and say "pie" (a burst of air), then "spy" (nothing). That air-locked sound is exactly the Hokkien one. So it's written double — <code>pp</code>, <code>tt</code>, <code>kk</code> — and the doubling is your visual cue to kill the puff. Examples: 包 "wrap" <code>ppao¯</code>, 大 "big" <code>ttua+</code>, 咬 "bite" <code>kkah+</code>.</li>
+<li><strong>Aspirated voiceless (p / t / k)</strong> — the puff you already blow at the start of <em>pie, top, kite</em>. Single letter, full puff. Examples: 打 "hit" <code>pah.</code>, 拖 "drag" <code>tua¯</code>, 開 "open" <code>kai¯</code>. (Never ph / th / kh — English eyes read ph as /f/ and th as a tongue-between-teeth sound. Neither exists in Hokkien.)</li>
+<li><strong>Voiced (b / g)</strong> — the sound Mandarin doesn't have: <strong>the vocal folds start buzzing before the burst</strong>, exactly as in <em>boy</em> and <em>go</em>. The voiced set should logically be a trio (b, d, g), but Hokkien leaves the d chair empty — we keep the chair, we don't force anyone into it. The trick: with your lips still sealed, let the voice hum for an instant, then release. Examples: 肉 "meat" <code>bah.</code>, 我 "I" <code>gua\</code>, 五 "five" <code>gaw+</code>.</li>
+</ul>
+
+<p>m, n, l, h are simply <em>man, noon, look, how</em>. Read them as written; there is no trap.</p>
+
+<h2>2 · ts · ch · s — three letters that split themselves, plus z</h2>
+
+<p>What sounds like six consonants (ts/tsʰ/s and their palatal partners tɕ/tɕʰ/ɕ) is really three letters. <strong>They split automatically depending on the vowel that follows</strong> — your mouth palatalizes on its own, so there is nothing to memorize:</p>
+
+<ul>
+<li><code>ts</code> = the zz in <em>pizza</em>. Before -ai or -eh it stays plain (再 "again" <code>tsai_</code>); the moment a high front i follows, the tongue body rides up and it becomes the "j"-ish sound (真 "true" <code>tsin¯</code>). They were never two consonants.</li>
+<li><code>ch</code> = the aspirated version of ts, the start of <em>check</em>. Before -ai it's a plain ts-with-puff (菜 "vegetable" <code>chai_</code>); before i it palatalizes by itself, like <em>cheese</em> (秤 "scale" <code>chin_</code>).</li>
+<li><code>s</code> = the s of <em>song, sun</em>. Before -ai it's plain s (獅 "lion" <code>sai¯</code>); before i it rides up toward "sh", like <em>see</em> (新 "new" <code>sin¯</code>).</li>
+<li><code>z</code> = its own consonant, no splitting. Hokkien has no retroflex sounds — do not curl your tongue. Make the clean buzzing fricative of <em>zero</em>. Examples: 日 "day" <code>zit+</code>, 熱 "hot" <code>zeht+</code>.</li>
+</ul>
+
+<h2>3 · ng: one sound, four jobs</h2>
+
+<p>The most characteristic sound in Hokkien is the nasal ng. English only lets it stand at the end of a word (song, long); Hokkien lets it stand anywhere, and it works four different jobs. First learn to produce it alone: say "song-ah", get comfortable, then shave off the opening s and keep only "ng-ah" — the nasal has moved to the front of the word. (Anchor on the back-of-the-mouth nasal in <em>song, long</em>, not on <em>sing</em> — that one has already fronted and will pull you off target.)</p>
+
+<div class="tw"><table>
+<tr><th>Job</th><th>Where it stands</th><th>Examples</th></tr>
+<tr><td>1 · Initial consonant</td><td>right at the front</td><td>碗 "bowl" <code>ngua\</code> · 圓 "round" <code>ngee~</code> · 影 "shadow" <code>ngia\</code></td></tr>
+<tr><td>2 · Nasalizing initial</td><td>wedged between initial and rime</td><td>聲 "sound" <code>sngia¯</code> · 聽 "listen" <code>tngia¯</code> · 雅 "elegant" <code>gngah\</code></td></tr>
+<tr><td>3 · Final</td><td>word-final — the one slot English knows</td><td>光 "light" <code>kkng¯</code> · 望 "hope" <code>bahng+</code></td></tr>
+<tr><td>4 · Syllable of its own</td><td>it <em>is</em> the vowel of the word</td><td>卵 "egg" <code>nng+</code> · 黃 "yellow" <code>ng~</code> · 飯 "rice" <code>ppng+</code></td></tr>
+</table></div>
+
+<p>For the nasalizing initial, the feel is: the instant the syllable starts, blast a puff of air into your nose, and let the consonant and vowel follow through it. One-line test: <strong>if a vowel still has to glide after the ng, the ng is an initial; if nothing follows and it closes on itself, it's a rime</strong> — jobs 3 and 4 are detailed in the rimes chapter.</p>
+
+<h2>4 · The full initial anchor table</h2>
+
+<div class="tw wide"><table>
+<tr><th>Bopomofo</th><th>Spelling</th><th>IPA</th><th>Type</th><th>🟢 English anchor</th><th>🛑 Don't use</th></tr>
+<tr><td>ㄅ</td><td><code>pp</code></td><td class="ipa">p</td><td>unaspirated voiceless</td><td>spy · spit</td><td>single b (that's the voiced one)</td></tr>
+<tr><td>ㄆ</td><td><code>p</code></td><td class="ipa">pʰ</td><td>aspirated voiceless</td><td>pie · pan</td><td>ph (→ /f/)</td></tr>
+<tr><td>ㄅ<sub>ㄏ</sub></td><td><code>b</code></td><td class="ipa">b</td><td>voiced</td><td>boy · book</td><td>bh</td></tr>
+<tr><td>ㄇ</td><td><code>m</code></td><td class="ipa">m</td><td>bilabial nasal</td><td>man</td><td>—</td></tr>
+<tr><td>ㄉ</td><td><code>tt</code></td><td class="ipa">t</td><td>unaspirated voiceless</td><td>star · stop</td><td>single d (that's the voiced one)</td></tr>
+<tr><td>ㄊ</td><td><code>t</code></td><td class="ipa">tʰ</td><td>aspirated voiceless</td><td>top · tea</td><td>th (→ thorn)</td></tr>
+<tr><td>ㄋ</td><td><code>n</code></td><td class="ipa">n</td><td>alveolar nasal</td><td>noon</td><td>—</td></tr>
+<tr><td>ㄌ</td><td><code>l</code></td><td class="ipa">l</td><td>lateral</td><td>look</td><td>—</td></tr>
+<tr><td>ㄍ</td><td><code>kk</code></td><td class="ipa">k</td><td>unaspirated voiceless</td><td>skate · sky</td><td>single g (that's the voiced one)</td></tr>
+<tr><td>ㄎ</td><td><code>k</code></td><td class="ipa">kʰ</td><td>aspirated voiceless</td><td>kite · kiss</td><td>kh</td></tr>
+<tr><td>ㄍ<sub>ㄏ</sub></td><td><code>g</code></td><td class="ipa">ɡ</td><td>voiced</td><td>go · game</td><td>gh</td></tr>
+<tr><td>ㄏ</td><td><code>h</code></td><td class="ipa">h</td><td>voiceless glottal</td><td>how · hot</td><td>—</td></tr>
+<tr><td>ㄐ</td><td><code>ts</code></td><td class="ipa">tɕ</td><td>unaspirated, palatalized before high front vowels</td><td>ts + i</td><td>j (→ voiced stop)</td></tr>
+<tr><td>ㄑ</td><td><code>ch</code></td><td class="ipa">tɕʰ</td><td>aspirated, palatalized before high front vowels</td><td>cheese</td><td>c / tsh / q</td></tr>
+<tr><td>ㄒ</td><td><code>s</code></td><td class="ipa">ɕ</td><td>palatal fricative</td><td>see · sit</td><td>sh, x</td></tr>
+<tr><td>ㄖ</td><td><code>z</code></td><td class="ipa">z / dz</td><td>plain voiced fricative</td><td>zero · zone</td><td>r / j</td></tr>
+<tr><td>ㄗ</td><td><code>ts</code></td><td class="ipa">ts</td><td>unaspirated, before non-front vowels</td><td>pizza</td><td>dz</td></tr>
+<tr><td>ㄘ</td><td><code>ch</code></td><td class="ipa">tsʰ</td><td>aspirated, before non-front vowels</td><td>chai</td><td>c / tsh</td></tr>
+<tr><td>ㄙ</td><td><code>s</code></td><td class="ipa">s</td><td>plain fricative</td><td>song · sun</td><td>—</td></tr>
+<tr><td>ㄥ initial</td><td><code>ng</code></td><td class="ipa">ŋ</td><td>word-initial nasal</td><td>碗 ngua\ · 影 ngia\</td><td>don't model it on "sing"</td></tr>
+<tr><td>ㄥ nasalizing</td><td><code>initial + ng</code></td><td class="ipa">C + nasal vowel</td><td>nasalizing initial</td><td>聲 sngia¯ · 聽 tngia¯</td><td>—</td></tr>
+</table></div>
+
+<h1 id="rimes">Rimes: one silent h locks the vowel</h1>
+
+<h2>1 · h is the vowel's fuse</h2>
+
+<p>Spell 肉 "meat" honestly as <code>ba</code> and an English-reading brain says "Bay" — an open syllable stretches a bare vowel into a long one, and a closed one flattens it to æ (sad, cat). English already invented the fix: <strong>add a silent h behind it</strong>. Look at <code>bah</code> and your brain jumps straight to the sheep's "Bah!" — and that full, open "ah" is locked in place.</p>
+
+<blockquote class="key">Letters carry quality; marks carry length. <code>bah</code> is a locked "ah" running one full beat. <code>bah.</code> has exactly the same vowel — the period simply halves the beat (Clip tone). Quality is the letters' job, duration is the marks' job. Keep those two ideas apart and the whole system snaps into focus.</blockquote>
+
+<h2>2 · The six basic vowels</h2>
+
+<div class="tw wide"><table>
+<tr><th>Bopomofo</th><th>Spelling</th><th>IPA</th><th>🟢 English anchor</th><th>🛑 Don't use (and what goes wrong)</th></tr>
+<tr><td>ㄚ</td><td><code>ah</code></td><td class="ipa">a</td><td>B<strong>ah</strong>amas · Om<strong>ah</strong>a <span style="color:#6b6250">(the stressed middle a — the outer ones are unstressed schwas)</span></td><td>bare a: flattens to æ before a consonant, drifts to "ay" in an open syllable</td></tr>
+<tr><td>ㄛ</td><td><code>aw</code></td><td class="ipa">ɔ</td><td>law · saw · hawk</td><td>bare o: glides to "oh" in an open syllable, opens to "ah" before a consonant (hot, rock)</td></tr>
+<tr><td>ㄜ</td><td><code>uh</code></td><td class="ipa">ə</td><td>"Huh?" · "Duh!"</td><td>bare e: read as a long "ee" at the end of a word (he, me)</td></tr>
+<tr><td>ㄝ</td><td><code>eh</code></td><td class="ipa">e</td><td>bed · egg · wedge</td><td>bare e: drifts to "ee" in an open syllable — the h shuts it in</td></tr>
+<tr><td>ㄧ</td><td><code>ee</code></td><td class="ipa">i</td><td>see · bee</td><td>bare i: read as "I" (eye) at the end of a word</td></tr>
+<tr><td>ㄨ</td><td><code>u</code></td><td class="ipa">u</td><td>tofu · guru</td><td>— (no trap)</td></tr>
+</table></div>
+
+<p>Examples: 肉 "meat" <code>bah.</code>, 路 "road" <code>law+</code>, 課 "lesson" <code>kuh_</code>, 雞 "chicken" <code>kkeh¯</code>, 米 "uncooked rice" <code>bee\</code>, 有 "to have" <code>u+</code>. One spelling, <em>see</em>, holds seven different words in its seven tones: 四 "four" <code>see_</code>, 是 "to be" <code>see+</code>, 絲 "silk" <code>see¯</code>, <code>see/</code> (the special sandhi on the first 絲 of an emphatic 絲絲絲), 時 "time" <code>see~</code>, 始 "begin" <code>see\</code>, 熾 "blazing" <code>see.</code> — the full run-through is in the tones chapter.</p>
+
+<h2>3 · The remaining basic rimes</h2>
+
+<ul>
+<li><strong><code>ai</code> <span class="bpm">ㄞ</span></strong> <span class="ipa">/ai/</span>: Taiwan, Thai — read it as it looks. (Not ay, which says "ay".) Examples: 台 <code>ttai~</code>, 海 "sea" <code>hai\</code>.</li>
+<li><strong><code>ao</code> <span class="bpm">ㄠ</span></strong> <span class="ipa">/au/</span>: the closing glide of Ciao, Macao. (Not au, which English reads as "aw".) Examples: 到 "arrive" <code>kkao_</code>, 包 "wrap" <code>ppao¯</code>.</li>
+<li><strong><code>ahn</code> <span class="bpm">ㄢ</span></strong> <span class="ipa">/an/</span>: the h locks the vowel; anchor on <em>swan</em> (man and pan are the flat æ — don't borrow those). Examples: 萬 "ten thousand" <code>bahn+</code>, 寒 "cold" <code>hahn~</code>.</li>
+<li><strong><code>ahng</code> <span class="bpm">ㄤ</span></strong> <span class="ipa">/aŋ/</span>: full "ah" plus the back nasal ng; anchor on <em>Kong, gong</em>. Examples: 望 "hope" <code>bahng+</code>, 工 "work" <code>kkahng¯</code>. The whole difference between ㄢ and ㄤ is the closing gesture: 蘭 "orchid" <code>lahn~</code> closes on the tongue tip, 人 "person" <code>lahng~</code> closes at the back.</li>
+<li><strong><code>ng</code> <span class="bpm">ㄥ</span>, as its own vowel</strong> <span class="ipa">/ŋ̍/</span>: 飯 "rice" <code>ppng+</code>, 酸 "sour" <code>sng¯</code>, 黃 "yellow" <code>ng~</code> — the ng <em>is</em> the vowel of the word. The trick is humming: close your lips and hum "mmm", then part them slightly and let the sound out through your nose. Its cousin m works the same way as a syllable: 毋 "not" <code>m+</code> — the sound you already make in "Mm-hm".</li>
+<li><strong><code>ong</code> <span class="bpm">ㄛㄥ</span></strong> <span class="ipa">/ɔŋ/</span>: the tail of song, long — pure "aw"+ng, with no "oo" in it. Examples: 翁 "husband" <code>ong¯</code>, 霜 "frost" <code>song¯</code>.</li>
+</ul>
+
+<p><strong>If a vowel isn't in these tables, Hokkien doesn't have it.</strong> There is no "ay" of <em>day</em>, no "oh" of <em>go</em>, no r-coloured vowel of <em>her</em>. When a spelling tempts you toward one of them, the temptation is coming from your eyes, not from the language.</p>
+
+<h2>4 · Compound rimes: the i- and u- families</h2>
+
+<ul>
+<li><strong><code>ia</code> <span class="bpm">ㄧㄚ</span></strong> (piano); <strong><code>iu</code> <span class="bpm">ㄧㄨ</span></strong> (view — 油 "oil" <code>yu~</code>, 球 "ball" <code>kkiu~</code>); <strong><code>iao</code> <span class="bpm">ㄧㄠ</span></strong> (Ciao).</li>
+<li><strong><code>yuh</code> <span class="bpm">ㄧㄜ</span></strong>: write the glide as y, never iuh — a u would steal the stage and turn into "oo". Examples: 惜 "cherish" <code>syuh.</code>, 笑 "laugh" <code>chyuh_</code>, 釣 "fish (v.)" <code>ttyuh_</code>. One exception: after voiced g it reverts to i (尿 "urine" <code>giuh+</code>), because English reads gy as a j-sound.</li>
+<li><strong>The nasal-closing set</strong>: <code>in</code> <span class="bpm">ㄧㄣ</span> (pin — 民 "people" <code>bin~</code>); <code>ing</code> <span class="bpm">ㄧㄥ</span> (升 "rise" <code>sing¯</code> — push that ng all the way back; don't let the English -ing habit shrink it to a front "-in"); <code>im</code> <span class="bpm">ㄧㄇ</span> (淹 "flood" <code>im¯</code>); <code>iam</code> <span class="bpm">ㄧㄚㄇ</span> (鹹 "salty" <code>kkiam~</code>; zero initial spelled <code>yahm</code> — 閹 <code>yahm¯</code>); <code>iang</code> <span class="bpm">ㄧㄤ</span> (涼 "cool" <code>liang~</code>; zero initial <code>yahng</code>); <code>iong</code> <span class="bpm">ㄧㄛㄥ</span> (忠 "loyal" <code>ttiong¯</code>; zero initial <code>yong</code> — 勇 "brave" <code>yong\</code>).</li>
+<li><strong><code>yen</code> <span class="bpm">ㄧㄝㄣ</span></strong> <span class="ipa">/iɛn/</span>: it sounds like "ian" but the vowel is really an "eh" — borrow the Japanese <em>yen</em>, one solid syllable. Don't write ian; English breaks it into "ee-un". Examples: 天 "sky" <code>tyen¯</code>, 現 "now" <code>hyen_</code>, 剪 "cut" <code>tsyen\</code>.</li>
+<li><strong><code>oon</code> <span class="bpm">ㄨㄣ</span></strong> <span class="ipa">/un/</span>: moon, spoon. Never un — spell 滾 "boil" as kkun and English reads it like "sun". Examples: 滾 <code>kkoon\</code>, 問 "ask" <code>boon+</code>, 孫 "grandchild" <code>soon¯</code>.</li>
+<li><strong><code>ua</code> <span class="bpm">ㄨㄚ</span></strong> (guava — 花 "flower" <code>hua¯</code>, 瓜 "melon" <code>kkua¯</code>); <strong><code>ueh</code> <span class="bpm">ㄨㄝ</span></strong> (wedge — 火 "fire" <code>hueh\</code>, 話 "speech" <code>ueh+</code>); <strong><code>ui</code> <span class="bpm">ㄨㄧ</span></strong> (fluid — 水 "water" <code>tsui\</code>, 鬼 "ghost" <code>kkui\</code>); <strong><code>uai</code> <span class="bpm">ㄨㄞ</span></strong> (Kuwait — 歪 "crooked" <code>uai¯</code>, 乖 "well-behaved" <code>kkuai¯</code>).</li>
+</ul>
+
+<h2>5 · Closing rimes: not a kind of tone, but a way of ending</h2>
+
+<p>One class of Hokkien syllables ends by jamming the tongue or lips into position so the air stops dead — exactly what your mouth does at the end of English <em>cat, cap, rock</em>, where the final consonant is never actually released. That way of ending is what this book calls a <strong>closing rime</strong>. It is part of the rime, <strong>not a tone, and not necessarily short</strong> — length is the tone's business, closing is the rime's business. Four endings:</p>
+
+<ul>
+<li><code>-p</code> <span class="ipa">/p̚/</span> (lips snap shut): the way <em>top</em> ends. 壓 "press" <code>ahp.</code>, 答 "answer" <code>ttahp.</code></li>
+<li><code>-t</code> <span class="ipa">/t̚/</span> (tongue tip to the ridge): the way <em>cat</em> ends. 一 "one" <code>it.</code>, 骨 "bone" <code>kkut.</code></li>
+<li><code>-k</code> <span class="ipa">/k̚/</span> (tongue back to the throat): the way <em>rock</em> ends. 毒 "poison" <code>ttawk+</code>, 沃 "to water" <code>ahk.</code></li>
+<li><code>-m</code> <span class="ipa">/m/</span> (lips closed, air through the nose): the way <em>ham</em> ends. 含 "contain" <code>kkahm~</code>, 淡 "bland" <code>ttahm+</code>, 飲 "drink" <code>lim¯</code></li>
+</ul>
+
+<p>Your mouth performs these gestures every day without noticing. The spelling is just as plain: write p / t / k / m straight after the rime, see it and say it, close and stop.</p>
+
+<h2>6 · The full rime table</h2>
+
+<div class="tw wide"><table>
+<tr><th>Bopomofo</th><th>Spelling</th><th>IPA</th><th>🟢 Anchor</th><th>🛑 Don't use</th></tr>
+<tr><td>ㄚ</td><td><code>ah</code></td><td class="ipa">a</td><td>Bahamas</td><td>bare a (æ / "ay")</td></tr>
+<tr><td>ㄛ</td><td><code>aw</code></td><td class="ipa">ɔ</td><td>law · saw</td><td>o / oo</td></tr>
+<tr><td>ㄜ</td><td><code>uh</code></td><td class="ipa">ə</td><td>"Huh?"</td><td>bare e</td></tr>
+<tr><td>ㄝ</td><td><code>eh</code></td><td class="ipa">e</td><td>bed · egg</td><td>bare e</td></tr>
+<tr><td>ㄧ (nucleus)</td><td><code>ee</code></td><td class="ipa">i</td><td>see · bee</td><td>bare i (→ "eye")</td></tr>
+<tr><td>ㄨ</td><td><code>u</code></td><td class="ipa">u</td><td>tofu</td><td>—</td></tr>
+<tr><td>ㄞ</td><td><code>ai</code></td><td class="ipa">ai</td><td>Taiwan</td><td>ay (→ "ay")</td></tr>
+<tr><td>ㄠ</td><td><code>ao</code></td><td class="ipa">au</td><td>Ciao</td><td>au (→ "aw")</td></tr>
+<tr><td>ㄢ</td><td><code>ahn</code></td><td class="ipa">an</td><td>swan</td><td>man / pan (æ)</td></tr>
+<tr><td>ㄤ</td><td><code>ahng</code></td><td class="ipa">aŋ</td><td>Kong · gong</td><td>bang / hang (æ)</td></tr>
+<tr><td>ㄥ (as rime)</td><td><code>ng</code></td><td class="ipa">ŋ̍</td><td>the back nasal of song</td><td>sing (fronted)</td></tr>
+<tr><td>ㄛㄥ</td><td><code>ong</code></td><td class="ipa">ɔŋ</td><td>song · long</td><td>ung, eng</td></tr>
+<tr><td>ㄧㄚ</td><td><code>ia</code></td><td class="ipa">ia</td><td>piano</td><td>—</td></tr>
+<tr><td>ㄧㄨ</td><td><code>iu</code></td><td class="ipa">iu</td><td>view</td><td>ew</td></tr>
+<tr><td>ㄧㄠ</td><td><code>iao</code></td><td class="ipa">iau</td><td>Ciao</td><td>iau</td></tr>
+<tr><td>ㄧㄜ</td><td><code>yuh</code></td><td class="ipa">iə</td><td>y glide + uh</td><td>iuh (u → "oo")</td></tr>
+<tr><td>ㄧㄣ</td><td><code>in</code></td><td class="ipa">in</td><td>pin · bin</td><td>—</td></tr>
+<tr><td>ㄧㄥ</td><td><code>ing</code></td><td class="ipa">iŋ</td><td>i + ng</td><td>don't change a nucleus i to y</td></tr>
+<tr><td>ㄧㄇ</td><td><code>im</code></td><td class="ipa">im</td><td>淹 im¯ · 沈 ttim~</td><td>—</td></tr>
+<tr><td>ㄧㄚㄇ</td><td><code>iam</code></td><td class="ipa">iam</td><td>鹹 kkiam~; zero initial yahm</td><td>bare yam (æ) — hence the h</td></tr>
+<tr><td>ㄧㄤ</td><td><code>iang</code></td><td class="ipa">iaŋ</td><td>涼 liang~; zero initial yahng</td><td>bare yang — hence the h</td></tr>
+<tr><td>ㄧㄛㄥ</td><td><code>iong</code></td><td class="ipa">iɔŋ</td><td>忠 ttiong¯; zero initial yong</td><td>—</td></tr>
+<tr><td>ㄧㄝㄣ</td><td><code>yen</code></td><td class="ipa">iɛn</td><td>Japanese yen</td><td>ian (splits in two)</td></tr>
+<tr><td>ㄨㄣ</td><td><code>oon</code></td><td class="ipa">un</td><td>moon · spoon</td><td>un (→ "sun")</td></tr>
+<tr><td>ㄨㄚ</td><td><code>ua</code></td><td class="ipa">ua</td><td>guava</td><td>wa (word-internally)</td></tr>
+<tr><td>ㄨㄝ</td><td><code>ueh/ue</code></td><td class="ipa">ue</td><td>wedge</td><td>oi (→ boy)</td></tr>
+<tr><td>ㄨㄧ</td><td><code>ui</code></td><td class="ipa">ui</td><td>suicide · fluid</td><td>—</td></tr>
+<tr><td>ㄨㄞ</td><td><code>uai</code></td><td class="ipa">uai</td><td>Kuwait</td><td>—</td></tr>
+<tr><td>ㄨㄢ</td><td><code>uan</code></td><td class="ipa">uan</td><td>Guam · ig<strong>ua</strong>na</td><td>—</td></tr>
+<tr><td>ㄨㄤ</td><td><code>uang</code></td><td class="ipa">uaŋ</td><td>ua + ahng</td><td>—</td></tr>
+<tr><td>ㄚㄆ</td><td><code>ahp</code></td><td class="ipa">ap̚</td><td>the lip-close of top; 壓 ahp.</td><td>—</td></tr>
+<tr><td>ㄚㄊ</td><td><code>aht</code></td><td class="ipa">at̚</td><td>the ending of hot, pot</td><td>don't copy cat (æ)</td></tr>
+<tr><td>ㄚㄎ</td><td><code>ahk</code></td><td class="ipa">ak̚</td><td>the throat-close of rock; 沃 ahk.</td><td>—</td></tr>
+<tr><td>ㄛㄎ</td><td><code>awk</code></td><td class="ipa">ɔk̚</td><td>hawk; 毒 ttawk+</td><td>ok (→ "ah"), ook (→ "oo")</td></tr>
+<tr><td>ㄚㄇ</td><td><code>ahm</code></td><td class="ipa">am</td><td>ham; 含 kkahm~</td><td>—</td></tr>
+<tr><td>ㄛㄇ</td><td><code>awm</code></td><td class="ipa">ɔm</td><td>aw + closed-lip m</td><td>om (→ Mom), oom (→ zoom)</td></tr>
+<tr><td>ㄧㄆ</td><td><code>ip</code></td><td class="ipa">ip̚</td><td>final p, lips shut</td><td>—</td></tr>
+<tr><td>ㄧㄊ</td><td><code>it</code></td><td class="ipa">it̚</td><td>the short i of sit + t</td><td>—</td></tr>
+<tr><td>ㄧㄎ</td><td><code>ik</code></td><td class="ipa">ik̚</td><td>the -ick of sick</td><td>—</td></tr>
+<tr><td>ㄧㄛㄎ</td><td><code>iok</code></td><td class="ipa">iɔk̚</td><td>陸 liok+; zero initial yok (約)</td><td>—</td></tr>
+<tr><td>ㄧㄚㄆ</td><td><code>iap</code></td><td class="ipa">iap̚</td><td>接 tsiap.; zero initial yap, no h</td><td>—</td></tr>
+<tr><td>ㄝㄊ</td><td><code>eht</code></td><td class="ipa">et̚</td><td>揮 eht+</td><td>—</td></tr>
+<tr><td>ㄨㄊ</td><td><code>ut</code></td><td class="ipa">ut̚</td><td>骨 kkut. · 鬱 ut.</td><td>—</td></tr>
+<tr><td>ㄨㄚㄊ</td><td><code>uat</code></td><td class="ipa">uat̚</td><td>越 uat+</td><td>—</td></tr>
+</table></div>
+
+<p>The zero-initial rule: an i glide becomes y (ia→ya, iam→yahm, iong→yong…), but the i in <code>in</code> and <code>ing</code> is the nucleus and stays put. With a nasal coda (-m / -n / -ng) a zero initial takes the h (yahm, yahng); with -p / -t / -k it doesn't need one (yap, yok, ut) — a stop coda already locks the vowel down.</p>
+
+<h1 id="tones">Tones: singing them, shifting them, clipping them</h1>
+
+<h2>1 · Singing the seven</h2>
+
+<p><strong>What is a tone?</strong> Even as an English speaker you use them all day. Take the word <em>see</em>: "See?" rises, "I see." falls. That rise and that fall are tones — <strong>an instruction laid on top of a sound</strong>. In English the instruction only changes your attitude; in Hokkien it changes the word. So read every tone mark as an order telling you which height to hit and how to move: <strong>don't start pronouncing a spelling until you've looked at the mark behind it</strong>. An English speaker's reflex is to read <em>see</em> with their own intonation; the mark overrides that reflex.</p>
+
+<p>Find the three heights in your body: <strong>do (low) resonates in the chest</strong>, the voice sinking into the ribs; <strong>mid sits dead centre</strong>, pushed straight forward with a flat face; <strong>so (high) rings in the top of the head</strong>, sent out through the crown. Flip the right switch and the pitch arrives on its own — you don't have to be a singer.</p>
+
+<p>There's exactly one drill. Sing all seven on the same syllable, in order, every day, until you don't have to think:</p>
+
+<blockquote><code>ah_</code>　<code>ah+</code>　<code>ah¯</code>　<code>ah/</code>　<code>ah~</code>　<code>ah\</code>　<code>ah.</code>　(Low, Mid, High, Rise, Dip, Fall, Clip)</blockquote>
+
+<p>Once that's steady, run it again on <em>see</em>. The point is that <strong>all seven get sung, none skipped</strong> — every slot is an order to obey out loud. Six of the seven hold words in their citation tone; the Rise slot isn't empty either. No Hokkien word has Rise as its citation tone: Rise is <strong>the product of a special sandhi</strong> — in an emphatic tripled word, the first syllable shifts to Rise (the first 絲 of 絲絲絲). You still have to be able to produce it:</p>
+
+<div class="tw wide"><table>
+<tr><th>Order</th><td><code>see_</code></td><td><code>see+</code></td><td><code>see¯</code></td><td><code>see/</code></td><td><code>see~</code></td><td><code>see\</code></td><td><code>see.</code></td></tr>
+<tr><th>Tone</th><td>Low</td><td>Mid</td><td>High (T1)</td><td>Rise (T2)</td><td>Dip (T3)</td><td>Fall (T4)</td><td>Clip (light)</td></tr>
+<tr><th>Word</th><td>四 four</td><td>是 to be</td><td>絲 silk</td><td>絲絲絲 (first syllable)</td><td>時 time</td><td>始 begin</td><td>熾 blazing</td></tr>
+</table></div>
+
+<p>Same spelling, different order, different word — that table <em>is</em> the answer to "what is a tone?"</p>
+
+<blockquote class="key">Tone 3 is not the Mandarin second tone. Mandarin's rising tone climbs from mid; Hokkien Tone 3 starts at rock bottom, sinks, then rises — one is raising your arm, the other is crouching before you jump. 紅 "red", 寒 "cold", 茶 "tea" all carry this sink-then-lift shape. Rough rule of thumb: words that take the second tone in Mandarin are usually Tone 3 in Hokkien.</blockquote>
+
+<h2>2 · Tone sandhi in one line</h2>
+
+<p>A word said alone has one tone; strung together with others it usually takes a different one. A sentence breaks into chunks of meaning, and <strong>the last syllable of each chunk keeps its citation tone while all the others shift</strong>. The whole rule is one line: <strong>"Lie low, make one point."</strong></p>
+
+<div class="tw"><table>
+<tr><th>Citation tone</th><th>Shifts to</th><th>Logic</th></tr>
+<tr><td>Tone 1 (High)</td><td>Mid</td><td rowspan="4"><strong>Lie low</strong> — the tone sinks one step; once it's on the floor it bounces back up to Tone 4</td></tr>
+<tr><td>Mid</td><td>Low</td></tr>
+<tr><td>Low</td><td>Tone 4</td></tr>
+<tr><td>Clip</td><td>Tone 4</td></tr>
+<tr><td>Tone 4 (pitch 53)</td><td>Tone 1 (keep the 5)</td><td rowspan="2"><strong>One point</strong> — a gliding tone drops the glide and keeps a single pitch target</td></tr>
+<tr><td>Tone 3 (pitch 113)</td><td>Mid (keep the 3)</td></tr>
+</table></div>
+
+<p>Tone 2 sits outside this standard set — it is the result of a <strong>special sandhi</strong> that appears only under emphasis, when the first syllable of a tripled word shifts to Rise. Ignore it while you drill the standard table.</p>
+
+<h2>3 · Always mark the Clip tone</h2>
+
+<p>Clip is a real tone in Hokkien — a half-beat Mi, cut to half length and stopped. Leave it unmarked and you'll read the word on some other tone and change its meaning, so this system always writes that little period <code>.</code>. "Light" means <strong>the beat is halved, not that the volume drops</strong> — someone can speak very sharply 殺 <code>saht.</code>, and that clipped syllable is loud and forceful. To hear the contrast, say 肉肉肉 straight through: <code>bah\ bah\ bah.</code> — the first two fall from high, the last one stops at half a beat.</p>
+
+<h2>4 · Closing-rime words get no special tone rules and no special sandhi</h2>
+
+<p>A closing rime is how a rime ends; it has no say in the tone. Closing-rime words take all seven tones like any other word, and their sandhi follows <strong>the same basic table</strong> — there is no "closing-rime-only" rule anywhere. Work two perfectly ordinary words through it: <strong>滑 "slippery" (citation Mid) and 骨 "bone" (citation Clip)</strong>, each inside a real compound, each following the general table:</p>
+
+<div class="tw wide"><table>
+<tr><th>Word</th><th>The syllable</th><th>Tone</th><th>Spelling</th></tr>
+<tr><td>排骨 "pork ribs"</td><td>骨 (final)</td><td>Clip — <strong>citation</strong></td><td><code>kkut.</code></td></tr>
+<tr><td>骨架 "skeleton"</td><td>骨 (initial)</td><td>Tone 4 — <strong>sandhi: Clip→4</strong></td><td><code>kkut\</code></td></tr>
+<tr><td>很滑 "very slippery"</td><td>滑 (final)</td><td>Mid — <strong>citation</strong></td><td><code>kkut+</code></td></tr>
+<tr><td>滑溜 "slick"</td><td>滑 (initial)</td><td>Low — <strong>sandhi: Mid→Low</strong></td><td><code>kkut_</code></td></tr>
+</table></div>
+
+<p>That's four of them. The remaining two need no new rules either:</p>
+
+<ul>
+<li><strong>Tone 1</strong>: Tone 4 slides down from the top (So→Mi); drop the descent and keep only the peak and you have flat Tone 1 — the 骨 of 排骨酥 "crispy rib nuggets" <code>kkut¯</code> (Clip→4→1, the shift run all the way out).</li>
+<li><strong>Tone 2</strong>: the special sandhi again — in an emphatic tripled word the first syllable goes to Rise: the first 滑 of 滑滑滑 <code>kkut/</code> (same road as the first 絲 of 絲絲絲).</li>
+</ul>
+
+<blockquote class="key">Four basics plus two derivatives — six in all. Every rule used here (Clip→4, Mid→Low, 4→1, emphatic tripling → Rise) is a rule <strong>every word in the language already obeys</strong>; closing rimes add not one clause of their own. Only Tone 3 is missing from the set: the hard "stop" of a -p/-t/-k coda doesn't sit well with Tone 3's sink-then-turn, so no natural example happens to exist. (The softer -m coda does supply one: 南 "south" <code>lahm~</code>.) Sing whatever the mark tells you and you'll be right.</blockquote>
+
+<p>This is also why Clip must always be marked. Hokkien has countless Clip-tone words (肉 <code>bah.</code>, 打 <code>pah.</code>, 血 "blood" <code>hueh.</code>…), and if that half-beat stop isn't written it gets misread as high Tone 1 — and Tone 1 closing rimes genuinely exist (the 骨 of 排骨酥 <code>kkut¯</code>). Leave both unmarked and they collide on the spot.</p>
+
+<h2>5 · The "entering tone" fallacy</h2>
+
+<p>Closing-rime words have traditionally been called <strong>入聲, the "entering tone"</strong> — a name that has been in use for a thousand years and has, for a thousand years, mistaken <strong>a way of closing</strong> for <strong>a tone</strong>. The word "tone" in the label is the root of the error. From it grew a whole interlocking set of claims: that the entering tone has its own dedicated tones (yin-ru = Tone 4, yang-ru = Tone 8), that entering-tone sandhi is simply 4⇄8 swapping, and therefore that "the entering tone has only two tones."</p>
+
+<p>Hold it up against the facts and it falls apart. First, the 滑/骨 walk-through above already showed six different pitches on the same closing rime in everyday words — "only two tones" doesn't match what the ear hears. Second, the theory doesn't even match its own recordings: the Ministry of Education dictionary marks 律 as Tone 8, which under 4⇄8 swapping should shift to Tone 4 — click its own audio button and what comes out is Mid shifting to Low. It marks 骨 as Tone 4, which should shift to Tone 8 — the audio gives Clip shifting to Tone 4. The rule on the page contradicts the sound it recorded itself.</p>
+
+<p>Take those two "entering tones" apart and the answer is mundane: the slot called yin-ru (Tone 4) is <strong>Clip</strong>, and the slot called yang-ru (Tone 8) is <strong>Mid</strong> (Tone 4 in coastal accents — and note that whether it's the Zhangzhou-type Mid or the coastal Tone 4, the sandhi lands on Low either way, so the two accents reconverge the moment a word shifts). Both are ordinary members of the seven-tone set. "Tone 8" is not an eighth tone; it is the mistake of enshrining Mid — and one ordinary sandhi outcome — as a tone class of its own. And the sheer mass of Clip-tone words in the language is exactly what those two characters, 入聲, have been burying wholesale — one more reason Clip must always be marked.</p>
+
+<blockquote class="key">There is no entering <em>tone</em>; there are only closing <em>rimes</em>. -p / -t / -k / -m are ways of closing a rime. The tones run through all seven, the sandhi follows the general rules. This book therefore calls them "closing rimes" throughout and retires the old name that has led so many people into the ditch.</blockquote>
+
+<p>The best practice of all is to sing along with Hokkien songs. Melody spells the pitches out for you — especially Tone 3, whose sink-then-lift is stretched out in singing until you can't miss it.</p>
+
+<h1 id="practice">Practice: reading Hokkien out loud</h1>
+
+<p>One principle: <strong>say what you see</strong>. Each example is laid out in two lines — <strong>one for the dictionary, one for your mouth</strong>. The hyphen carries the whole convention: <strong>a syllable written with a trailing <code>-</code> is in its citation tone, and that hyphen is the flag telling you it shifts in running speech</strong> (slide it one step per "Lie low, make one point"). <strong>A syllable written without a hyphen is already the spoken tone</strong> — say it exactly as marked. The rule holds in any notation you meet it in, not just this spelling. So line one is the dictionary line, line two is what actually comes out of your mouth — read that one aloud and you're right.</p>
+
+<ol>
+<li><strong>你好 "hello"</strong>　<code>lee\-huh\</code>｜spoken: <code>lee¯ huh\</code><br>你 (Tone 4 shifts to Tone 1, parked flat up top) + 好 (citation Tone 4, falling). One level, one drop — that's "hello".</li>
+<li><strong>多謝 "thank you"</strong>　<code>ttuh¯-sia+</code>｜spoken: <code>ttuh+ sia+</code><br>多 (Tone 1 shifts to Mid) + 謝 (the s palatalizes automatically before ia; citation Mid). Both syllables land on a flat Mi — a polite, level close.</li>
+<li><strong>食飽未？ "have you eaten?"</strong>　<code>tsia+-ppah\ bueh+-</code>｜spoken: <code>tsia_ ppah\ bueh_</code><br>食 (Mid shifts to Low), 飽 (last syllable of its sense-unit, keeps its citation tone), 未 (sentence-final special sandhi, closing on Low). Three different treatments in one short question — that's the breathing rhythm of spoken Hokkien.</li>
+<li><strong>飲茶 "drink tea"</strong>　<code>lim¯-tteh~</code>｜spoken: <code>lim+ tteh~</code><br>飲 (the -m closes honestly on shut lips; Tone 1 shifts to Mid) + 茶 (sink to Do, then hook up — the tastiest demonstration of Tone 3 there is).</li>
+<li><strong>我是台灣人 "I am Taiwanese"</strong>　<code>gua\-see+-ttai~-uan¯-lahng~</code>｜spoken: <code>gua¯ see_ ttai+ uan+ lahng~</code><br>我 (voiced g — the folds are buzzing before your mouth opens; Tone 4 shifts to Tone 1), 是 (Mid shifts to Low), 台 (Tone 3 shifts to Mid), 灣 (Tone 1 shifts to Mid), 人 (citation Tone 3, sinking then lifting to close the whole sentence).</li>
+</ol>
+
+<p>Every sentence you meet from here works the same way: split each syllable into initial and rime, check which ones carry the hyphen, sing the heights the marks tell you, then run it together.</p>
+
+<h1 id="words">Thirty everyday words</h1>
+
+<p>Thirty words you'll use daily, given in their <strong>citation</strong> tones — inside a sentence, apply the sandhi table.</p>
+
+<h3>Numbers</h3>
+<div class="tw wide"><table>
+<tr><th>Word</th><th>Spelling</th><th>Meaning</th><th>Word</th><th>Spelling</th><th>Meaning</th></tr>
+<tr><td>一</td><td><code>tsit+</code></td><td>one <span style="color:#6b6250">(colloquial reading; the literary reading is <code>it.</code>)</span></td><td>六</td><td><code>lahk+</code></td><td>six</td></tr>
+<tr><td>二</td><td><code>nng+</code></td><td>two</td><td>七</td><td><code>chit.</code></td><td>seven</td></tr>
+<tr><td>三</td><td><code>sngah¯</code></td><td>three</td><td>八</td><td><code>ppeh.</code></td><td>eight</td></tr>
+<tr><td>四</td><td><code>see_</code></td><td>four</td><td>九</td><td><code>kkao\</code></td><td>nine</td></tr>
+<tr><td>五</td><td><code>gaw+</code></td><td>five</td><td>十</td><td><code>tsahp+</code></td><td>ten</td></tr>
+</table></div>
+
+<h3>Weather and landscape</h3>
+<div class="tw wide"><table>
+<tr><th>Word</th><th>Spelling</th><th>Meaning</th><th>Word</th><th>Spelling</th><th>Meaning</th></tr>
+<tr><td>水</td><td><code>tsui\</code></td><td>water</td><td>雨</td><td><code>haw+</code></td><td>rain</td></tr>
+<tr><td>火</td><td><code>hueh\</code></td><td>fire</td><td>風</td><td><code>hong¯</code></td><td>wind</td></tr>
+<tr><td>山</td><td><code>sngua¯</code></td><td>mountain</td><td></td><td></td><td></td></tr>
+</table></div>
+
+<h3>Food</h3>
+<div class="tw wide"><table>
+<tr><th>Word</th><th>Spelling</th><th>Meaning</th><th>Word</th><th>Spelling</th><th>Meaning</th></tr>
+<tr><td>飯</td><td><code>ppng+</code></td><td>cooked rice</td><td>茶</td><td><code>tteh~</code></td><td>tea</td></tr>
+<tr><td>麵</td><td><code>mee+</code></td><td>noodles</td><td>糖</td><td><code>tng~</code></td><td>sugar</td></tr>
+<tr><td>肉</td><td><code>bah.</code></td><td>meat</td><td>鹽</td><td><code>yahm~</code></td><td>salt</td></tr>
+<tr><td>菜</td><td><code>chai_</code></td><td>vegetables</td><td>油</td><td><code>yu~</code></td><td>oil</td></tr>
+<tr><td>米</td><td><code>bee\</code></td><td>uncooked rice</td><td></td><td></td><td></td></tr>
+</table></div>
+
+<h3>Body and daily life</h3>
+<div class="tw wide"><table>
+<tr><th>Word</th><th>Spelling</th><th>Meaning</th><th>Word</th><th>Spelling</th><th>Meaning</th></tr>
+<tr><td>手</td><td><code>chiu\</code></td><td>hand</td><td>錢</td><td><code>tsngee~</code></td><td>money</td></tr>
+<tr><td>頭</td><td><code>tao~</code></td><td>head</td><td>車</td><td><code>chia¯</code></td><td>car</td></tr>
+<tr><td>心</td><td><code>sim¯</code></td><td>heart</td><td>路</td><td><code>law+</code></td><td>road</td></tr>
+</table></div>
+
+<h1 id="exam">Final check: thirteen words</h1>
+
+<p>By this point the whole system is in your hands. Use these thirteen to check yourself — each one steps on a rule from the chapters above:</p>
+
+<div class="tw"><table>
+<tr><th>Word</th><th>Spelling</th><th>Which rule it tests</th></tr>
+<tr><td>碗 bowl</td><td><code>ngua\</code></td><td>ng as a word-initial consonant; Tone 4 falling from the top line</td></tr>
+<tr><td>聲 sound</td><td><code>sngia¯</code></td><td>nasalizing initial; s palatalizing before i</td></tr>
+<tr><td>雅 elegant</td><td><code>gngah\</code></td><td>voiced g + nasalizing ng + "ah" with its fuse</td></tr>
+<tr><td>光 light</td><td><code>kkng¯</code></td><td>unaspirated kk; ng as a final</td></tr>
+<tr><td>卵 egg</td><td><code>nng+</code></td><td>ng as a syllable of its own; Mid holding the centre line</td></tr>
+<tr><td>黃 yellow</td><td><code>ng~</code></td><td>Tone 3: hug the floor, then hook up</td></tr>
+<tr><td>尿 urine</td><td><code>giuh+</code></td><td>the one exception — ㄧㄜ written with i after voiced g</td></tr>
+<tr><td>茄 eggplant</td><td><code>kkyuh~</code></td><td>ㄧㄜ = yuh; Hokkien has no ㄧㄛ</td></tr>
+<tr><td>忠 / 勇 loyal / brave</td><td><code>ttiong¯</code> / <code>yong\</code></td><td>iong with an initial, yong with none — spelled differently</td></tr>
+<tr><td>毒 poison</td><td><code>ttawk+</code></td><td>the "aw" family takes -k as awk (hawk)</td></tr>
+<tr><td>分 divide</td><td><code>ppoon¯</code></td><td>ㄨㄣ is oon — the "un" landmine defused</td></tr>
+<tr><td>押 / 壓 pawn / press</td><td><code>ah.</code> / <code>ahp.</code></td><td>an open syllable in Clip tone against a -p closing rime</td></tr>
+<tr><td>日 / 一 day / one</td><td><code>zit+</code> / <code>tsit+</code></td><td>z against ts — one word apart, and the difference is all in the vocal folds</td></tr>
+</table></div>
+
+<p>If you can say all thirteen and explain why each is spelled that way, congratulations — you've finished the Standard Edition. For the research and the design trade-offs behind every rule, the Complete Edition is waiting.</p>
+
+<p>Everything you just read aloud ran on the English phonics instinct you already had plus an ear that can carry a tune — you memorized no new symbols at all. That is what this system was built to give you: <strong>look at the page, open your mouth, be right</strong>. Hokkien was always within reach.</p>
+
+<h1 id="coats">Closing: one engine, many coats</h1>
+
+<p>On the surface this is "the American English edition". Underneath, it's an engine designed to be re-dressed:</p>
+
+<blockquote>The real sounds of Hokkien (fixed) → the 135 tone engine (fixed) → a coat cut from the reader's native language (swappable)</blockquote>
+
+<p>The two inner layers — the actual pronunciation, and the do-mi-so tone-and-sandhi engine — never move. The only thing that changes is the outermost coat: whose ear this spelling is speaking to. The one you're holding was tailored for the instincts of an English speaker. Change the native language and you re-cut the coat, and every version asks the same two questions: <strong>the landmines</strong> (where the reader's native instinct will misread the page) and <strong>the free lifts</strong> (what their language already gives them for free):</p>
+
+<div class="tw"><table>
+<tr><th>Edition</th><th>🛑 Landmines</th><th>🟢 Free lifts</th></tr>
+<tr><td>🇺🇸 English (this book)</td><td>ph read as /f/; e read as "ee"; o read as "oh"</td><td>voiced b and g come for free; trained phonics reflexes; an ear raised on do-mi-so</td></tr>
+<tr><td>🇫🇷 French</td><td>silent h (the ㄏ sound needs another route); ch read as /ʃ/</td><td>nasal vowels are everyday (bon, vin) — Hokkien nasalization is a gift; unaspirated p, t, k are native</td></tr>
+<tr><td>🇪🇸 Spanish</td><td>silent h; j read as a throaty /x/; z read as /s/ or /θ/</td><td>five clean, stable vowels; voiced b, d, g for free; the diphthongs ai and au already exist</td></tr>
+<tr><td>🇩🇪 German</td><td>w read as /v/; final voiced consonants devoice automatically</td><td>z is natively /ts/ (one consonant taught for free); final -p/-t/-k/-m closures are daily habit</td></tr>
+<tr><td>🇯🇵 Japanese</td><td>ㄢ and ㄤ merge (蘭 comes out as 人); l and r merge</td><td>the geminate っ is a ready-made instinct for the closing-rime closure; the voiced/voiceless contrast (か/が) is native</td></tr>
+</table></div>
+
+<p>A coat can't be translated, only re-cut — but the frame already exists, and each new edition needs just one person with native-level instincts in that language to refill the anchors and the landmines. Which is also why every existing Hokkien romanization was built for a different reader, and none of them is simply wrong. This one was built for exactly one purpose: so that you can see it, say it, and trust your own mouth.</p>
+
+<p><strong>"Do not take lightly what came to you easily."</strong> (莫將容易得，便作等閒看.) Behind this ease is someone who took the hard parts off your plate — every sound, every sandhi rule, every choice of letter, proofread one word at a time. May this spelling carry you to the moment you say Hokkien out loud, clearly, in your own voice, for the first time.</p>
+
+</main>
+
+<footer>
+Hokkien Phonics · The 135 Tone System — American English Edition · Standard Edition<br>
+BryenHsu (許文) × Mr. Oracle-Bone (甲骨先生) · Full teaching notes in the Complete Edition (navy masthead). Pronunciations follow the master file.<br>
+© 2026 BryenHsu (許文) × Mr. Oracle-Bone (甲骨先生). All rights reserved.
+<br>Visits: <span id="visit-count">…</span>
+</footer>
+<script>
+(function(){
+  var el=document.getElementById('visit-count'); if(!el) return;
+  fetch('https://abacus.jasoncameron.dev/hit/meipin135-bryenhsu/views-en-standard')
+    .then(function(r){ return r.ok ? r.json() : Promise.reject(); })
+    .then(function(d){ el.textContent = (d && d.value!=null) ? d.value.toLocaleString() : '—'; })
+    .catch(function(){ el.textContent='—'; });
+})();
+</script>
+
+
+<a class="backtoc" href="#top">☰ Back to top</a>
+
+<script src="/nav.js" defer></script>
+</body></html>
